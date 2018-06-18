@@ -1,5 +1,6 @@
 {
-    "dependencies": {
-        "com.unity.render-pipelines.lightweight": "1.1.4-preview"
-    }
+  "dependencies": {
+    "com.unity.render-pipelines.lightweight": "1.1.4-preview",
+    "com.unity.textmeshpro": "1.2.3"
+  }
 }
