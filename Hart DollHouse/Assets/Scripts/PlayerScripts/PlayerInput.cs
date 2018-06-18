@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-[RequireComponent(typeof(Camera))]
 /**
  * Manages player input that is related to interactivity
  * such as picking up object, dragging items, etc.

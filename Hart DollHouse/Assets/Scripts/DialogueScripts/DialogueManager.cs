@@ -13,7 +13,7 @@ public class DialogueManager : MonoBehaviour {
     private Queue<Dialogue> playersHints;
     private Timer timer;
 
-    [SerializeField] private CanvasGroup UIText;
+    [SerializeField] private CanvasGroup UIElement;
     [SerializeField] private Text screenText;
     [SerializeField] private UIFader fader;
     [SerializeField] private float delayPerChar = 0.15f;
@@ -31,7 +31,7 @@ public class DialogueManager : MonoBehaviour {
         dialogues = new Queue<string>();
 
         fader = GetComponent<UIFader>();
-        UIText = GetComponentInChildren<CanvasGroup>();
+        UIElement = GetComponent<CanvasGroup>();
         screenText = GetComponentInChildren<Text>();
         screenText.text = "";
 
@@ -40,7 +40,7 @@ public class DialogueManager : MonoBehaviour {
             playersHints.Enqueue(dialogue);
         }
             
-        UIText.alpha = 0;
+        UIElement.alpha = 0;
         timer.RestartTimer();
     }
 
@@ -63,7 +63,7 @@ public class DialogueManager : MonoBehaviour {
     }
 
     IEnumerator DelayBySeconds() {
-        fader.FadeIn(UIText, fadeDuration);
+        fader.FadeIn(UIElement, fadeDuration);
         while (dialogues.Count > 0) {
             string nextSentence = dialogues.Dequeue();
             screenText.text = nextSentence;
@@ -74,7 +74,7 @@ public class DialogueManager : MonoBehaviour {
             }
             yield return new WaitForSecondsRealtime(delayBetweenSentences);
         }
-        fader.FadeOut(UIText, fadeDuration);
+        fader.FadeOut(UIElement, fadeDuration);
         screenText.text = "";
     }
 
