@@ -6,6 +6,9 @@ TagManager:
   tags:
   - RemoteAnim
   - RemoteSound
+  - DiaryCover
+  - DiaryBackCover
+  - DiaryPages
   layers:
   - Default
   - TransparentFX
