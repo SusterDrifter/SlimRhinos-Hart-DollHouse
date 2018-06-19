@@ -67,6 +67,7 @@ public class PlayerInput : MonoBehaviour {
                 
         }
     }
+
     public void Defocus() {
         if (objFocus != null)
         {

@@ -2,8 +2,7 @@
 
 public class ArticleObject : Interactable {
 
-    [SerializeField] private Sprite icon;
-    [SerializeField] private Dialogue desc;
+    [SerializeField] private Item item;
 
     private bool isUIActive = false;
     private bool mouseReleased = false;
@@ -39,11 +38,12 @@ public class ArticleObject : Interactable {
 
     private void ActivateUI()
     {
-        if (icon != null)
-            MainUIManager.instance.GetArticleManager().SetIcon(icon);
-        if (desc != null)
-            MainUIManager.instance.GetArticleManager().SetDesc(desc);
-
+        if (item != null)
+        {
+            MainUIManager.instance.GetArticleManager().SetIcon(item.icon);
+            MainUIManager.instance.GetArticleManager().SetDesc(item.description);
+        }
+            
         MainUIManager.instance.GetArticleManager().ActivateUI();
         isUIActive = true;
     }

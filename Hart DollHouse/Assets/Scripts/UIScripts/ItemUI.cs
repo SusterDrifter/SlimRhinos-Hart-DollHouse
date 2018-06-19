@@ -1,11 +1,12 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class ItemUI : MonoBehaviour {
 
     [SerializeField] private Image itemIcon;
-    [SerializeField] private Text itemDesc;
+    [SerializeField] private TextMeshProUGUI itemDescPro;
     [SerializeField] private CanvasGroup UIElement;
 
     private Sound itemUIOpen;
@@ -16,7 +17,7 @@ public class ItemUI : MonoBehaviour {
         UIElement = GetComponent<CanvasGroup>();
         UIElement.alpha = 0;
 
-        itemDesc = GetComponentInChildren<Text>();
+        itemDescPro = GetComponentInChildren<TextMeshProUGUI>();
         itemIcon = GetComponentInChildren<Image>();
 
     }
@@ -35,7 +36,7 @@ public class ItemUI : MonoBehaviour {
         if (itemUIClose == null)
             itemUIClose = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "ItemUIClose");
         AudioManager.instance.PlayClip(itemUIClose);
-        itemDesc.text = "";
+        itemDescPro.SetText("");
     }
 
     public void SetIcon(Sprite icon) {
@@ -48,6 +49,6 @@ public class ItemUI : MonoBehaviour {
         {
             text += line;
         }
-        itemDesc.text = text;
+        itemDescPro.SetText(text);
     }
 }

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class ArticleUIManager : MonoBehaviour {
@@ -39,7 +40,7 @@ public class ArticleUIManager : MonoBehaviour {
     }
 
     public void SetIcon (Sprite sprite) { icon.sprite = sprite; }
-    public void SetDesc (Dialogue dialogue) { popup.SetDesc(dialogue); }
+    public void SetDesc (List<string> desc) { popup.SetDesc(desc); }
     public void Examine() { popup.ActivateDesc(); }
     public void FinishExamine() { popup.DeactivateDesc(); }
 

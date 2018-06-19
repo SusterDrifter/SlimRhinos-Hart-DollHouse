@@ -9,5 +9,5 @@ public class Item : ScriptableObject {
     public bool isImportantItem = false;
     public int id = -1;
     public Sprite icon;
-    public List<string> description;
+    [TextArea(2,4)] public List<string> description;
 }

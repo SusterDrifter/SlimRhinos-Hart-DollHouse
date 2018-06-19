@@ -1,31 +1,32 @@
-﻿using UnityEngine;
-using UnityEngine.UI;
+﻿using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
 
 public class ArticlePopup : MonoBehaviour {
 
     [SerializeField] private CanvasGroup UIElement;
-    [SerializeField] private Text textDesc;
+    [SerializeField] private TextMeshProUGUI textDesc;
 
 	// Use this for initialization
 	void Start () {
         UIElement = GetComponent<CanvasGroup>();
-        textDesc = GetComponentInChildren<Text>();
+        textDesc = GetComponentInChildren<TextMeshProUGUI>();
         UIElement.alpha = 0;
-        textDesc.text = "";
+        textDesc.SetText("");
 	}
 	
     public void ActivateDesc() { UIElement.alpha = 1; }
     public void ResetDesc() { textDesc.text = ""; }
     public void DeactivateDesc() { UIElement.alpha = 0; }
 
-	public void SetDesc(Dialogue dialogue)
+	public void SetDesc(List<string> description)
     {
         string desc = "";
 
-        foreach (string sentence in dialogue.sentences)
+        foreach (string sentence in description)
             desc += sentence;
 
-        textDesc.text = desc;
+        textDesc.SetText(desc);
     }
 
 }
