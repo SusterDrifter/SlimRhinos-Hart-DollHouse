@@ -8,7 +8,6 @@ public class Interactable : MonoBehaviour {
     bool hasInteracted = false;
     Transform playerPosition;
 
-
     public virtual void Interact()
     {
         // Being overriden 
