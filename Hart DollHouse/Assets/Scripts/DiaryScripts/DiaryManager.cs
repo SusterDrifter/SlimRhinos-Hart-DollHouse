@@ -16,7 +16,7 @@ public class DiaryManager : MonoBehaviour {
     private Sound diaryOpen;
     private Sound diaryClose;
     private Sound diaryActive;
-    private Sound diaryDeactive;
+    private Sound diaryDeactivate;
 
     private void Awake()
     {
@@ -118,9 +118,9 @@ public class DiaryManager : MonoBehaviour {
         isActive = false;
         UIElement.alpha = 0;
 
-        if (diaryDeactive == null)
-            diaryDeactive = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "DiaryDeactive");
+        if (diaryDeactivate == null)
+            diaryDeactivate = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "DiaryDeactivate");
 
-        AudioManager.instance.PlayClip(diaryDeactive);
+        AudioManager.instance.PlayClip(diaryDeactivate);
     }
 }
