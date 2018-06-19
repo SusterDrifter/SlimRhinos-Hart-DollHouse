@@ -64,15 +64,17 @@ public class DialogueManager : MonoBehaviour {
 
     IEnumerator DelayBySeconds() {
         fader.FadeIn(UIElement, fadeDuration);
+        screenText.text = "- ";
         while (dialogues.Count > 0) {
             string nextSentence = dialogues.Dequeue();
-            screenText.text = nextSentence;
+            screenText.text += nextSentence;
             float delayBetweenSentences = nextSentence.Length * delayPerChar;
             if (delayBetweenSentences < minDelayBetweenSentences)
             {
                 delayBetweenSentences = minDelayBetweenSentences;
             }
             yield return new WaitForSecondsRealtime(delayBetweenSentences);
+            screenText.text = "";
         }
         fader.FadeOut(UIElement, fadeDuration);
         screenText.text = "";

@@ -1,5 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 [RequireComponent(typeof(CanvasGroup), typeof(UIFader), typeof(Timer))]
 public class NotificationUIManager : MonoBehaviour {
@@ -7,7 +7,7 @@ public class NotificationUIManager : MonoBehaviour {
     [SerializeField] private CanvasGroup UIElement;
     [SerializeField] private UIFader fader;
     [SerializeField] private Timer timer;
-    [SerializeField] private Text notifText;
+    [SerializeField] private TextMeshProUGUI notifText;
     [SerializeField] private float fadeDuration = 0.1f;
     [SerializeField] private float visibleDuration = 4f;
 
@@ -18,7 +18,7 @@ public class NotificationUIManager : MonoBehaviour {
         UIElement = GetComponent<CanvasGroup>();
         fader = GetComponent<UIFader>();
         timer = GetComponent<Timer>();
-        notifText = GetComponentInChildren<Text>();
+        notifText = GetComponentInChildren<TextMeshProUGUI>();
 
         UIElement.alpha = 0;
         timer.SetDuration(visibleDuration);
@@ -35,7 +35,7 @@ public class NotificationUIManager : MonoBehaviour {
     public void ShowNotification(string text)
     {
         StopAllCoroutines();
-        notifText.text = text;
+        notifText.SetText(text);
         fader.FadeIn(UIElement, fadeDuration);
         timer.RestartTimer();
         isActive = true;
