@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour {
     public void Death() {
         // Play some UI
         ResetChapter();
-    }
+    }   
     
     public void ResetChapter() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
