@@ -92,7 +92,6 @@ public class AudioManager : MonoBehaviour {
 
         if (type == Sound.SoundType.BackgroundMusic)
             sound = Array.Find(backgroundMusic, s => s.clipName == name);
-
         return sound;
     }
 

@@ -6,7 +6,6 @@ using UnityEngine.UI;
 [RequireComponent(typeof(UIFader), typeof(Timer), typeof(CanvasGroup))]
 public class DialogueManager : MonoBehaviour {
 
-
     // Components for player hints
     [SerializeField] private Dialogue[] hintsInput;
     [SerializeField] private float timeBetweenHints = 300f; // 5 minutes
@@ -21,6 +20,7 @@ public class DialogueManager : MonoBehaviour {
     [SerializeField] private float fadeDuration = 0.75f;
 
     private Queue<string> dialogues;
+
     
     private void Start()
     {
@@ -34,7 +34,7 @@ public class DialogueManager : MonoBehaviour {
         UIElement = GetComponent<CanvasGroup>();
         screenText = GetComponentInChildren<Text>();
         screenText.text = "";
-
+        
         foreach(Dialogue dialogue in hintsInput)
         {
             playersHints.Enqueue(dialogue);
@@ -50,6 +50,8 @@ public class DialogueManager : MonoBehaviour {
     }
 
     public void BeginDialogue(Dialogue dialogue) {
+
+        MainUIManager.instance.GetDialogueUIManager().Activate();
         StopAllCoroutines();
         dialogues.Clear();
         foreach (string sentence in dialogue.sentences) {
@@ -78,6 +80,7 @@ public class DialogueManager : MonoBehaviour {
         }
         fader.FadeOut(UIElement, fadeDuration);
         screenText.text = "";
+        MainUIManager.instance.GetDialogueUIManager().Deactivate();
     }
 
     public void NextHint()
@@ -97,7 +100,7 @@ public class DialogueManager : MonoBehaviour {
             Dialogue hint = playersHints.Peek();
             BeginDialogue(hint);
         } 
-
+        
         timer.RestartTimer();
     }
 

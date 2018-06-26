@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
 
 public class MainUIManager : MonoBehaviour {
 
@@ -19,7 +18,7 @@ public class MainUIManager : MonoBehaviour {
     [SerializeField] private BlackScreenUI blackScreen;
     [SerializeField] private WhiteScreenUI whiteScreen;
     [SerializeField] private ItemUI itemUI;
-    [SerializeField] private DialogueManager dialogueManager;
+    [SerializeField] private DialogueUIManager dialogueUIManager;
     [SerializeField] private BreathingSystemUIController breathingManager;
     [SerializeField] private DiaryManager diary;
     [SerializeField] private NotificationUIManager notification;
@@ -30,7 +29,7 @@ public class MainUIManager : MonoBehaviour {
         blackScreen = GetComponentInChildren<BlackScreenUI>();
         whiteScreen = GetComponentInChildren<WhiteScreenUI>();
         itemUI = GetComponentInChildren<ItemUI>();
-        dialogueManager = GetComponentInChildren<DialogueManager>();
+        dialogueUIManager = GetComponentInChildren<DialogueUIManager>();
         breathingManager = GetComponentInChildren<BreathingSystemUIController>();
         diary = GetComponentInChildren<DiaryManager>();
         notification = GetComponentInChildren<NotificationUIManager>();
@@ -42,9 +41,9 @@ public class MainUIManager : MonoBehaviour {
         return itemUI;
     }
 
-    public DialogueManager GetDialogueManager()
+    public DialogueUIManager GetDialogueUIManager()
     {
-        return dialogueManager;
+        return dialogueUIManager;
     }
 
     public BreathingSystemUIController GetBreathingManager()

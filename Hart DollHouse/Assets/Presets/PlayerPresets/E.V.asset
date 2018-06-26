@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ced035e47497cdd4bbedef9af4358ec8, type: 3}
   m_Name: E.V
   m_EditorClassIdentifier: 
+  charName: E.V
   staminaLimit: 100
   minStamina: -10
   staminaDrain: 0.125

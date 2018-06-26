@@ -50,7 +50,7 @@ public class Important : AudioableObject {
     {
         MainUIManager.instance.GetItemUI().SetIcon(null);
         MainUIManager.instance.GetItemUI().DeactivateUI();
-        MainUIManager.instance.GetDialogueManager().NextHint();
+        MainUIManager.instance.GetDialogueUIManager().GetManager().NextHint();
         isUIActive = false;
     }
 

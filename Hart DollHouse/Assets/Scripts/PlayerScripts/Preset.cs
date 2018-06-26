@@ -3,6 +3,8 @@
 [CreateAssetMenu(fileName = "New Preset", menuName = "Custom/Preset")]
 public class Preset : ScriptableObject
 {
+    public string charName = "default";
+
     // PlayerVitals
     public float staminaLimit = 100f;
     public float minStamina = -10f;

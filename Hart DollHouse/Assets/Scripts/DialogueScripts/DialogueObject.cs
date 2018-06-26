@@ -1,8 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class DialogueObject : Interactable {
+﻿public class DialogueObject : Interactable {
 
     public Dialogue dialogue;
 
@@ -16,6 +12,6 @@ public class DialogueObject : Interactable {
     }
 
     public void TriggerDialogue() {
-        MainUIManager.instance.GetDialogueManager().BeginDialogue(dialogue);
+        MainUIManager.instance.GetDialogueUIManager().GetManager().BeginDialogue(dialogue);
     }
 }
