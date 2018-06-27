@@ -65,6 +65,19 @@ public class PlayerInput : MonoBehaviour {
             }
             
                 
+        } 
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (!PauseUIManager.isPaused)
+            {
+                PauseUIManager.instance.gameObject.SetActive(true);
+                PauseUIManager.instance.PauseGame();
+            } else
+            {
+                PauseUIManager.instance.UnpauseGame();
+                PauseUIManager.instance.gameObject.SetActive(false);
+            }
         }
     }
 

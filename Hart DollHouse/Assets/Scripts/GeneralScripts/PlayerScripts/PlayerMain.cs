@@ -15,9 +15,11 @@ public class PlayerMain : MonoBehaviour {
         movement = GetComponent<PlayerMovement>();
         vitals = GetComponent<PlayerVitals>();
         input = GetComponent<PlayerInput>();
+        GameManager.instance.LockCursor();
     }
 
     void FixedUpdate () {
+
         movement.KeyboardMovement();
         movement.MouseViewing();
         vitals.ManageVitals();

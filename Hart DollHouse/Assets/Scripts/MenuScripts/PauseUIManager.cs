@@ -2,55 +2,50 @@
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-[RequireComponent(typeof(CanvasGroup), typeof(UIFader))]
 public class PauseUIManager : MonoBehaviour {
 
     [SerializeField] private int menuIndex = 0;
     [SerializeField] private AudioMixer audioMixer;
 
-    [SerializeField] private CanvasGroup UIElement;
-    [SerializeField] private UIFader fader;
-
-    [SerializeField] private float fadeDuration = 0.2f;
-    // private bool isActive = false;
+    public static bool isPaused = false;
 
     private Sound button;
 
-    void Start () {
-        UIElement = GetComponent<CanvasGroup>();
-        fader = GetComponent<UIFader>();
-	}
-	
-	void Update () {
+    #region Singleton
+    public static PauseUIManager instance;
 
-	}
+    void Awake () {
 
-    public void ActivateUI()
-    {
-        StopAllCoroutines();
-        fader.FadeIn(UIElement, fadeDuration);
+        if (instance != null)
+            return;
+
+        instance = this;
+
+        PauseUIManager.instance.gameObject.SetActive(false);
     }
+    #endregion
 
-    public void DeactivateUI()
-    {
-        StopAllCoroutines();
-        fader.FadeOut(UIElement, fadeDuration);
-    }
 
     public void PauseGame()
     {
-        GameManager.instance.PauseGame();
+        Time.timeScale = 0f;
+        isPaused = true;
+        GameManager.instance.UnlockCursor();
     }
 
     public void UnpauseGame()
     {
-        GameManager.instance.ResumeGame();
-        DeactivateUI();
+        Time.timeScale = 1f;
+        isPaused = false;
+        GameManager.instance.LockCursor();
+        PauseUIManager.instance.gameObject.SetActive(false);
     }
 
     public void GoMenu()
     {
+        UnpauseGame();
         SceneManager.LoadScene(menuIndex);
+        GameManager.instance.UnlockCursor();
     }
     
     public void QuitGame()

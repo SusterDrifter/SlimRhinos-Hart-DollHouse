@@ -3,9 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
-    public bool isPaused = false;
     public int currentSceneIndex;
-    private int menuIndex = 0;
     
     #region Singleton
     public static GameManager instance;
@@ -19,7 +17,6 @@ public class GameManager : MonoBehaviour {
 
         DontDestroyOnLoad(gameObject);
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
-        
     }
     #endregion
 
@@ -37,35 +34,24 @@ public class GameManager : MonoBehaviour {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    public void PauseGame() {
-        if (!isPaused)
-        {
-            Time.timeScale = 0f;
-            isPaused = true;
-        }
-    }
-
-    public void ResumeGame() {
-        if (!isPaused)
-        {
-            Time.timeScale = 1f;
-            isPaused = false;
-        }
-    }
-
     public void IncrSceneIndex()
     {
         currentSceneIndex++;
     }
 
-    public void LoadMenu()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(menuIndex);
-    }
-
     public void QuitGame()
     {
         Application.Quit();
+    }
+
+    public void LockCursor()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+    }
+
+    public void UnlockCursor()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
