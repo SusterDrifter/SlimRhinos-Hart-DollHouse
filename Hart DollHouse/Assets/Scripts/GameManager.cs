@@ -1,7 +1,22 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
+
+    public enum Settings {
+        PlayerScene,
+        QualitySettings,
+        ScreenResolutionIndex,
+        Volume,
+        FullscreenToggle
+    }
+
+    public string PlayerSceneStr = Enum.GetName(typeof(Settings), Settings.PlayerScene);
+    public string QualitySettingStr = Enum.GetName(typeof(Settings), Settings.QualitySettings);
+    public string ScreenResolutionIndexStr = Enum.GetName(typeof(Settings), Settings.ScreenResolutionIndex);
+    public string VolumeStr = Enum.GetName(typeof(Settings), Settings.Volume);
+    public string FullscreenToggleStr = Enum.GetName(typeof(Settings), Settings.FullscreenToggle);
 
     public int currentSceneIndex;
     
@@ -54,4 +69,19 @@ public class GameManager : MonoBehaviour {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
+
+    public void SavePlayerScene(int sceneIndex) {
+        PlayerPrefs.SetInt(PlayerSceneStr, sceneIndex);
+    }
+
+    public void SaveSettings(int qualityIndex, int resolIndex, float volume, bool isFullScreen)
+    {
+        int fullScreenIndex = isFullScreen ? 1 : 0;
+        PlayerPrefs.SetInt(QualitySettingStr, qualityIndex);
+        PlayerPrefs.SetFloat(ScreenResolutionIndexStr, resolIndex);
+        PlayerPrefs.SetFloat(VolumeStr, volume);
+        PlayerPrefs.SetFloat(FullscreenToggleStr, fullScreenIndex);
+    }
+
+
 }

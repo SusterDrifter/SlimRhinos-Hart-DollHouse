@@ -112,7 +112,7 @@ MonoBehaviour:
     spatialBlend: 0
   - clipName: ItemUIOpen
     type: 0
-    clip: {fileID: 8300000, guid: b68e5e780982c814db74dcf9367b1e59, type: 3}
+    clip: {fileID: 8300000, guid: a9e214701fe73a341bed4f83f02ed523, type: 3}
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
