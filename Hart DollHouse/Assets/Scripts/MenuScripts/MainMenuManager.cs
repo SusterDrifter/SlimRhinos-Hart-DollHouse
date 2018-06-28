@@ -8,9 +8,7 @@ public class MainMenuManager : MonoBehaviour {
     private Sound button;
 
     [SerializeField] private Button continueButton;
-    [SerializeField] private Button sceneSelectButton;
     [SerializeField] private TextMeshProUGUI continueText;
-    [SerializeField] private TextMeshProUGUI sceneSelectText;
 
     private void Awake()
     {
@@ -19,9 +17,7 @@ public class MainMenuManager : MonoBehaviour {
         if (playerProgress <= 1)
         {
             continueButton.interactable = false;
-            sceneSelectButton.interactable = false;
             continueText.alpha = 0.2f;
-            sceneSelectText.alpha = 0.2f;
         }
     }
 
@@ -32,7 +28,7 @@ public class MainMenuManager : MonoBehaviour {
 
     public void Continue()
     {
-        SceneManager.LoadScene(GameManager.instance.currentSceneIndex);
+        GameManager.instance.Continue();
     }
 
     public void QuitGame()
