@@ -16,12 +16,9 @@ public class FadeSceneLoaderManager : MonoBehaviour {
 
         instance = this;
         animator = GetComponent<Animator>();
+        
     }
     #endregion
-
-    void Update () {
-		
-	}
 
     public void FadeToScene(int sceneIndex)
     {

@@ -9,14 +9,15 @@ public class LevelLoaderManager : MonoBehaviour {
     [SerializeField] private Dialogue writingEntry;
     [SerializeField] private TextMeshProUGUI textPrompt;
     [SerializeField] private string finishPrompt = "Press any key to continue.";
+    [SerializeField] private Animator animator;
 
     private int sceneIndex;
 
+    // Booleans for diary transition
     private bool usingDiaryTransition = false;
     private bool finishLoading = false;
     private bool hasSetText = false;
 
-       
     #region Singleton
     public static LevelLoaderManager instance;
 
@@ -27,6 +28,8 @@ public class LevelLoaderManager : MonoBehaviour {
         else
             Destroy(gameObject);
 
+        animator = GetComponent<Animator>();
+
         TextMeshProUGUI[] texts = GetComponentsInChildren<TextMeshProUGUI>();
         screenText = texts[0];
         textPrompt = texts[1];
@@ -34,7 +37,7 @@ public class LevelLoaderManager : MonoBehaviour {
         screenText.SetText("");
         textPrompt.SetText("");
 
-        gameObject.SetActive(false);
+        
         DontDestroyOnLoad(gameObject);
     }
     #endregion
@@ -47,7 +50,6 @@ public class LevelLoaderManager : MonoBehaviour {
 
     public void LoadScene(int sceneIndex)
     {
-        gameObject.SetActive(true);
         this.sceneIndex = sceneIndex;
         usingDiaryTransition = true;
         string fullEntry = "";
@@ -59,6 +61,11 @@ public class LevelLoaderManager : MonoBehaviour {
         }
 
         screenText.SetText(fullEntry);
+        animator.SetTrigger("FadeIn");
+    }
+
+    public void StartLoadAsync()
+    {
         StartCoroutine(LoadNewScene());
     }
 
@@ -86,8 +93,22 @@ public class LevelLoaderManager : MonoBehaviour {
             {
                 StopCoroutine("LoadNewScene");
                 usingDiaryTransition = false;
-                gameObject.SetActive(false);
+                screenText.SetText("");
+                textPrompt.SetText("");
+                animator.SetTrigger("FadeOut");
             }
         }
+    }
+
+    public void FadeToScene(int sceneIndex)
+    {
+        animator.SetTrigger("SimpleFadeIn");
+        this.sceneIndex = sceneIndex;
+    }
+
+    public void StartLoadSync()
+    {
+        SceneManager.LoadScene(sceneIndex);
+        animator.SetTrigger("SimpleFadeOut");
     }
 }
