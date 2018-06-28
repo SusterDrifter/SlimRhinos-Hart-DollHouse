@@ -8,6 +8,7 @@ public class DialogueUIManager : MonoBehaviour {
     [SerializeField] private CanvasGroup UIElement;
 
     [SerializeField] private string currCharName;
+    public string nullName = "_default";
 
 	void Start () {
         manager = GetComponentInChildren<DialogueManager>();
@@ -27,7 +28,7 @@ public class DialogueUIManager : MonoBehaviour {
     }
     
     public void ResetName(string newName)
-    {
+    {   
         charName.SetText(newName);
     }
 

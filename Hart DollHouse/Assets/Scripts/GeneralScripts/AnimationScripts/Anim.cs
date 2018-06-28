@@ -4,7 +4,7 @@
 public class Anim {
 
     public string objName;
-    public string animationName;
+    public string animationName = "Interact";
     public Animator animator;
     public RuntimeAnimatorController controller;
     public bool applyRootMotion = false;

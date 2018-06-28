@@ -11,6 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6c32ee466260b4fb56d8103eee2ae1, type: 3}
   m_Name: TestingCubeDiag
   m_EditorClassIdentifier: 
+  speaker: Anya
   sentences:
   - What a strange looking object.
   - I will keep it for now.
