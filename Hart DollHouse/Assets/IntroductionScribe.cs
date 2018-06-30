@@ -49,17 +49,22 @@ public class IntroductionScribe : MonoBehaviour {
 
     private string currName = "";
     private int[] talkSequence;
+
     private Sound[] typingSound;
+    private Sound introSancLogo;
 
     private void Start()
     {
         talkSequence = new int[] { 0, 0, 1, 0, 2, 1, 0, 0, 2, 0, 1, 0, 2, 1, 0, 1, 0, 2, 0, 2};
+
         typingSound = new Sound[5];
         for (int i = 0; i < typingSound.Length; i++)
         {
             string clipName = "TypeWriter" + i;
             typingSound[i] = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, clipName);
         }
+
+        introSancLogo = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "IntroSancLogo");
 
         charDecision.alpha = 0;
         charDecision.interactable = false;
@@ -111,7 +116,6 @@ public class IntroductionScribe : MonoBehaviour {
         {
             if (timer.HasRunOut() && !breathingGame.curCycleFinished && !breathingGameWon)
             {
-                Debug.Log("YOU HAVE WON");
                 breathingGameWon = true;
             }
             if (breathingGame.curCycleFinished)
@@ -328,7 +332,6 @@ public class IntroductionScribe : MonoBehaviour {
 
     public void IntroScene()
     {
-        Debug.Log("INTROSCENE");
         StopAllCoroutines();
         currName = "";
         currText = "...How many? ";
@@ -340,5 +343,21 @@ public class IntroductionScribe : MonoBehaviour {
     public void NextChapter()
     {
         GameManager.instance.NextChapter();
+    }
+
+    public void PlayIntroSound()
+    {
+        if (introSancLogo == null)
+            introSancLogo = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "IntroSancLogo");
+
+        AudioManager.instance.audioFader.FadeIn(introSancLogo, 1f, introSancLogo.volume);
+    }
+
+    public void FadeOutIntroSound()
+    {
+        if (introSancLogo == null)
+            introSancLogo = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "IntroSancLogo");
+
+        AudioManager.instance.audioFader.FadeOut(introSancLogo);
     }
 }

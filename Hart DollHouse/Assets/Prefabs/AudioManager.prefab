@@ -52,7 +52,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d81bd31623a2ea544ae2293708c9e6d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  finalVol: 1
 --- !u!114 &114569976047333122
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -254,6 +253,16 @@ MonoBehaviour:
     volume: 0.4
     pitch: 1
     spatialBlend: 0
+  - clipName: IntroSancLogo
+    type: 0
+    clip: {fileID: 8300000, guid: 9fd43c78b370fc1419dfff08b7701989, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.58
+    pitch: 1
+    spatialBlend: 0
   backgroundMusic: []
   remoteSounds: []
   fadeDuration: 0.5
+  audioFader: {fileID: 0}

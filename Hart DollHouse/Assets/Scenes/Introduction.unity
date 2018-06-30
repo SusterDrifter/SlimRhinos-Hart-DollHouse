@@ -625,7 +625,7 @@ GameObject:
   - component: {fileID: 86026078}
   - component: {fileID: 86026077}
   m_Layer: 5
-  m_Name: RosiePhoto
+  m_Name: WillPhoto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1421,12 +1421,12 @@ GameObject:
   - component: {fileID: 206043171}
   - component: {fileID: 206043170}
   m_Layer: 5
-  m_Name: WillPhoto
+  m_Name: RosiePhoto
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &206043169
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1435,7 +1435,7 @@ RectTransform:
   m_GameObject: {fileID: 206043168}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -3.738182}
-  m_LocalScale: {x: 2.4881146, y: 2.4881146, z: 2.4881146}
+  m_LocalScale: {x: 2.6228263, y: 2.6228266, z: 2.6228266}
   m_Children: []
   m_Father: {fileID: 1206584198}
   m_RootOrder: 1
@@ -1464,7 +1464,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 67538c6cd639525438278b10b32ce4eb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c4d2eadf8f7c19041bb4cc947f3f8964, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5141,7 +5141,7 @@ CanvasGroup:
   m_GameObject: {fileID: 1206584197}
   m_Enabled: 1
   m_Alpha: 0
-  m_Interactable: 0
+  m_Interactable: 1
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!1 &1209900823
@@ -7487,7 +7487,7 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -30.613066, w: 0}
   m_textInfo:
     textComponent: {fileID: 1857677113}
     characterCount: 2

@@ -17,7 +17,7 @@ public class AudioManager : MonoBehaviour {
     [SerializeField] float fadeDuration = 0.5f;
 
     private Sound musicInPlay;
-    private AudioFader soundFader;
+    public AudioFader audioFader;
 
     #region Singleton
     public static AudioManager instance;
@@ -78,7 +78,7 @@ public class AudioManager : MonoBehaviour {
             sound.source.loop = sound.loop;
             sound.source.playOnAwake = sound.playOnAwake;
         }
-        soundFader = GetComponent<AudioFader>();
+        audioFader = GetComponent<AudioFader>();
         #endregion
     }
     #endregion
@@ -109,7 +109,7 @@ public class AudioManager : MonoBehaviour {
                 if (musicInPlay != null && musicInPlay.source.isPlaying)
                 {
                     // FadeOut the music, FadeIn the new one
-                    soundFader.FadeInNewSound(musicInPlay, sound, sound.source.volume, fadeDuration);
+                    audioFader.FadeInNewSound(musicInPlay, sound, sound.source.volume, fadeDuration);
                 }          
                 // Keep track of this variable
                 musicInPlay = sound;
