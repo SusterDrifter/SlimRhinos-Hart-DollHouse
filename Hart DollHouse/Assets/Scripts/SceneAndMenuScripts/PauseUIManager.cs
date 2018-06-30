@@ -12,6 +12,8 @@ public class PauseUIManager : MonoBehaviour {
     public static bool isPaused = false;
     public static float playerVolume = 0;
     private Sound button;
+    private Sound UIActive = null;
+    private Sound UIDeactivate = null;
 
     #region Singleton
     public static PauseUIManager instance;
@@ -27,12 +29,16 @@ public class PauseUIManager : MonoBehaviour {
     }
     #endregion
 
-
     public void PauseGame()
     {
         Time.timeScale = 0f;
         isPaused = true;
         GameManager.instance.UnlockCursor();
+
+        if (UIActive == null)
+            UIActive = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "PauseActive");
+
+        AudioManager.instance.PlayClip(UIActive);
     }
 
     public void UnpauseGame()
@@ -40,6 +46,11 @@ public class PauseUIManager : MonoBehaviour {
         Time.timeScale = 1f;
         isPaused = false;
         GameManager.instance.LockCursor();
+
+        if (UIDeactivate == null)
+            UIDeactivate = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "PauseDeactivate");
+
+        AudioManager.instance.PlayClip(UIDeactivate);
         PauseUIManager.instance.gameObject.SetActive(false);
     }
 

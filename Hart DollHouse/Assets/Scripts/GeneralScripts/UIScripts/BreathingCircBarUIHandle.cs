@@ -1,4 +1,4 @@
-﻿     using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Timer))]
 /**
@@ -13,21 +13,43 @@ public class BreathingCircBarUIHandle : CircularBarUIController {
     [SerializeField] float increaseTimer = 0.75f;
     [SerializeField] float decreaseTimer = 0.75f;
 
+    [SerializeField] float ezTimerDuration = 10f;
+    [SerializeField] float ezIncreaseTimer = -0.2f;
+    [SerializeField] float ezDecreaseTimer = 0.5f;
+
+    private float oriTimerDuration;
+    private float oriIncreaseTimer;
+    private float oriDecreaseTimer;
+
     private bool hasPassedOut = false;
     private bool start = false;
+    private bool tutorialMode = false;
+    public bool hasFinished = false;
+
     private Sound heartbeatSfx;
 
 	// Use this for initialization
 	void Start () {
         timer = GetComponent<Timer>();
         base.SetButton(GetComponent<RectTransform>());
+
+        oriTimerDuration = timerDuration;
+        oriDecreaseTimer = decreaseTimer;
+        oriIncreaseTimer = increaseTimer;
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
         if (start)
         {
             base.UpdateCircBarUI();
+        }
+    }
+
+    private void Update()
+    {
+        if (start)
+        {
             CheckInput();
         }
     }
@@ -54,18 +76,22 @@ public class BreathingCircBarUIHandle : CircularBarUIController {
 
             if (timer.HasRunOut())
             {
-                //Pass Out
-                hasPassedOut = true;
+                if(!tutorialMode)
+                    hasPassedOut = true;
+
                 heartbeatSfx.source.Stop();
                 start = false;
+                hasFinished = true;
             }
         }
     }
 
     public void StartBreathingSystem()
     {
+        hasFinished = false;
+
         timer.SetDuration(timerDuration);
-        timer.StartTimer();
+        timer.RestartTimer();
 
         // Begin heartbeat sfx
         heartbeatSfx = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "Heartbeat");
@@ -79,5 +105,23 @@ public class BreathingCircBarUIHandle : CircularBarUIController {
     {
         float percentage = timer.PercentageFromZero();
         CameraPPSControl.instance.PassingOutEffect(percentage);
+    }
+
+    public void BeginnerMode()
+    {
+        timerDuration = ezTimerDuration;
+        increaseTimer = ezIncreaseTimer;
+        decreaseTimer = ezDecreaseTimer;
+
+        tutorialMode = true;
+    }
+
+    public void HardcoreMode()
+    {
+        timerDuration = oriTimerDuration;
+        increaseTimer = oriIncreaseTimer;
+        decreaseTimer = oriDecreaseTimer;
+
+        tutorialMode = false;
     }
 }

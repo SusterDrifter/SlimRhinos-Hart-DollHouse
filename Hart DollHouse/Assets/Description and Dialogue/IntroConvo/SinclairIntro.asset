@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6c32ee466260b4fb56d8103eee2ae1, type: 3}
+  m_Name: SinclairIntro
+  m_EditorClassIdentifier: 
+  speaker: Sinclair
+  sentences:
+  - '"Remember, if any of this makes you uncomfortable, we can stop this immediately."'
+  - '"From what you''ve said previously this has been happening for a very long time."'
+  - '"So let''s begin what we discussed. I am going to show you the pictures, and
+    when you''re ready can you tell me how they make you feel?"'
+  - '"Thank you for opening up to me. You may not see it but you''ve truly come a
+    long way in such a short period. You''re doing well."'
+  - '"Can you continue on to the next part?"'
+  - '"Unfortunately we don''t have enough time to look at everyone this time. But
+    we could start small and continue next time if you''d like."'
+  - '"Alright, so who would you be comfortable talking about today?"'
+  - '"I''m sorry for everything that happened to you. What all of you are going through,
+    we will work on it."'
+  - '"Now, before we wrap up, here''s a tip for dealing with the anxiety concerns
+    you mentioned. When you start to feel it, try to take deep, even breaths. Take
+    a slow deep inhale, hold for three counts and slowly exhale. Like this."'
+  - '"Do you have to go now? Alright, have a good day. Keep me updated on your progress
+    and observations. I''ll see you this time next week."'

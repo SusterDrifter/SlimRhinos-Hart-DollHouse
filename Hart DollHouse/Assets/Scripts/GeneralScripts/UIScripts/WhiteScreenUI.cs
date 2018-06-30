@@ -6,8 +6,8 @@ public class WhiteScreenUI : MonoBehaviour {
 
     [SerializeField] private UIFader fader;
     [SerializeField] private CanvasGroup UIElement;
-    [SerializeField] private float flashDuration = 0.2f;
-    [SerializeField] private float endAlpha = 0.2f;
+    [SerializeField] private float flashDuration = 0.3f;
+    [SerializeField] private float endAlpha = 0.1f;
 
     private void Start()
     {

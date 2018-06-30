@@ -107,7 +107,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.61
+    volume: 0.85
     pitch: 1
     spatialBlend: 0
   - clipName: ItemUIOpen
@@ -188,7 +188,25 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.35
+    volume: 0.234
+    pitch: 1
+    spatialBlend: 0
+  - clipName: PauseActive
+    type: 0
+    clip: {fileID: 8300000, guid: d07e577581aa33f45aeb3194ae927f0e, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.8
+    pitch: 1
+    spatialBlend: 0
+  - clipName: PauseDeactivate
+    type: 0
+    clip: {fileID: 8300000, guid: 6754a3953d65f0c4cb258d6992bee39a, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.8
     pitch: 1
     spatialBlend: 0
   backgroundMusic: []

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f6c32ee466260b4fb56d8103eee2ae1, type: 3}
+  m_Name: E.VIntro
+  m_EditorClassIdentifier: 
+  speaker: '...'
+  sentences:
+  - '"... ..."'
+  - '... leans back in their seat, an audible crack filling the room as they adjust
+    in their seat. What could have been a growl was their response, "I should have
+    known that hellhole was fucked up."'
+  - '"..."'
+  - Smirking as she looked upon the picture fondly, they answered honestly, "Will.
+    That's the one who stayed with me even when I refused help.
+  - '... stiffens, releasing a breath in seeming exasperation.Or irritation. "Her
+    name was Rosie. She... was too naive."'
+  - '"That''s Emil. Everyone thought something was fishy when that quiet little boy
+    too small to even be noticed just vanished." Sighing deeply, they look down at
+    the photograph before tutting. "The whole situation there was just fucked up."'
+  - '"... ..."'

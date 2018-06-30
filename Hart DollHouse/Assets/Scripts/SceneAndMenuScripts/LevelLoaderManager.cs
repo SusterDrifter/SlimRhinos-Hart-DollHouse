@@ -37,7 +37,6 @@ public class LevelLoaderManager : MonoBehaviour {
         screenText.SetText("");
         textPrompt.SetText("");
 
-        
         DontDestroyOnLoad(gameObject);
     }
     #endregion
