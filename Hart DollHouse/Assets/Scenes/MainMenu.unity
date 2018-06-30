@@ -91,7 +91,7 @@ LightmapSettings:
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 112000002, guid: 8042a41ee5ed4f2498f20e11796ee17b,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -1355,20 +1355,30 @@ Prefab:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 224943929347822940, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
+    - target: {fileID: 114299701974086140, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
         type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1.0241421
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 224943929347822940, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
+    - target: {fileID: 114299701974086140, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
         type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1.0241423
+      propertyPath: m_textInfo.characterCount
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 224943929347822940, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
+    - target: {fileID: 114299701974086140, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
         type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1.0241423
+      propertyPath: m_textInfo.wordCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114299701974086140, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
+        type: 2}
+      propertyPath: m_textInfo.lineCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114299701974086140, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
+        type: 2}
+      propertyPath: m_textInfo.pageCount
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 947fe246c6ca3ae4ba3a00de59a84bc4, type: 2}

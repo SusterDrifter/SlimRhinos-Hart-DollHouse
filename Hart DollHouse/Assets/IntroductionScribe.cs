@@ -103,12 +103,9 @@ public class IntroductionScribe : MonoBehaviour {
         }
         else if ((panicAttack || talkTurn > talkSequence.Length) && !breathingGameStarted)
         {
-            breathingGameStarted = true;
-            timer.SetDuration(winDuration);
-            timer.RestartTimer();
             currText = "";
             screenText.SetText("");
-            breathingGame.BeginBreathingSystem();
+            animator.SetTrigger("PanicAttack");
         }
         else if (breathingGameStarted)
         {
@@ -182,6 +179,14 @@ public class IntroductionScribe : MonoBehaviour {
             }
         }
 	}
+
+    public void StartRealBreathingGame()
+    {
+        breathingGameStarted = true;
+        timer.SetDuration(winDuration);
+        timer.RestartTimer();
+        breathingGame.BeginBreathingSystem();
+    }
 
     private void FadeCanvasIn(CanvasGroup cg)
     {
