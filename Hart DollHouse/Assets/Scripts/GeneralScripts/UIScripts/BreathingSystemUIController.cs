@@ -45,7 +45,6 @@ public class BreathingSystemUIController : MonoBehaviour {
 
     public void SoftDisable()
     {
-        Debug.Log("SOFT DISABLE");
         UIElement.alpha = 0;
         UIElement.interactable = false;
         UIElement.blocksRaycasts = false;

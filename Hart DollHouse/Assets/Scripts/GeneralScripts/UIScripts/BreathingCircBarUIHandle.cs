@@ -9,7 +9,7 @@
 public class BreathingCircBarUIHandle : CircularBarUIController {
 
     [SerializeField] Timer timer;
-    [SerializeField] float timerDuration = 10f;
+    [SerializeField] float timerDuration = 9f;
     [SerializeField] float increaseTimer = 0.75f;
     [SerializeField] float decreaseTimer = 0.75f;
 
@@ -24,9 +24,10 @@ public class BreathingCircBarUIHandle : CircularBarUIController {
     private bool hasPassedOut = false;
     private bool start = false;
     private bool tutorialMode = false;
-    public bool hasFinished = false;
+    [HideInInspector] public bool hasFinished = false;
 
     private Sound heartbeatSfx;
+    private AudioFader audioFader;
 
 	// Use this for initialization
 	void Start () {
@@ -36,9 +37,10 @@ public class BreathingCircBarUIHandle : CircularBarUIController {
         oriTimerDuration = timerDuration;
         oriDecreaseTimer = decreaseTimer;
         oriIncreaseTimer = increaseTimer;
+
+        audioFader = GetComponent<AudioFader>();
 	}
 	
-	// Update is called once per frame
 	void FixedUpdate () {
         if (start)
         {
@@ -79,7 +81,7 @@ public class BreathingCircBarUIHandle : CircularBarUIController {
                 if(!tutorialMode)
                     hasPassedOut = true;
 
-                heartbeatSfx.source.Stop();
+                audioFader.FadeOut(heartbeatSfx, 1f);
                 start = false;
                 hasFinished = true;
             }
@@ -94,9 +96,10 @@ public class BreathingCircBarUIHandle : CircularBarUIController {
         timer.RestartTimer();
 
         // Begin heartbeat sfx
-        heartbeatSfx = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "Heartbeat");
-        heartbeatSfx.source.volume = 0.5f;
-        AudioManager.instance.PlayClip(heartbeatSfx);
+        if(heartbeatSfx == null)
+            heartbeatSfx = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "Heartbeat");
+
+        audioFader.FadeIn(heartbeatSfx, 1f, 0.5f);
 
         start = true;
     }

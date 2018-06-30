@@ -107,7 +107,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.85
+    volume: 0.47
     pitch: 1
     spatialBlend: 0
   - clipName: ItemUIOpen
@@ -207,6 +207,51 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     volume: 0.8
+    pitch: 1
+    spatialBlend: 0
+  - clipName: TypeWriter0
+    type: 0
+    clip: {fileID: 8300000, guid: f60203f7d9f9cac4da09f2e6df727930, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.4
+    pitch: 1
+    spatialBlend: 0
+  - clipName: TypeWriter1
+    type: 0
+    clip: {fileID: 8300000, guid: 525392902ba19144aa6f67e34566154e, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.4
+    pitch: 1
+    spatialBlend: 0
+  - clipName: TypeWriter2
+    type: 0
+    clip: {fileID: 8300000, guid: 8cf1fc0fe7045ad4cbfd5ac3bf0746b8, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.4
+    pitch: 1
+    spatialBlend: 0
+  - clipName: TypeWriter3
+    type: 0
+    clip: {fileID: 8300000, guid: 1bd319a8b1a91334ea4964205a81f958, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.4
+    pitch: 1
+    spatialBlend: 0
+  - clipName: TypeWriter4
+    type: 0
+    clip: {fileID: 8300000, guid: 9a978569850317142ad363b0f82b9f8e, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.4
     pitch: 1
     spatialBlend: 0
   backgroundMusic: []

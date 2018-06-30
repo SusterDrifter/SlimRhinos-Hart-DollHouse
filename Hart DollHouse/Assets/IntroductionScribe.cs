@@ -23,13 +23,14 @@ public class IntroductionScribe : MonoBehaviour {
     private bool breathingTutStarted = false;
     private bool breathingGameStarted = false;
     private bool breathingGameWon = false;
+    private bool doneChapter = false;
 
     private int sinclairIndex = 0;
     private int playerIndex = 0;
     private int choiceTurn = 0;
     private int talkTurn = 0;
 
-    private float winDuration = 15f;
+    private float winDuration = 11f;
     private float lastSentenceDur = 0.5f;
     private float lastSentenceStay = 2f;
 
@@ -48,10 +49,17 @@ public class IntroductionScribe : MonoBehaviour {
 
     private string currName = "";
     private int[] talkSequence;
+    private Sound[] typingSound;
 
     private void Start()
     {
         talkSequence = new int[] { 0, 0, 1, 0, 2, 1, 0, 0, 2, 0, 1, 0, 2, 1, 0, 1, 0, 2, 0, 2};
+        typingSound = new Sound[5];
+        for (int i = 0; i < typingSound.Length; i++)
+        {
+            string clipName = "TypeWriter" + i;
+            typingSound[i] = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, clipName);
+        }
 
         charDecision.alpha = 0;
         charDecision.interactable = false;
@@ -77,7 +85,10 @@ public class IntroductionScribe : MonoBehaviour {
     }
 
     void Update () {
-        if (breathingTutStarted)
+        if (doneChapter)
+        {
+            return;
+        } else if (breathingTutStarted)
         {
             if (breathingGame.curCycleFinished)
             {
@@ -95,23 +106,26 @@ public class IntroductionScribe : MonoBehaviour {
             breathingGameStarted = true;
             timer.SetDuration(winDuration);
             timer.RestartTimer();
+            currText = "";
+            screenText.SetText("");
             breathingGame.BeginBreathingSystem();
         }
         else if (breathingGameStarted)
         {
-            Debug.Log("breathing has started");
-            if (timer.HasRunOut() && !breathingGameWon)
+            if (timer.HasRunOut() && !breathingGame.curCycleFinished && !breathingGameWon)
             {
+                Debug.Log("YOU HAVE WON");
                 breathingGameWon = true;
             }
             if (breathingGame.curCycleFinished)
             {
+                breathingGame.curCycleFinished = false;
                 if (breathingGameWon)
                     FlashesWallTally();
                 else
-                {
                     IntroScene();
-                }
+
+                doneChapter = true;
             }
         }
         else if (effectRunning & Input.GetMouseButtonDown(0))
@@ -262,12 +276,17 @@ public class IntroductionScribe : MonoBehaviour {
         FadeCanvasOut(talkDecision);
     }
 
+    IEnumerator DelayBySeconds(float seconds, IEnumerator couroutine)
+    {
+        yield return new WaitForSecondsRealtime(seconds);
+        StartCoroutine(couroutine);
+    }
+
     IEnumerator TypeWriter()
     {
         effectRunning = true;
         nameText.SetText(currName);
         string textToShow = "";
-        //float newDelayTime = (Random.value * delayTime) + 0.005f;
         float newDelayTime = delayTime;
 
         for (int i = 0; i < currText.Length; i++) {
@@ -281,6 +300,9 @@ public class IntroductionScribe : MonoBehaviour {
                 textToShow = currText.Substring(0, i);
                 screenText.SetText(textToShow);
             }
+            Sound typing = typingSound[Mathf.FloorToInt(Random.value * typingSound.Length)];
+            if (screenText.text != "")
+                AudioManager.instance.PlayClip(typing);
             yield return new WaitForSecondsRealtime(newDelayTime);
         }
         effectRunning = false;
@@ -296,17 +318,18 @@ public class IntroductionScribe : MonoBehaviour {
 
     private void FlashesWallTally()
     {
-        //No pic yet
+        IntroScene();
     }
 
     public void IntroScene()
     {
+        Debug.Log("INTROSCENE");
         StopAllCoroutines();
         currName = "";
         currText = "...How many? ";
         chapterEnd = true;
         delayTime = lastSentenceDur;
-        StartCoroutine(TypeWriter());
+        StartCoroutine(DelayBySeconds(4f, TypeWriter()));
     }
 
     public void NextChapter()

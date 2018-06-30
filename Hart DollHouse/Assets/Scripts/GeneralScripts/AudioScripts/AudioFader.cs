@@ -3,16 +3,14 @@ using UnityEngine;
 
 public class AudioFader : MonoBehaviour {
 
-    [SerializeField] private float finalVol = 1f;
-
-    public void FadeIn(Sound sound, float duration = 0.5f)
+    public void FadeIn(Sound sound, float duration = 0.5f, float finalVolume = 1f)
     {
-        StartCoroutine(FadeSound(sound, sound.source.volume, finalVol, duration));
+        StartCoroutine(FadeSound(sound, 0, finalVolume, duration));
     }
 
-    public void FadeOut(Sound sound, float duration = 0.5f)
+    public void FadeOut(Sound sound, float duration = 0.5f, float finalVolume = 0f)
     {
-        StartCoroutine(FadeSound(sound, sound.source.volume, 0, duration));
+        StartCoroutine(FadeSound(sound, sound.source.volume, finalVolume, duration));
     }
 
     public void FadeInNewSound(Sound oldSound, Sound newSound, float endVol, float fadeDuration = 0.5f)
@@ -26,6 +24,9 @@ public class AudioFader : MonoBehaviour {
         float timeSinceStarted = Time.time - startTime;
         float percentageComplete = timeSinceStarted / duration;
 
+        sound.source.volume = startVol;
+        AudioManager.instance.PlayClip(sound);
+
         while (percentageComplete < 1) {
             timeSinceStarted = Time.time - startTime;
             percentageComplete = timeSinceStarted / duration;
@@ -34,6 +35,9 @@ public class AudioFader : MonoBehaviour {
             sound.source.volume = curVol;
             yield return null;
         }
+
+        if (endVol == 0f)
+            sound.source.Stop();
     }
 
     private IEnumerator FadeNewSound(Sound oldSound, Sound newSound, float endVol, float fadeDuration)
