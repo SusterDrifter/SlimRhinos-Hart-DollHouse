@@ -1,0 +1,167 @@
+fileFormatVersion: 2
+guid: b560f14f08c8c6d4a88e06108f680557
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Plane
+    100002: //RootNode
+    100004: ToiletBase
+    100006: ToiletCover
+    100008: ToiletHandle
+    100010: ToiletSeat
+    100012: ToiletTank
+    100014: water
+    400000: Plane
+    400002: //RootNode
+    400004: ToiletBase
+    400006: ToiletCover
+    400008: ToiletHandle
+    400010: ToiletSeat
+    400012: ToiletTank
+    400014: water
+    2100000: unnamed
+    2100002: Material_001
+    2100004: Faucet
+    2100006: Ceramic_002
+    2100008: Ceramic_001
+    2100010: Ceramic_003
+    2100012: Ceramic_004
+    2300000: Plane
+    2300002: ToiletBase
+    2300004: ToiletCover
+    2300006: ToiletHandle
+    2300008: ToiletSeat
+    2300010: ToiletTank
+    2300012: water
+    3300000: Plane
+    3300002: ToiletBase
+    3300004: ToiletCover
+    3300006: ToiletHandle
+    3300008: ToiletSeat
+    3300010: ToiletTank
+    3300012: water
+    4300000: Plane
+    4300002: water
+    4300004: ToiletHandle
+    4300006: ToiletCover
+    4300008: ToiletSeat
+    4300010: ToiletBase
+    4300012: ToiletTank
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic_001
+    second: {fileID: 2100000, guid: e63b584a8530e674c8e51a95124b1405, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic_002
+    second: {fileID: 2100000, guid: d9abd8e202ae9324c8d7bceeb2128775, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic_003
+    second: {fileID: 2100000, guid: 2873a3267f24bb945844932f537d2508, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic_004
+    second: {fileID: 2100000, guid: ead4f78fbc87f9248ae3e293272974e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet
+    second: {fileID: 2100000, guid: 6e2368649700e2e4fb04f31aecfabb8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material_001
+    second: {fileID: 2100000, guid: 1e79106cb8d698843b1e7e8d96d8dbe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 9494ba12fdb145748952525448ea2529, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
