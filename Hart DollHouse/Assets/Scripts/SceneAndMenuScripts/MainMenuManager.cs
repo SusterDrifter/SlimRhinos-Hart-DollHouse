@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
@@ -23,7 +22,7 @@ public class MainMenuManager : MonoBehaviour {
 
     public void PlayGame()
     {
-        GameManager.instance.NextChapter();
+        GameManager.instance.FadeNextChapter();
     }
 
     public void Continue()

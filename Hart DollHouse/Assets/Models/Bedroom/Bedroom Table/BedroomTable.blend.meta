@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 24662c385eae56941b38e65f7e2da904
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Desk
+    100004: DrawerL1R
+    100006: DrawerL2R
+    100008: DrawerL3R
+    100010: DrawerL4R
+    100012: DrawerR1R
+    100014: DrawerR2R
+    100016: DrawerR3R
+    100018: DrawerR4R
+    100020: Handle
+    100022: Handle_001
+    100024: Handle_002
+    100026: Handle_003
+    100028: Handle_004
+    100030: Handle_005
+    100032: Handle_006
+    100034: Handle_007
+    400000: //RootNode
+    400002: Desk
+    400004: DrawerL1R
+    400006: DrawerL2R
+    400008: DrawerL3R
+    400010: DrawerL4R
+    400012: DrawerR1R
+    400014: DrawerR2R
+    400016: DrawerR3R
+    400018: DrawerR4R
+    400020: Handle
+    400022: Handle_001
+    400024: Handle_002
+    400026: Handle_003
+    400028: Handle_004
+    400030: Handle_005
+    400032: Handle_006
+    400034: Handle_007
+    2100000: Wood
+    2100002: Faucet
+    2300000: Desk
+    2300002: DrawerL1R
+    2300004: DrawerL2R
+    2300006: DrawerL3R
+    2300008: DrawerL4R
+    2300010: DrawerR1R
+    2300012: DrawerR2R
+    2300014: DrawerR3R
+    2300016: DrawerR4R
+    2300018: Handle
+    2300020: Handle_001
+    2300022: Handle_002
+    2300024: Handle_003
+    2300026: Handle_004
+    2300028: Handle_005
+    2300030: Handle_006
+    2300032: Handle_007
+    3300000: Desk
+    3300002: DrawerL1R
+    3300004: DrawerL2R
+    3300006: DrawerL3R
+    3300008: DrawerL4R
+    3300010: DrawerR1R
+    3300012: DrawerR2R
+    3300014: DrawerR3R
+    3300016: DrawerR4R
+    3300018: Handle
+    3300020: Handle_001
+    3300022: Handle_002
+    3300024: Handle_003
+    3300026: Handle_004
+    3300028: Handle_005
+    3300030: Handle_006
+    3300032: Handle_007
+    4300000: Desk
+    4300002: DrawerL1R
+    4300004: DrawerL2R
+    4300006: DrawerL3R
+    4300008: DrawerL4R
+    4300010: DrawerR1R
+    4300012: DrawerR2R
+    4300014: DrawerR3R
+    4300016: DrawerR4R
+    4300018: Handle
+    4300020: Handle_001
+    4300022: Handle_002
+    4300024: Handle_003
+    4300026: Handle_004
+    4300028: Handle_005
+    4300030: Handle_006
+    4300032: Handle_007
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

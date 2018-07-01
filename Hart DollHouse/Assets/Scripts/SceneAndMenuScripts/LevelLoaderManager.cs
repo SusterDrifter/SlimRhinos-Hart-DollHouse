@@ -5,11 +5,13 @@ using TMPro;
 
 public class LevelLoaderManager : MonoBehaviour {
 
+    [SerializeField] private TextMeshProUGUI endChapterText;
     [SerializeField] private TextMeshProUGUI screenText;
     [SerializeField] private Dialogue writingEntry;
     [SerializeField] private TextMeshProUGUI textPrompt;
     [SerializeField] private string finishPrompt = "Press any key to continue.";
     [SerializeField] private Animator animator;
+    [SerializeField] private Dialogue chapterNames;
 
     private int sceneIndex;
 
@@ -30,12 +32,14 @@ public class LevelLoaderManager : MonoBehaviour {
 
         animator = GetComponent<Animator>();
 
-        TextMeshProUGUI[] texts = GetComponentsInChildren<TextMeshProUGUI>();
-        screenText = texts[0];
-        textPrompt = texts[1];
+        if (endChapterText != null)
+            endChapterText.SetText("");
 
-        screenText.SetText("");
-        textPrompt.SetText("");
+        if (screenText != null)
+            screenText.SetText("");
+
+        if (textPrompt != null)
+            textPrompt.SetText("");
 
         DontDestroyOnLoad(gameObject);
     }
@@ -60,6 +64,7 @@ public class LevelLoaderManager : MonoBehaviour {
         }
 
         screenText.SetText(fullEntry);
+        animator.ResetTrigger("FadeOut");
         animator.SetTrigger("FadeIn");
     }
 
@@ -94,6 +99,7 @@ public class LevelLoaderManager : MonoBehaviour {
                 usingDiaryTransition = false;
                 screenText.SetText("");
                 textPrompt.SetText("");
+                animator.ResetTrigger("FadeIn");
                 animator.SetTrigger("FadeOut");
             }
         }
@@ -101,6 +107,7 @@ public class LevelLoaderManager : MonoBehaviour {
 
     public void FadeToScene(int sceneIndex)
     {
+        animator.ResetTrigger("SimpleFadeOut");
         animator.SetTrigger("SimpleFadeIn");
         this.sceneIndex = sceneIndex;
     }
@@ -108,6 +115,26 @@ public class LevelLoaderManager : MonoBehaviour {
     public void StartLoadSync()
     {
         SceneManager.LoadScene(sceneIndex);
+        animator.ResetTrigger("SimpleFadeIn");
         animator.SetTrigger("SimpleFadeOut");
+    }
+
+    private void EndChapter(int chapterNum)
+    {
+        string chapterName = chapterNames.sentences[chapterNum];
+        string formattedText = "End of Chapter " + chapterNum + ": " + " " + chapterName;
+        endChapterText.SetText(formattedText);
+    }
+
+    public void EndChapterLoadScene(int chapterNum)
+    {
+        EndChapter(chapterNum);
+        animator.SetTrigger("EndChapter");
+    }
+
+    public void EndChapterFade(int chapterNum)
+    {
+        EndChapter(chapterNum);
+        animator.SetTrigger("EndChapterSimple");
     }
 }
