@@ -1,0 +1,376 @@
+fileFormatVersion: 2
+guid: 6147098a7794e654898fd093d4f1f74d
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Drawer
+    100002: Drawer_001
+    100004: Drawer_002
+    100006: Drawer_003
+    100008: Drawer_004
+    100010: Drawer_005
+    100012: Drawer_006
+    100014: Drawer_007
+    100016: Drawer_008
+    100018: Drawer_009
+    100020: Drawer_010
+    100022: Drawer_011
+    100024: Handle
+    100026: Handle_001
+    100028: Handle_002
+    100030: Handle_003
+    100032: Handle_004
+    100034: Handle_005
+    100036: Handle_006
+    100038: Handle_007
+    100040: Handle_008
+    100042: Handle_009
+    100044: Handle_010
+    100046: Handle_011
+    100048: MainBody
+    100050: Shelf
+    100052: //RootNode
+    400000: Drawer
+    400002: Drawer_001
+    400004: Drawer_002
+    400006: Drawer_003
+    400008: Drawer_004
+    400010: Drawer_005
+    400012: Drawer_006
+    400014: Drawer_007
+    400016: Drawer_008
+    400018: Drawer_009
+    400020: Drawer_010
+    400022: Drawer_011
+    400024: Handle
+    400026: Handle_001
+    400028: Handle_002
+    400030: Handle_003
+    400032: Handle_004
+    400034: Handle_005
+    400036: Handle_006
+    400038: Handle_007
+    400040: Handle_008
+    400042: Handle_009
+    400044: Handle_010
+    400046: Handle_011
+    400048: MainBody
+    400050: Shelf
+    400052: //RootNode
+    2100000: Handle_Mat_011
+    2100002: Handle_Mat_010
+    2100004: Handle_Mat_009
+    2100006: Handle_Mat_008
+    2100008: Handle_Mat_007
+    2100010: Handle_Mat_006
+    2100012: Handle_Mat_005
+    2100014: Handle_Mat_004
+    2100016: Handle_Mat_003
+    2100018: Handle_Mat_002
+    2100020: Handle_Mat_001
+    2100022: DrawerFrame_Mat_011
+    2100024: DrawerFrame_Mat_010
+    2100026: DrawerFrame_Mat_009
+    2100028: DrawerFrame_Mat_008
+    2100030: DrawerFrame_Mat_007
+    2100032: DrawerFrame_Mat_006
+    2100034: DrawerFrame_Mat_005
+    2100036: DrawerFrame_Mat_004
+    2100038: DrawerFrame_Mat_003
+    2100040: DrawerFrame_Mat_002
+    2100042: DrawerFrame_Mat_001
+    2100044: WoodenShelf_Mat
+    2100046: DrawerFrame_Mat_012
+    2100048: Handle_Mat
+    2100050: DrawerFrame_Mat
+    2300000: Drawer
+    2300002: Drawer_001
+    2300004: Drawer_002
+    2300006: Drawer_003
+    2300008: Drawer_004
+    2300010: Drawer_005
+    2300012: Drawer_006
+    2300014: Drawer_007
+    2300016: Drawer_008
+    2300018: Drawer_009
+    2300020: Drawer_010
+    2300022: Drawer_011
+    2300024: Handle
+    2300026: Handle_001
+    2300028: Handle_002
+    2300030: Handle_003
+    2300032: Handle_004
+    2300034: Handle_005
+    2300036: Handle_006
+    2300038: Handle_007
+    2300040: Handle_008
+    2300042: Handle_009
+    2300044: Handle_010
+    2300046: Handle_011
+    2300048: MainBody
+    2300050: Shelf
+    3300000: Drawer
+    3300002: Drawer_001
+    3300004: Drawer_002
+    3300006: Drawer_003
+    3300008: Drawer_004
+    3300010: Drawer_005
+    3300012: Drawer_006
+    3300014: Drawer_007
+    3300016: Drawer_008
+    3300018: Drawer_009
+    3300020: Drawer_010
+    3300022: Drawer_011
+    3300024: Handle
+    3300026: Handle_001
+    3300028: Handle_002
+    3300030: Handle_003
+    3300032: Handle_004
+    3300034: Handle_005
+    3300036: Handle_006
+    3300038: Handle_007
+    3300040: Handle_008
+    3300042: Handle_009
+    3300044: Handle_010
+    3300046: Handle_011
+    3300048: MainBody
+    3300050: Shelf
+    4300000: Handle_011
+    4300002: Handle_010
+    4300004: Handle_009
+    4300006: Handle_008
+    4300008: Handle_007
+    4300010: Handle_006
+    4300012: Handle_005
+    4300014: Handle_004
+    4300016: Handle_003
+    4300018: Handle_002
+    4300020: Handle_001
+    4300022: Drawer_011
+    4300024: Drawer_010
+    4300026: Drawer_009
+    4300028: Drawer_008
+    4300030: Drawer_007
+    4300032: Drawer_006
+    4300034: Drawer_005
+    4300036: Drawer_004
+    4300038: Drawer_003
+    4300040: Drawer_002
+    4300042: Drawer_001
+    4300044: Shelf
+    4300046: MainBody
+    4300048: Handle
+    4300050: Drawer
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat
+    second: {fileID: 2100000, guid: 1676ff04428fa614aa455a859fe756d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_001
+    second: {fileID: 2100000, guid: 8fea4a349cb2bb542a31d2f9875335d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_002
+    second: {fileID: 2100000, guid: 4adcb3ee321420848a073d207f72bfa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_003
+    second: {fileID: 2100000, guid: b3ef1a82f4d4e524fbabacb0fffbb101, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_004
+    second: {fileID: 2100000, guid: 9e451af548b613f4e8b5c4d5eaf5c1aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_005
+    second: {fileID: 2100000, guid: 80cc40ff2905ed0489443b07ea5be6a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_006
+    second: {fileID: 2100000, guid: e7ee8b86b718c444785b9725811c1932, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_007
+    second: {fileID: 2100000, guid: 154924c6960cc984f8bc34536258665e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_008
+    second: {fileID: 2100000, guid: 0801a791a28c3444c8ecbbac74e7e40d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_009
+    second: {fileID: 2100000, guid: 2056d87ab062bcd4da430ea84c627ba5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_010
+    second: {fileID: 2100000, guid: 6a905d524c3ffe64e9bdf8302194aee3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_011
+    second: {fileID: 2100000, guid: dbb3e67e4b6582343973d598f6eca8cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_012
+    second: {fileID: 2100000, guid: fb12b26f8b0b8f347bf2ec95ea1c62c3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat
+    second: {fileID: 2100000, guid: 1d36aae66efc6ae43b54fcdc134d43c0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_001
+    second: {fileID: 2100000, guid: 359de109fe5b22241abb2e5760ca4471, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_002
+    second: {fileID: 2100000, guid: abc2b1144fc00fc4ea6d0beb9c9f86a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_003
+    second: {fileID: 2100000, guid: f7a0ddbe127bb5e4da5eca8c63858ebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_004
+    second: {fileID: 2100000, guid: 1deb211934c8bde43a2d2da7a80651d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_005
+    second: {fileID: 2100000, guid: 56e7644ad5e44284f9763c5b379c731e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_006
+    second: {fileID: 2100000, guid: 8fef54a1ccb8e254fab286ab17dce832, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_007
+    second: {fileID: 2100000, guid: bf8d3c83be96dcd47a370e6dc682a9ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_008
+    second: {fileID: 2100000, guid: 56fd4e8170708f24b8c4f753ce6cb03e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_009
+    second: {fileID: 2100000, guid: 4df05b6450e8d724b97f123d8502eb62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_010
+    second: {fileID: 2100000, guid: 3a206d5f0ccfe984a802781bc2f86f8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_011
+    second: {fileID: 2100000, guid: a50d4b530d05b1844918fd777f90ac65, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodenShelf_Mat
+    second: {fileID: 2100000, guid: cd210ef29e50c314db527dbc62b75c4f, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,200 @@
+fileFormatVersion: 2
+guid: 02226bd4425e9a24d8a44cef369f63f3
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Body
+    100002: Connector
+    100004: Disc
+    100006: DiscHolder
+    100008: //RootNode
+    100010: Holder
+    100012: InsideDisc
+    100014: MainCone
+    100016: Needle
+    100018: Pipe
+    100020: PipeHolder
+    400000: Body
+    400002: Connector
+    400004: Disc
+    400006: DiscHolder
+    400008: //RootNode
+    400010: Holder
+    400012: InsideDisc
+    400014: MainCone
+    400016: Needle
+    400018: Pipe
+    400020: PipeHolder
+    2100000: DiscHolder_Mat_001
+    2100002: DiscInside_Mat
+    2100004: Metal_Mat
+    2100006: MetalPipe_Mat
+    2100008: MetalPipe_Mat_001
+    2100010: DrawerFrame_Mat
+    2100012: DiscHolder_Mat
+    2100014: Disc_Mat
+    2100016: MetalConnector_Mat
+    2100018: WoodenBody_Mat
+    2300000: Body
+    2300002: Connector
+    2300004: Disc
+    2300006: DiscHolder
+    2300008: Holder
+    2300010: InsideDisc
+    2300012: MainCone
+    2300014: Needle
+    2300016: Pipe
+    2300018: PipeHolder
+    3300000: Body
+    3300002: Connector
+    3300004: Disc
+    3300006: DiscHolder
+    3300008: Holder
+    3300010: InsideDisc
+    3300012: MainCone
+    3300014: Needle
+    3300016: Pipe
+    3300018: PipeHolder
+    4300000: Holder
+    4300002: InsideDisc
+    4300004: MainCone
+    4300006: Needle
+    4300008: Pipe
+    4300010: PipeHolder
+    4300012: DiscHolder
+    4300014: Disc
+    4300016: Connector
+    4300018: Body
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DiscHolder_Mat
+    second: {fileID: 2100000, guid: 8ba88e479505e0d4883779a4b7760a27, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DiscHolder_Mat_001
+    second: {fileID: 2100000, guid: a575631de28207541b70ef88cae9ca47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DiscInside_Mat
+    second: {fileID: 2100000, guid: 964a8b6c42935ee4daee4387e184e530, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Disc_Mat
+    second: {fileID: 2100000, guid: e4e73ea174262dc4bb4c54c60670d363, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat
+    second: {fileID: 2100000, guid: e0e4a2fb979fa1e4191c263cb7daa3db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalConnector_Mat
+    second: {fileID: 2100000, guid: 39777c1f499ab7f4baf787dc5ee9c869, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalPipe_Mat
+    second: {fileID: 2100000, guid: fa5907e562eab48449eb9191be96e786, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalPipe_Mat_001
+    second: {fileID: 2100000, guid: 673cf76a125b34e4dae3b80b7d9441a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat
+    second: {fileID: 2100000, guid: 481d0869c084db14dae705818bd614a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodenBody_Mat
+    second: {fileID: 2100000, guid: 4b40f980683d42a4897a424130cc71b6, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

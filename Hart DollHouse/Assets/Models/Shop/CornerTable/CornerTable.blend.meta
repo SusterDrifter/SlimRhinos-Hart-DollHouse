@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: bcd46d1bb7c87194f976c23c04294bfc
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: WoodenLegs
+    100004: WoodenLegs_001
+    100006: WoodenLegs_002
+    100008: WoodenLegs_003
+    100010: WoodTable
+    400000: //RootNode
+    400002: WoodenLegs
+    400004: WoodenLegs_001
+    400006: WoodenLegs_002
+    400008: WoodenLegs_003
+    400010: WoodTable
+    2100000: CornerTable_Mat_004
+    2100002: CornerTable_Mat_003
+    2100004: CornerTable_Mat_002
+    2100006: CornerTable_Mat
+    2100008: CornerTable_Mat_001
+    2300000: WoodenLegs
+    2300002: WoodenLegs_001
+    2300004: WoodenLegs_002
+    2300006: WoodenLegs_003
+    2300008: WoodTable
+    3300000: WoodenLegs
+    3300002: WoodenLegs_001
+    3300004: WoodenLegs_002
+    3300006: WoodenLegs_003
+    3300008: WoodTable
+    4300000: WoodenLegs_003
+    4300002: WoodenLegs_002
+    4300004: WoodenLegs_001
+    4300006: WoodTable
+    4300008: WoodenLegs
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CornerTable_Mat
+    second: {fileID: 2100000, guid: 3c8c5cfd7175cda4e91f386595f87bc4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CornerTable_Mat_001
+    second: {fileID: 2100000, guid: 440fabef7cb2f7840b09fa365c4c12f1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CornerTable_Mat_002
+    second: {fileID: 2100000, guid: 3317e28b50fcfb443a53153cabab6704, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CornerTable_Mat_003
+    second: {fileID: 2100000, guid: 8b5429a2a339d3b44a177ef7de4e23fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CornerTable_Mat_004
+    second: {fileID: 2100000, guid: 2bf4b663ec5f3774781d8e6606f49343, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
