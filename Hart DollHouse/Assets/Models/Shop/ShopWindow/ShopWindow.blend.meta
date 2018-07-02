@@ -1,0 +1,304 @@
+fileFormatVersion: 2
+guid: d73936d1870c9e24ba9a19ff559d1f9f
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ClothCurtain
+    100002: Glass
+    100004: MetalHook
+    100006: MetalHook_001
+    100008: MetalHook_002
+    100010: MetalHook_003
+    100012: MetalHook_004
+    100014: MetalHook_005
+    100016: MetalHook_006
+    100018: MetalHook_007
+    100020: MetalHook_008
+    100022: MetalHook_009
+    100024: MetalHook_010
+    100026: MetalHook_011
+    100028: MetalHook_012
+    100030: MetalHook_013
+    100032: MetalHook_014
+    100034: MetalRailing
+    100036: //RootNode
+    100038: WoodenBody
+    100040: WoodenPlatform
+    400000: ClothCurtain
+    400002: Glass
+    400004: MetalHook
+    400006: MetalHook_001
+    400008: MetalHook_002
+    400010: MetalHook_003
+    400012: MetalHook_004
+    400014: MetalHook_005
+    400016: MetalHook_006
+    400018: MetalHook_007
+    400020: MetalHook_008
+    400022: MetalHook_009
+    400024: MetalHook_010
+    400026: MetalHook_011
+    400028: MetalHook_012
+    400030: MetalHook_013
+    400032: MetalHook_014
+    400034: MetalRailing
+    400036: //RootNode
+    400038: WoodenBody
+    400040: WoodenPlatform
+    2100000: WindowFrame_Mat
+    2100002: WindowPlatform_Mat
+    2100004: Metal_Mat
+    2100006: Metal_Mat_014
+    2100008: Metal_Mat_013
+    2100010: Metal_Mat_012
+    2100012: Metal_Mat_011
+    2100014: Metal_Mat_010
+    2100016: Metal_Mat_009
+    2100018: Metal_Mat_008
+    2100020: Metal_Mat_007
+    2100022: Metal_Mat_006
+    2100024: Metal_Mat_005
+    2100026: Metal_Mat_004
+    2100028: Metal_Mat_003
+    2100030: Metal_Mat_002
+    2100032: Metal_Mat_001
+    2100034: Glass_Mat
+    2100036: Curtain_Mat
+    2300000: ClothCurtain
+    2300002: Glass
+    2300004: MetalHook
+    2300006: MetalHook_001
+    2300008: MetalHook_002
+    2300010: MetalHook_003
+    2300012: MetalHook_004
+    2300014: MetalHook_005
+    2300016: MetalHook_006
+    2300018: MetalHook_007
+    2300020: MetalHook_008
+    2300022: MetalHook_009
+    2300024: MetalHook_010
+    2300026: MetalHook_011
+    2300028: MetalHook_012
+    2300030: MetalHook_013
+    2300032: MetalHook_014
+    2300034: MetalRailing
+    2300036: WoodenBody
+    2300038: WoodenPlatform
+    3300000: ClothCurtain
+    3300002: Glass
+    3300004: MetalHook
+    3300006: MetalHook_001
+    3300008: MetalHook_002
+    3300010: MetalHook_003
+    3300012: MetalHook_004
+    3300014: MetalHook_005
+    3300016: MetalHook_006
+    3300018: MetalHook_007
+    3300020: MetalHook_008
+    3300022: MetalHook_009
+    3300024: MetalHook_010
+    3300026: MetalHook_011
+    3300028: MetalHook_012
+    3300030: MetalHook_013
+    3300032: MetalHook_014
+    3300034: MetalRailing
+    3300036: WoodenBody
+    3300038: WoodenPlatform
+    4300000: WoodenBody
+    4300002: WoodenPlatform
+    4300004: MetalRailing
+    4300006: MetalHook_014
+    4300008: MetalHook_013
+    4300010: MetalHook_012
+    4300012: MetalHook_011
+    4300014: MetalHook_010
+    4300016: MetalHook_009
+    4300018: MetalHook_008
+    4300020: MetalHook_007
+    4300022: MetalHook_006
+    4300024: MetalHook_005
+    4300026: MetalHook_004
+    4300028: MetalHook_003
+    4300030: MetalHook_002
+    4300032: MetalHook_001
+    4300034: MetalHook
+    4300036: Glass
+    4300038: ClothCurtain
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Curtain_Mat
+    second: {fileID: 2100000, guid: 54664e6d7e2130349aaebd434135de0b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass_Mat
+    second: {fileID: 2100000, guid: dfc94bd94530acc4e8f5b09997a2c5ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat
+    second: {fileID: 2100000, guid: e262fe076b835a44d9df2651cb4d2785, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_001
+    second: {fileID: 2100000, guid: 1b4acf625d1ec5548821822b60a43f2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_002
+    second: {fileID: 2100000, guid: 59ac74b69beb2e84d86e2be476a2ddac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_003
+    second: {fileID: 2100000, guid: dc8a349308cbf1845b226a0d9ed4aec4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_004
+    second: {fileID: 2100000, guid: 8e2410e7158a38f40adb7b48e7c17959, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_005
+    second: {fileID: 2100000, guid: 2da19d5e487e8d34d99cc22a270f8d3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_006
+    second: {fileID: 2100000, guid: 68d7fbdc7b0526c4386e9837351b4b21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_007
+    second: {fileID: 2100000, guid: e133c0fbce8a3df4fbd94427df57bef1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_008
+    second: {fileID: 2100000, guid: fff0588e7bde0ab479ea2fa36377316f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_009
+    second: {fileID: 2100000, guid: b5555bfc6eec5194a95763d5eb19b6bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_010
+    second: {fileID: 2100000, guid: 595cd5d59a51e374aaae2f0c9d59e68b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_011
+    second: {fileID: 2100000, guid: 93c9f0f21826201429640b30902855a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_012
+    second: {fileID: 2100000, guid: 1e69e1ed61eb5f14f8dfca3c6ace9303, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_013
+    second: {fileID: 2100000, guid: 375121ef8c7c88545b9956279c0b76af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_014
+    second: {fileID: 2100000, guid: 857b2a4a879f4754790bf20e6c59b253, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowFrame_Mat
+    second: {fileID: 2100000, guid: fe68d812c35d2bc4e9b627e41ccea88c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowPlatform_Mat
+    second: {fileID: 2100000, guid: df7a4a7ee05fe1340b8e5f63b56df0b9, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
