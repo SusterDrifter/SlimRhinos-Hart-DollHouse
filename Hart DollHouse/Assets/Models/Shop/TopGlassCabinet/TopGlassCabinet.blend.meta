@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: d557d69f0c7300a44b386e7c09c81600
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: LGlass
+    100002: LWoodFrame
+    100004: RGlass
+    100006: RWoodFrame
+    100008: //RootNode
+    100010: WoodenBody
+    400000: LGlass
+    400002: LWoodFrame
+    400004: RGlass
+    400006: RWoodFrame
+    400008: //RootNode
+    400010: WoodenBody
+    2100000: PedestalFrame_Mat_001
+    2100002: PedestalGlass_Mat_001
+    2100004: PedestalGlass_Mat
+    2100006: PedestalFrame_Mat
+    2100008: PedestalFrame_Mat_002
+    2300000: LGlass
+    2300002: LWoodFrame
+    2300004: RGlass
+    2300006: RWoodFrame
+    2300008: WoodenBody
+    3300000: LGlass
+    3300002: LWoodFrame
+    3300004: RGlass
+    3300006: RWoodFrame
+    3300008: WoodenBody
+    4300000: RWoodFrame
+    4300002: RGlass
+    4300004: LGlass
+    4300006: LWoodFrame
+    4300008: WoodenBody
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PedestalFrame_Mat
+    second: {fileID: 2100000, guid: 625bd935767b6d549ae23459a61663fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PedestalFrame_Mat_001
+    second: {fileID: 2100000, guid: 1c41f4a5e5c30fd40a00e9e0a5de4937, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PedestalFrame_Mat_002
+    second: {fileID: 2100000, guid: eed945f8a121c30448ffb57bc26fd477, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PedestalGlass_Mat
+    second: {fileID: 2100000, guid: 3ed8dd54cf130254a9a73625334daa92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PedestalGlass_Mat_001
+    second: {fileID: 2100000, guid: 679e85588214c884f94e75c0aa6dd616, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

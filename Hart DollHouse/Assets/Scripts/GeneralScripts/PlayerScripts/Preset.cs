@@ -13,14 +13,14 @@ public class Preset : ScriptableObject
 
     // PlayerMovement
     public float mouseSensitivity = 2.5f;
-    public float runningSpeed = 10f;
-    public float walkingSpeed = 5f;
-    public float distancePerStep = 150f;
+    public float runningSpeed = 6f;
+    public float walkingSpeed = 3f;
+    public float distancePerStep = 100f;
 
     // HeadBobbing
     public float bobbingSpeed = 0.3f;
-    public float bobbingAmount = 0.03f;
-    public float sidewaysBobbingAmount = 0.02f;
+    public float bobbingAmount = 0.015f;
+    public float sidewaysBobbingAmount = 0.01f;
     public float midPoint = 2.5f;
     public float shakyRun = 3.5f;
 }

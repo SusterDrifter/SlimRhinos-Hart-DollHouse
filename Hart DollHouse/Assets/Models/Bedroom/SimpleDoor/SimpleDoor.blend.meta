@@ -11,6 +11,8 @@ ModelImporter:
     100010: //RootNode
     100012: SimpleDoor
     100014: Wall
+    100016: LockOneSide
+    100018: LockOtherSide
     400000: Door
     400002: DoorFrame
     400004: Lighting
@@ -19,25 +21,36 @@ ModelImporter:
     400010: //RootNode
     400012: SimpleDoor
     400014: Wall
+    400016: LockOneSide
+    400018: LockOtherSide
     2100000: Handle
     2100002: DoorFrame
     2100004: Door
     2100006: Wallpaper
+    2100008: Handle_001
+    2100010: Handle_002
+    2100012: Handle_003
     2300000: Door
     2300002: DoorFrame
     2300004: OneSideHandle
     2300006: OtherSideHandle
     2300008: Wall
+    2300010: LockOneSide
+    2300012: LockOtherSide
     3300000: Door
     3300002: DoorFrame
     3300004: OneSideHandle
     3300006: OtherSideHandle
     3300008: Wall
+    3300010: LockOneSide
+    3300012: LockOtherSide
     4300000: OtherSideHandle
     4300002: OneSideHandle
     4300004: DoorFrame
     4300006: Door
     4300008: Wall
+    4300010: LockOtherSide
+    4300012: LockOneSide
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -56,6 +69,21 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Handle
     second: {fileID: 2100000, guid: 74cbca6cccd453b43827ca9eb1cdb3ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_001
+    second: {fileID: 2100000, guid: e1d59bedd435a13498266ee343f06804, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_002
+    second: {fileID: 2100000, guid: f770d1e04324cf84ca4eadbb63f0512f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_003
+    second: {fileID: 2100000, guid: 4130b34ef0fa303409670caae48a8516, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

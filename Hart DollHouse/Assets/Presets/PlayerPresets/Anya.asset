@@ -17,11 +17,11 @@ MonoBehaviour:
   staminaDrain: 0.125
   staminaIncrease: 0.04
   mouseSensitivity: 2.5
-  runningSpeed: 10
-  walkingSpeed: 5
-  distancePerStep: 150
+  runningSpeed: 6
+  walkingSpeed: 3
+  distancePerStep: 100
   bobbingSpeed: 0.3
-  bobbingAmount: 0.03
-  sidewaysBobbingAmount: 0.02
+  bobbingAmount: 0.015
+  sidewaysBobbingAmount: 0.01
   midPoint: 2.5
   shakyRun: 3.5
