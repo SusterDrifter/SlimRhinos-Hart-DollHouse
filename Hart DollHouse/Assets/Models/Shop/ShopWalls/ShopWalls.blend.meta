@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: 95d3e31437305f64ab5fdd5127e4a638
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Ceiling
+    100002: ShopBackWall
+    100004: ShopDoor
+    100006: ShopLeftCorner
+    100008: ShopLeftWall
+    100010: ShopRightCorner
+    100012: ShopRightWall
+    100014: //RootNode
+    400000: Ceiling
+    400002: ShopBackWall
+    400004: ShopDoor
+    400006: ShopLeftCorner
+    400008: ShopLeftWall
+    400010: ShopRightCorner
+    400012: ShopRightWall
+    400014: //RootNode
+    2100000: Ceil_Mat
+    2100002: ShopWall_Mat_002
+    2100004: ShopWall_Mat_003
+    2100006: Wall
+    2100008: ShopWall_Mat_004
+    2100010: ShopWall_Mat_005
+    2100012: ShopWall_Mat_001
+    2100014: ShopWall_Mat
+    2100016: Wall_Mat_000
+    2100018: Wall_Mat_004
+    2100020: unnamed
+    2300000: Ceiling
+    2300002: ShopBackWall
+    2300004: ShopDoor
+    2300006: ShopLeftCorner
+    2300008: ShopLeftWall
+    2300010: ShopRightCorner
+    2300012: ShopRightWall
+    3300000: Ceiling
+    3300002: ShopBackWall
+    3300004: ShopDoor
+    3300006: ShopLeftCorner
+    3300008: ShopLeftWall
+    3300010: ShopRightCorner
+    3300012: ShopRightWall
+    4300000: Ceiling
+    4300002: ShopLeftCorner
+    4300004: ShopLeftWall
+    4300006: ShopRightCorner
+    4300008: ShopRightWall
+    4300010: ShopDoor
+    4300012: ShopBackWall
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceil_Mat
+    second: {fileID: 2100000, guid: 1464082aee8ffda409a4579b160fc212, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShopWall_Mat
+    second: {fileID: 2100000, guid: b11667bb1c6dc5a47ae6238e1fa7f86a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShopWall_Mat_001
+    second: {fileID: 2100000, guid: e805147cc675a744292ec91367958b49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShopWall_Mat_002
+    second: {fileID: 2100000, guid: 7750940a088400d4eb6fe885179bd52e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShopWall_Mat_003
+    second: {fileID: 2100000, guid: 7dc059a4564f71d46b292e776d928c39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShopWall_Mat_004
+    second: {fileID: 2100000, guid: ba25e25f42e5aa74db0baf5ceeb2a763, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShopWall_Mat_005
+    second: {fileID: 2100000, guid: 823953512c7c5d1409582b9c252b35b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall
+    second: {fileID: 2100000, guid: c615b68a9484c69409b8ab11532af71b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Mat_000
+    second: {fileID: 2100000, guid: 7dc059a4564f71d46b292e776d928c39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Mat_004
+    second: {fileID: 2100000, guid: 823953512c7c5d1409582b9c252b35b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 1464082aee8ffda409a4579b160fc212, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

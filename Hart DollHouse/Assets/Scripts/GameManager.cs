@@ -54,6 +54,16 @@ public class GameManager : MonoBehaviour {
         LevelLoaderManager.instance.FadeToScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    public void EndChapterNextChapter(int chapterNum)
+    {
+        LevelLoaderManager.instance.EndChapterLoadScene(chapterNum, SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void EndChapterFadeNextChapter(int chapterNum)
+    {
+        LevelLoaderManager.instance.EndChapterFade(chapterNum, SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
     public void Continue()
     {
         SceneManager.LoadScene(currentSceneIndex);

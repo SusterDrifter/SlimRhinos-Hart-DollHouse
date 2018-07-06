@@ -2,36 +2,35 @@
 
 public class Animatable : DialogueObject {
 
-    [SerializeField] private Anim anim;
+    [SerializeField] private string triggerName = "Interact";
+    private bool state = false;
+    [SerializeField] private Animator animator;
 
     private void Awake()
     {
-        if (anim != null)
-        {
-            anim.animator = gameObject.AddComponent<Animator>();
-            anim.animator.runtimeAnimatorController = anim.controller;
-            anim.animator.applyRootMotion = anim.applyRootMotion;
-            anim.animator.speed = anim.speed;
-        }
+        animator = GetComponent<Animator>();
     }
 
     public override void Interact()
     {
+        
         base.Interact();
-        if (anim != null)
-        {
+        if (Condition())
             PlayAnim();
-        }
+        else
+            Consequence();
     }
 
     public void PlayAnim()
     {
-        if (anim != null)
-            anim.animator.Play(anim.animationName);
+        state = !state;
+        animator.SetBool(triggerName, state);
     }
 
-    public Anim GetAnim()
+    public virtual bool Condition()
     {
-        return anim;
+        return true;
     }
+
+    public virtual void Consequence() { }
 }

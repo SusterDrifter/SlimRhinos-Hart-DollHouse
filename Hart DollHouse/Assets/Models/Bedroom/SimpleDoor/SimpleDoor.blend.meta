@@ -5,53 +5,44 @@ ModelImporter:
   fileIDToRecycleName:
     100000: Door
     100002: DoorFrame
-    100004: Lighting
-    100006: OneSideHandle
-    100008: OtherSideHandle
-    100010: //RootNode
-    100012: SimpleDoor
-    100014: Wall
-    100016: LockOneSide
-    100018: LockOtherSide
+    100004: LockOneSide
+    100006: LockOtherSide
+    100008: OneSideHandle
+    100010: OtherSideHandle
+    100012: //RootNode
     400000: Door
     400002: DoorFrame
-    400004: Lighting
-    400006: OneSideHandle
-    400008: OtherSideHandle
-    400010: //RootNode
-    400012: SimpleDoor
-    400014: Wall
-    400016: LockOneSide
-    400018: LockOtherSide
-    2100000: Handle
-    2100002: DoorFrame
-    2100004: Door
-    2100006: Wallpaper
-    2100008: Handle_001
-    2100010: Handle_002
-    2100012: Handle_003
+    400004: LockOneSide
+    400006: LockOtherSide
+    400008: OneSideHandle
+    400010: OtherSideHandle
+    400012: //RootNode
+    2100000: DoorFrame
+    2100002: Handle_003
+    2100004: Handle
+    2100006: Handle_001
+    2100008: Handle_002
+    2100010: Door
     2300000: Door
     2300002: DoorFrame
-    2300004: OneSideHandle
-    2300006: OtherSideHandle
-    2300008: Wall
-    2300010: LockOneSide
-    2300012: LockOtherSide
+    2300004: LockOneSide
+    2300006: LockOtherSide
+    2300008: OneSideHandle
+    2300010: OtherSideHandle
     3300000: Door
     3300002: DoorFrame
-    3300004: OneSideHandle
-    3300006: OtherSideHandle
-    3300008: Wall
-    3300010: LockOneSide
-    3300012: LockOtherSide
-    4300000: OtherSideHandle
-    4300002: OneSideHandle
-    4300004: DoorFrame
-    4300006: Door
-    4300008: Wall
-    4300010: LockOtherSide
-    4300012: LockOneSide
-    7400000: Default Take
+    3300004: LockOneSide
+    3300006: LockOtherSide
+    3300008: OneSideHandle
+    3300010: OtherSideHandle
+    4300000: DoorFrame
+    4300002: OtherSideHandle
+    4300004: OneSideHandle
+    4300006: LockOtherSide
+    4300008: LockOneSide
+    4300010: Door
+    7400000: Close_SimpleDoor
+    7400002: Open_SimpleDoor
     9500000: //RootNode
   externalObjects:
   - first:
@@ -84,11 +75,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Handle_003
     second: {fileID: 2100000, guid: 4130b34ef0fa303409670caae48a8516, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wallpaper
-    second: {fileID: 2100000, guid: b9de069d03495dd44a323d6caf2a2abc, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -144,7 +130,7 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-  importAnimation: 1
+  importAnimation: 0
   copyAvatar: 0
   humanDescription:
     serializedVersion: 2

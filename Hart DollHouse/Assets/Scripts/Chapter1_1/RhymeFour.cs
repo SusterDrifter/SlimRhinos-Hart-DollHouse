@@ -1,0 +1,10 @@
+﻿public class RhymeFour : Important
+{
+
+    public override void Interact()
+    {
+        base.Interact();
+        Chapter1_1.instance.rhymeGame.rhymeFour = true;
+        Chapter1_1.instance.rhymeGame.Complete();
+    }
+}

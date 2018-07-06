@@ -13,6 +13,7 @@ public class LevelLoaderManager : MonoBehaviour {
     [SerializeField] private Animator animator;
     [SerializeField] private Dialogue chapterNames;
 
+    private string triggerName = "";
     private int sceneIndex;
 
     // Booleans for diary transition
@@ -54,18 +55,21 @@ public class LevelLoaderManager : MonoBehaviour {
     public void LoadScene(int sceneIndex)
     {
         this.sceneIndex = sceneIndex;
+        SetUpLoadScene();
+
+        ResetAnimatorParam();
+        animator.SetTrigger("FadeIn");
+    }
+
+    private void SetUpLoadScene()
+    {
         usingDiaryTransition = true;
         string fullEntry = "";
-        
+
         if (writingEntry != null)
-        {
-            foreach (string sentence in writingEntry.sentences)
-                fullEntry += sentence;
-        }
+            fullEntry = writingEntry.sentences[this.sceneIndex];
 
         screenText.SetText(fullEntry);
-        animator.ResetTrigger("FadeOut");
-        animator.SetTrigger("FadeIn");
     }
 
     public void StartLoadAsync()
@@ -99,7 +103,7 @@ public class LevelLoaderManager : MonoBehaviour {
                 usingDiaryTransition = false;
                 screenText.SetText("");
                 textPrompt.SetText("");
-                animator.ResetTrigger("FadeIn");
+                ResetAnimatorParam();
                 animator.SetTrigger("FadeOut");
             }
         }
@@ -107,7 +111,7 @@ public class LevelLoaderManager : MonoBehaviour {
 
     public void FadeToScene(int sceneIndex)
     {
-        animator.ResetTrigger("SimpleFadeOut");
+        ResetAnimatorParam();
         animator.SetTrigger("SimpleFadeIn");
         this.sceneIndex = sceneIndex;
     }
@@ -115,7 +119,7 @@ public class LevelLoaderManager : MonoBehaviour {
     public void StartLoadSync()
     {
         SceneManager.LoadScene(sceneIndex);
-        animator.ResetTrigger("SimpleFadeIn");
+        ResetAnimatorParam();
         animator.SetTrigger("SimpleFadeOut");
     }
 
@@ -126,15 +130,38 @@ public class LevelLoaderManager : MonoBehaviour {
         endChapterText.SetText(formattedText);
     }
 
-    public void EndChapterLoadScene(int chapterNum)
+    public void EndChapterLoadScene(int chapterNum, int sceneIndex)
     {
+        this.sceneIndex = sceneIndex;
         EndChapter(chapterNum);
+        ResetAnimatorParam();
+        SetUpLoadScene();
         animator.SetTrigger("EndChapter");
+        triggerName = "ThenFadeIn";
     }
 
-    public void EndChapterFade(int chapterNum)
+    public void EndChapterFade(int chapterNum, int sceneIndex)
     {
+        this.sceneIndex = sceneIndex;
         EndChapter(chapterNum);
-        animator.SetTrigger("EndChapterSimple");
+        ResetAnimatorParam();
+        animator.SetTrigger("EndChapter");
+        triggerName = "ThenSimpleFadeIn";
+    }
+
+    public void SetTrigger()
+    {
+        animator.SetTrigger(triggerName);
+    }
+
+    private void ResetAnimatorParam()
+    {
+        animator.ResetTrigger("FadeIn");
+        animator.ResetTrigger("FadeOut");
+        animator.ResetTrigger("SimpleFadeIn");
+        animator.ResetTrigger("SimpleFadeOut");
+        animator.ResetTrigger("EndChapter");
+        animator.SetBool("ThenFadeIn", false);
+        animator.SetBool("ThenSimpleFadeIn", false);
     }
 }

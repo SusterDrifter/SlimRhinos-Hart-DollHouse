@@ -349,7 +349,7 @@ public class IntroductionScribe : MonoBehaviour {
 
     public void NextChapter()
     {
-        GameManager.instance.FadeNextChapter();
+        GameManager.instance.EndChapterNextChapter(0);
     }
 
     public void PlayIntroSound()
