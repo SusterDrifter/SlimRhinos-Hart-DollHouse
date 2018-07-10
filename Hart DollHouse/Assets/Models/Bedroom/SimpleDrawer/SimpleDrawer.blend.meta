@@ -22,6 +22,9 @@ ModelImporter:
     2100000: unnamed
     2100002: DrawerFrame
     2100004: DrawerPull
+    2100006: DrawerFrame_001
+    2100008: DrawerPull_002
+    2100010: DrawerPull_001
     2300000: BottomStand
     2300002: Drawer1
     2300004: Drawer2

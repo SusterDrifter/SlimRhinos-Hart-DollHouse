@@ -8,11 +8,13 @@ ModelImporter:
     100004: MainBody
     100006: //RootNode
     100008: Mirror
+    100010: HingePoint
     400000: Cover
     400002: Handle
     400004: MainBody
     400006: //RootNode
     400008: Mirror
+    400010: HingePoint
     2100000: DirtyGlass_Mat_001
     2100002: MedicineCabinetCover_Mat
     2100004: DirtyGlass_Mat

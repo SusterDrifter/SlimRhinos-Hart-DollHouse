@@ -1,0 +1,333 @@
+fileFormatVersion: 2
+guid: ed1c3250d132a1a4582f16bde4022073
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: _BotBox
+    100002: BLBackMet
+    100004: BLFrontMet
+    100006: BLStrap
+    100008: BotLeftStrap
+    100010: BotPart
+    100012: BotRightStrap
+    100014: BRBackMet
+    100016: BRFrontMet
+    100018: BRStrap
+    100020: Lock
+    100022: TLBackMet
+    100024: TLFrontMet
+    100026: TLMet1
+    100028: TLMet2
+    100030: TLMet3
+    100032: TLStrap
+    100034: TopBox
+    100036: TopLeftStrap
+    100038: TopPart
+    100040: TopRightStrap
+    100042: TRBackMet
+    100044: TRFrontMet
+    100046: TRMet1
+    100048: TRMet2
+    100050: TRMet3
+    100052: TRStrap
+    100054: //RootNode
+    400000: _BotBox
+    400002: BLBackMet
+    400004: BLFrontMet
+    400006: BLStrap
+    400008: BotLeftStrap
+    400010: BotPart
+    400012: BotRightStrap
+    400014: BRBackMet
+    400016: BRFrontMet
+    400018: BRStrap
+    400020: Lock
+    400022: TLBackMet
+    400024: TLFrontMet
+    400026: TLMet1
+    400028: TLMet2
+    400030: TLMet3
+    400032: TLStrap
+    400034: TopBox
+    400036: TopLeftStrap
+    400038: TopPart
+    400040: TopRightStrap
+    400042: TRBackMet
+    400044: TRFrontMet
+    400046: TRMet1
+    400048: TRMet2
+    400050: TRMet3
+    400052: TRStrap
+    400054: //RootNode
+    2100000: WoodenBox_Mat
+    2100002: Metal_Mat_005
+    2100004: Metal_Mat_004
+    2100006: Metal_Mat_003
+    2100008: Strap_Mat
+    2100010: Metal_Mat
+    2100012: Metal_Mat_002
+    2100014: Metal_Mat_010
+    2100016: Metal_Mat_009
+    2100018: Metal_Mat_008
+    2100020: Strap_Mat_001
+    2100022: Metal_Mat_007
+    2100024: Metal_Mat_006
+    2100026: Metal_Mat_001
+    2100028: WoodenBox_Mat_001
+    2100030: Strap_Mat_002
+    2100032: Metal_Mat_011
+    2100034: Metal_Mat_012
+    2100036: Metal_Mat_014
+    2100038: Metal_Mat_013
+    2100040: Strap_Mat_003
+    2300000: _BotBox
+    2300002: BLBackMet
+    2300004: BLFrontMet
+    2300006: BLStrap
+    2300008: BRBackMet
+    2300010: BRFrontMet
+    2300012: BRStrap
+    2300014: Lock
+    2300016: TLBackMet
+    2300018: TLFrontMet
+    2300020: TLMet1
+    2300022: TLMet2
+    2300024: TLMet3
+    2300026: TLStrap
+    2300028: TopBox
+    2300030: TRBackMet
+    2300032: TRFrontMet
+    2300034: TRMet1
+    2300036: TRMet2
+    2300038: TRMet3
+    2300040: TRStrap
+    3300000: _BotBox
+    3300002: BLBackMet
+    3300004: BLFrontMet
+    3300006: BLStrap
+    3300008: BRBackMet
+    3300010: BRFrontMet
+    3300012: BRStrap
+    3300014: Lock
+    3300016: TLBackMet
+    3300018: TLFrontMet
+    3300020: TLMet1
+    3300022: TLMet2
+    3300024: TLMet3
+    3300026: TLStrap
+    3300028: TopBox
+    3300030: TRBackMet
+    3300032: TRFrontMet
+    3300034: TRMet1
+    3300036: TRMet2
+    3300038: TRMet3
+    3300040: TRStrap
+    4300000: TopBox
+    4300002: TLMet3
+    4300004: TLMet2
+    4300006: TLMet1
+    4300008: TLStrap
+    4300010: TLBackMet
+    4300012: TLFrontMet
+    4300014: TRMet3
+    4300016: TRMet2
+    4300018: TRMet1
+    4300020: TRStrap
+    4300022: TRFrontMet
+    4300024: TRBackMet
+    4300026: Lock
+    4300028: _BotBox
+    4300030: BRStrap
+    4300032: BRFrontMet
+    4300034: BRBackMet
+    4300036: BLBackMet
+    4300038: BLFrontMet
+    4300040: BLStrap
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat
+    second: {fileID: 2100000, guid: 41618cdb7d527fe48b87ca41ae2d4ebd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_001
+    second: {fileID: 2100000, guid: c90804918ab40364fb864fe57433e9b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_002
+    second: {fileID: 2100000, guid: d038e4a5a9775644eb35babb7b9acbbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_003
+    second: {fileID: 2100000, guid: 0fcf4705e944c714ea9512ea080ccdf0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_004
+    second: {fileID: 2100000, guid: 3125186db0515a242a57e625dde4c5f2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_005
+    second: {fileID: 2100000, guid: 244dca9d6774f674e8c52957d3056ad0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_006
+    second: {fileID: 2100000, guid: 1728cdad850a7404e8d5ac0000911da7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_007
+    second: {fileID: 2100000, guid: 5f8be7d47eae5d248af0812079f9bdd3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_008
+    second: {fileID: 2100000, guid: fbad8aa7ebcf8a64986b11d83703aabf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_009
+    second: {fileID: 2100000, guid: 18ebc4a947fa2b143a44e88e39b0e4ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_010
+    second: {fileID: 2100000, guid: f3ed945cc11f84f4681e5147ace576d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_011
+    second: {fileID: 2100000, guid: 77151c8196a7bc640bd7a681bc2b8d91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_012
+    second: {fileID: 2100000, guid: d2a3750a944624346b9951f06f6b7db9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_013
+    second: {fileID: 2100000, guid: 0ca66c1563cf7d74bb6bc9688a2b3786, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_014
+    second: {fileID: 2100000, guid: 6da0f1331ef3632419d65e6e57c01636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strap_Mat
+    second: {fileID: 2100000, guid: 5a0904206b6200346a30c84da0b3192c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strap_Mat_001
+    second: {fileID: 2100000, guid: fd3ec573614570f409d165eadd214b33, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strap_Mat_002
+    second: {fileID: 2100000, guid: 1b47532a361b3df40ad77f0e03df1757, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Strap_Mat_003
+    second: {fileID: 2100000, guid: 97f93b3af4ade8a40a89d7465b727bd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodenBox_Mat
+    second: {fileID: 2100000, guid: 78d288a4c68bf484e8cb3c8c08600f39, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodenBox_Mat_001
+    second: {fileID: 2100000, guid: 211264f56eb9f894bbed2b520d8a3b41, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

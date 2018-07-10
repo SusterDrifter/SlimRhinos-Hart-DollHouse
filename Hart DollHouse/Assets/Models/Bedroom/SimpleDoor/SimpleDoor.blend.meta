@@ -10,6 +10,13 @@ ModelImporter:
     100008: OneSideHandle
     100010: OtherSideHandle
     100012: //RootNode
+    100014: HingePoint
+    100016: DooOtherSide
+    100018: DoorFrameOneSide
+    100020: DoorFrameOtherSide
+    100022: DoorOneSide
+    100024: HandleOneSide
+    100026: HandleOtherSide
     400000: Door
     400002: DoorFrame
     400004: LockOneSide
@@ -17,6 +24,13 @@ ModelImporter:
     400008: OneSideHandle
     400010: OtherSideHandle
     400012: //RootNode
+    400014: HingePoint
+    400016: DooOtherSide
+    400018: DoorFrameOneSide
+    400020: DoorFrameOtherSide
+    400022: DoorOneSide
+    400024: HandleOneSide
+    400026: HandleOtherSide
     2100000: DoorFrame
     2100002: Handle_003
     2100004: Handle
@@ -29,20 +43,39 @@ ModelImporter:
     2300006: LockOtherSide
     2300008: OneSideHandle
     2300010: OtherSideHandle
+    2300012: DooOtherSide
+    2300014: DoorFrameOneSide
+    2300016: DoorFrameOtherSide
+    2300018: DoorOneSide
+    2300020: HandleOneSide
+    2300022: HandleOtherSide
     3300000: Door
     3300002: DoorFrame
     3300004: LockOneSide
     3300006: LockOtherSide
     3300008: OneSideHandle
     3300010: OtherSideHandle
+    3300012: DooOtherSide
+    3300014: DoorFrameOneSide
+    3300016: DoorFrameOtherSide
+    3300018: DoorOneSide
+    3300020: HandleOneSide
+    3300022: HandleOtherSide
     4300000: DoorFrame
     4300002: OtherSideHandle
     4300004: OneSideHandle
     4300006: LockOtherSide
     4300008: LockOneSide
     4300010: Door
+    4300012: DoorFrameOtherSide
+    4300014: DoorFrameOneSide
+    4300016: DooOtherSide
+    4300018: HandleOneSide
+    4300020: HandleOtherSide
+    4300022: DoorOneSide
     7400000: Close_SimpleDoor
     7400002: Open_SimpleDoor
+    7400004: Default Take
     9500000: //RootNode
   externalObjects:
   - first:

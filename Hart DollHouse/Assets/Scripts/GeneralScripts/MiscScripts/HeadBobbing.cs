@@ -69,11 +69,11 @@ public class HeadBobbing : MonoBehaviour
             sidewaysChange *= totalAxes;
 
             currLocation.y = midpoint + translateChange; // updating the y value of currLocation
-            currLocation.x = midpoint + sidewaysChange;
+            currLocation.x = sidewaysChange;
         } else {
             // Else, we reset the location of object to the allocated midpoint
             currLocation.y = midpoint;
-            currLocation.x = midpoint;
+            currLocation.x = 0;
         }
 
         // Update the position of object

@@ -1,0 +1,299 @@
+fileFormatVersion: 2
+guid: dde3c9f3aa43b62429c3c957803aa840
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BottomLeftCover0
+    100002: BottomLeftCover0Handle
+    100004: BottomLeftCover1
+    100006: BottomLeftCover1Handle
+    100008: BottomLeftCover2
+    100010: BottomLeftCover2Handle
+    100012: BottomRightCover0
+    100014: BottomRightCover0Handle
+    100016: BottomRightCover1
+    100018: BottomRightCover1Handle
+    100020: BottomRightCover2
+    100022: BottomRightCover2Handle
+    100024: //RootNode
+    100026: LeftDrawerTop
+    100028: LeftDrawerTopHandle
+    100030: RightDrawerTop
+    100032: RightDrawerTopHandle
+    100034: Sink
+    100036: Tabletop
+    100038: Tap
+    400000: BottomLeftCover0
+    400002: BottomLeftCover0Handle
+    400004: BottomLeftCover1
+    400006: BottomLeftCover1Handle
+    400008: BottomLeftCover2
+    400010: BottomLeftCover2Handle
+    400012: BottomRightCover0
+    400014: BottomRightCover0Handle
+    400016: BottomRightCover1
+    400018: BottomRightCover1Handle
+    400020: BottomRightCover2
+    400022: BottomRightCover2Handle
+    400024: //RootNode
+    400026: LeftDrawerTop
+    400028: LeftDrawerTopHandle
+    400030: RightDrawerTop
+    400032: RightDrawerTopHandle
+    400034: Sink
+    400036: Tabletop
+    400038: Tap
+    2100000: DrawerFrame_Mat_001
+    2100002: Handle_Mat_001
+    2100004: DrawerFrame_Mat
+    2100006: Faucet_001
+    2100008: Wood_001
+    2100010: Wood_002
+    2100012: Faucet_003
+    2100014: Wood_003
+    2100016: Faucet_004
+    2100018: Wood_004
+    2100020: Faucet_005
+    2100022: Wood_005
+    2100024: Faucet_006
+    2100026: Handle_Mat
+    2100028: Faucet_002
+    2100030: Wood_006
+    2100032: Ceramic
+    2100034: Wood
+    2100036: Faucet
+    2300000: BottomLeftCover0
+    2300002: BottomLeftCover0Handle
+    2300004: BottomLeftCover1
+    2300006: BottomLeftCover1Handle
+    2300008: BottomLeftCover2
+    2300010: BottomLeftCover2Handle
+    2300012: BottomRightCover0
+    2300014: BottomRightCover0Handle
+    2300016: BottomRightCover1
+    2300018: BottomRightCover1Handle
+    2300020: BottomRightCover2
+    2300022: BottomRightCover2Handle
+    2300024: LeftDrawerTop
+    2300026: LeftDrawerTopHandle
+    2300028: RightDrawerTop
+    2300030: RightDrawerTopHandle
+    2300032: Sink
+    2300034: Tabletop
+    2300036: Tap
+    3300000: BottomLeftCover0
+    3300002: BottomLeftCover0Handle
+    3300004: BottomLeftCover1
+    3300006: BottomLeftCover1Handle
+    3300008: BottomLeftCover2
+    3300010: BottomLeftCover2Handle
+    3300012: BottomRightCover0
+    3300014: BottomRightCover0Handle
+    3300016: BottomRightCover1
+    3300018: BottomRightCover1Handle
+    3300020: BottomRightCover2
+    3300022: BottomRightCover2Handle
+    3300024: LeftDrawerTop
+    3300026: LeftDrawerTopHandle
+    3300028: RightDrawerTop
+    3300030: RightDrawerTopHandle
+    3300032: Sink
+    3300034: Tabletop
+    3300036: Tap
+    4300000: LeftDrawerTop
+    4300002: LeftDrawerTopHandle
+    4300004: RightDrawerTop
+    4300006: BottomRightCover2Handle
+    4300008: BottomRightCover2
+    4300010: BottomRightCover1
+    4300012: BottomRightCover0Handle
+    4300014: BottomRightCover0
+    4300016: BottomLeftCover2Handle
+    4300018: BottomLeftCover2
+    4300020: BottomLeftCover1Handle
+    4300022: BottomLeftCover1
+    4300024: BottomLeftCover0Handle
+    4300026: RightDrawerTopHandle
+    4300028: BottomRightCover1Handle
+    4300030: BottomLeftCover0
+    4300032: Sink
+    4300034: Tabletop
+    4300036: Tap
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic
+    second: {fileID: 2100000, guid: 1c9fdefe2669354478f69fe5e8534ef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat
+    second: {fileID: 2100000, guid: 1d6069d0d4ef972479525c2db33847df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerFrame_Mat_001
+    second: {fileID: 2100000, guid: ac749685205076f40a81fb8fa4f06dc8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet
+    second: {fileID: 2100000, guid: 9850bc609f952334eadf08e1ce4f99df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_001
+    second: {fileID: 2100000, guid: c87da4fc22239cc4480752858a92ecae, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_002
+    second: {fileID: 2100000, guid: d8b45dd5f19230444914c4080ac9b20d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_003
+    second: {fileID: 2100000, guid: bef7e98dcd2a64042a8ecd013bb1c325, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_004
+    second: {fileID: 2100000, guid: 97c974addc3315f4caae1a682bc8c0f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_005
+    second: {fileID: 2100000, guid: ccc9b7a81afb8fb4fa365e5d1824f2bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_006
+    second: {fileID: 2100000, guid: 078308e29a1ca83438dd95864a3cd138, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat
+    second: {fileID: 2100000, guid: 3c43ba321082f864d877faae2ce68584, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_001
+    second: {fileID: 2100000, guid: 145d1b120351060439475469a21311fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: fa177681f2a186b4f910fd67a5cee215, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_001
+    second: {fileID: 2100000, guid: e48cdf0c18f915841a273ce62b6c0bec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_002
+    second: {fileID: 2100000, guid: 33b6612fbc283f94e88007a3ade38c2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_003
+    second: {fileID: 2100000, guid: 536cb5c45159c2f40acb543d9eac5e4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_004
+    second: {fileID: 2100000, guid: 14f31ec7ab05a8f4a83fe1cf67fc0c8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_005
+    second: {fileID: 2100000, guid: 8357fc4fa3eef3944a813df7648e9ca9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_006
+    second: {fileID: 2100000, guid: 6f387157b66d2554cb266885194e63fe, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
