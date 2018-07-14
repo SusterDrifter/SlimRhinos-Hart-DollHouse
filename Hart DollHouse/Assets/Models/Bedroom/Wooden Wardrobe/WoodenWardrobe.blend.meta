@@ -25,10 +25,12 @@ ModelImporter:
     2300002: FinalDoorRight
     2300004: Wardrobe
     2300006: Plane
+    2300008: //RootNode
     3300000: FinalDoorLeft
     3300002: FinalDoorRight
     3300004: Wardrobe
     3300006: Plane
+    3300008: //RootNode
     4300000: Wardrobe
     4300002: FinalDoorRight
     4300004: FinalDoorLeft

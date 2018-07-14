@@ -8,8 +8,9 @@ public class PlayerInput : MonoBehaviour {
 
     [SerializeField] Interactable objFocus; // Item in focus, if any
     [SerializeField] Camera cam; // Reference to player camera
-
+    Interactable target;
     DiaryManager diary;
+    private bool interactCrossOn = false;
 
 	void Start () {
         objFocus = null;
@@ -18,18 +19,35 @@ public class PlayerInput : MonoBehaviour {
 
     public void MouseInput() {
 
+        target = null;
+        Ray ray = cam.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+
+        if (Physics.Raycast(ray, out hit, 100)) {
+            
+            if (hit.collider.tag == "Interactable") {
+                target = hit.collider.GetComponent<Interactable>();
+                float distance = Vector3.Distance(target.transform.position, transform.position);
+                if (distance < target.interactRadius)
+                {
+                    HoverIcon.instance.InteractCrosshair();
+                    interactCrossOn = true;
+                }   
+            } 
+        }
+
+        if (target == null && interactCrossOn ) {
+            HoverIcon.instance.DefaultCrossHair();
+            interactCrossOn = false;
+        }
+
         // If input is left click and no object is in focus
         if (Input.GetMouseButtonDown(0)) {
-            Ray ray = cam.ScreenPointToRay(Input.mousePosition);
-            RaycastHit hit;
 
-            if (Physics.Raycast(ray, out hit, 100)) {
-                Interactable target = hit.collider.GetComponent<Interactable>();
-                if (target != null)
-                {
-                    // Control the object
-                    Focus(target);
-                }
+            if (target != null)
+            {
+                // Control the object
+                Focus(target);
             }
         }
 

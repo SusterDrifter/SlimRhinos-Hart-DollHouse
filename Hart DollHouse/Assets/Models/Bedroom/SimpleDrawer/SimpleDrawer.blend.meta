@@ -54,8 +54,23 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: DrawerFrame_001
+    second: {fileID: 2100000, guid: eb7ef0d8c18aba840ba43fe5b2f31b98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: DrawerPull
     second: {fileID: 2100000, guid: b43ef86dfbad2e447aef4592ec46a24e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerPull_001
+    second: {fileID: 2100000, guid: d2c53d6000cc02d47a66c885a551e9c4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DrawerPull_002
+    second: {fileID: 2100000, guid: 09c926e00396075418f3c6e671292736, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

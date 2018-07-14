@@ -2,34 +2,55 @@
 
 public class AudioableObject : DialogueObject {
 
-    public Sound sound;
+    public Sound viableSound;
+    public Sound nonviableSound;
+    private AudioSource source;
 
-    private void Start()
+    private void Awake()
     {
-        if (sound != null)
+        if (viableSound.clip != null || nonviableSound.clip != null)
+            source = gameObject.AddComponent<AudioSource>();
+
+        if (viableSound.clip != null)
         {
-            sound.source = gameObject.AddComponent<AudioSource>();
-            sound.source.clip = sound.clip;
+            viableSound.source = source;
+            viableSound.source.clip = viableSound.clip;
 
-            sound.source.volume = sound.volume;
-            sound.source.pitch = sound.pitch;
-            sound.source.spatialBlend = sound.spatialBlend;
+            viableSound.source.volume = viableSound.volume;
+            viableSound.source.pitch = viableSound.pitch;
+            viableSound.source.spatialBlend = viableSound.spatialBlend;
 
-            sound.source.loop = sound.loop;
-            sound.source.playOnAwake = sound.playOnAwake;
+            viableSound.source.loop = viableSound.loop;
+            viableSound.source.playOnAwake = viableSound.playOnAwake;
         }
 
+        if (nonviableSound.clip != null)
+        {
+            nonviableSound.source = source;
+            nonviableSound.source.clip = nonviableSound.clip;
+
+            nonviableSound.source.volume = nonviableSound.volume;
+            nonviableSound.source.pitch = nonviableSound.pitch;
+            nonviableSound.source.spatialBlend = nonviableSound.spatialBlend;
+
+            nonviableSound.source.loop = nonviableSound.loop;
+            nonviableSound.source.playOnAwake = nonviableSound.playOnAwake;
+        }
     }
 
     public override void Interact()
     {
         base.Interact();
-        if (sound != null) {
-            PlayClip();
+        if (viableSound.clip != null && base.isViable)
+        {
+            PlayClip(viableSound);
+        } else if (nonviableSound.clip != null && !base.isViable)
+        {
+            PlayClip(nonviableSound);
         }
     }
 
-    private void PlayClip()
+    private void PlayClip(Sound sound)
     {
         sound.source.Play();
     }

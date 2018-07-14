@@ -1,0 +1,354 @@
+fileFormatVersion: 2
+guid: 281f8cafcd1e83a49908709f655fb183
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Button
+    100002: Button1
+    100004: Button2
+    100006: Button3
+    100008: Button4
+    100010: HandleLeft1
+    100012: HandleLeft2
+    100014: HandleRight1
+    100016: HandleRight2
+    100018: //RootNode
+    100020: MainBody
+    100022: Panel
+    100024: PanelLeft1
+    100026: PanelLeft2
+    100028: PanelRight1
+    100030: PanelRight2
+    100032: Stove
+    100034: Stove1
+    100036: Stove2
+    100038: Stove3
+    100040: StoveFrame
+    100042: StoveFrame1
+    100044: StoveFrame2
+    100046: StoveFrame3
+    100048: Ventilation
+    400000: Button
+    400002: Button1
+    400004: Button2
+    400006: Button3
+    400008: Button4
+    400010: HandleLeft1
+    400012: HandleLeft2
+    400014: HandleRight1
+    400016: HandleRight2
+    400018: //RootNode
+    400020: MainBody
+    400022: Panel
+    400024: PanelLeft1
+    400026: PanelLeft2
+    400028: PanelRight1
+    400030: PanelRight2
+    400032: Stove
+    400034: Stove1
+    400036: Stove2
+    400038: Stove3
+    400040: StoveFrame
+    400042: StoveFrame1
+    400044: StoveFrame2
+    400046: StoveFrame3
+    400048: Ventilation
+    2100000: Handle_Mat_001
+    2100002: Handle_Mat_002
+    2100004: Handle_Mat_003
+    2100006: Handle_Mat
+    2100008: Button_Mat_001
+    2100010: Button_Mat_002
+    2100012: Button_Mat_003
+    2100014: Button_Mat_004
+    2100016: Button_Mat
+    2100018: Body_Mat
+    2100020: Body_Mat_006
+    2100022: Body_Mat_005
+    2100024: Body_Mat_004
+    2100026: Body_Mat_003
+    2100028: Body_Mat_002
+    2100030: Metal_Mat_008
+    2100032: Metal_Mat_007
+    2100034: Metal_Mat_006
+    2100036: Metal_Mat_005
+    2100038: Metal_Mat_004
+    2100040: Metal_Mat_003
+    2100042: Metal_Mat_002
+    2100044: Metal_Mat_001
+    2100046: Body_Mat_001
+    2300000: Button
+    2300002: Button1
+    2300004: Button2
+    2300006: Button3
+    2300008: Button4
+    2300010: HandleLeft1
+    2300012: HandleLeft2
+    2300014: HandleRight1
+    2300016: HandleRight2
+    2300018: MainBody
+    2300020: Panel
+    2300022: PanelLeft1
+    2300024: PanelLeft2
+    2300026: PanelRight1
+    2300028: PanelRight2
+    2300030: Stove
+    2300032: Stove1
+    2300034: Stove2
+    2300036: Stove3
+    2300038: StoveFrame
+    2300040: StoveFrame1
+    2300042: StoveFrame2
+    2300044: StoveFrame3
+    2300046: Ventilation
+    3300000: Button
+    3300002: Button1
+    3300004: Button2
+    3300006: Button3
+    3300008: Button4
+    3300010: HandleLeft1
+    3300012: HandleLeft2
+    3300014: HandleRight1
+    3300016: HandleRight2
+    3300018: MainBody
+    3300020: Panel
+    3300022: PanelLeft1
+    3300024: PanelLeft2
+    3300026: PanelRight1
+    3300028: PanelRight2
+    3300030: Stove
+    3300032: Stove1
+    3300034: Stove2
+    3300036: Stove3
+    3300038: StoveFrame
+    3300040: StoveFrame1
+    3300042: StoveFrame2
+    3300044: StoveFrame3
+    3300046: Ventilation
+    4300000: HandleRight2
+    4300002: HandleRight1
+    4300004: HandleLeft2
+    4300006: HandleLeft1
+    4300008: Button4
+    4300010: Button3
+    4300012: Button2
+    4300014: Button1
+    4300016: Button
+    4300018: MainBody
+    4300020: Panel
+    4300022: PanelLeft1
+    4300024: PanelLeft2
+    4300026: PanelRight1
+    4300028: PanelRight2
+    4300030: Stove
+    4300032: Stove1
+    4300034: Stove2
+    4300036: Stove3
+    4300038: StoveFrame
+    4300040: StoveFrame1
+    4300042: StoveFrame2
+    4300044: StoveFrame3
+    4300046: Ventilation
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Mat
+    second: {fileID: 2100000, guid: 3171764cf25f9dc498402b508937cf11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Mat_001
+    second: {fileID: 2100000, guid: 01493e0f6b41bff4bb62c6b3eb92a786, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Mat_002
+    second: {fileID: 2100000, guid: da3f79c4043b724408182794708c51ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Mat_003
+    second: {fileID: 2100000, guid: e93ae75ee04c5d64f97dea742e551c7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Mat_004
+    second: {fileID: 2100000, guid: cdfd0a55ed758e0459febbc03e422ac1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Mat_005
+    second: {fileID: 2100000, guid: 995a7683939cfd948bf9f82dcc6eb7f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_Mat_006
+    second: {fileID: 2100000, guid: a7317f933e978ce419ac42bd7d9c6e1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button_Mat
+    second: {fileID: 2100000, guid: 86ccfd2a94d163c46ba841ed0cff839f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button_Mat_001
+    second: {fileID: 2100000, guid: c647c85597335204285fa41b1fc95853, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button_Mat_002
+    second: {fileID: 2100000, guid: ff16905e36519c74985ae0d320db78b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button_Mat_003
+    second: {fileID: 2100000, guid: bc90c1fd50ef4be4ab7b1681ae3195c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button_Mat_004
+    second: {fileID: 2100000, guid: 86c5427000885804894a7b6ef53833e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat
+    second: {fileID: 2100000, guid: 5d7081201c765d143a1a10ecae7d9ce7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_001
+    second: {fileID: 2100000, guid: e15169839fa40a947b04c6c04aea861d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_002
+    second: {fileID: 2100000, guid: 0ad29e5c755beec488d83a1a88d3c99e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_003
+    second: {fileID: 2100000, guid: 25a8c0cc7608fa047bd97ca4ab777fcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_001
+    second: {fileID: 2100000, guid: 4e0c363e5fb758445874caafd6fd867b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_002
+    second: {fileID: 2100000, guid: c3d8dd023f9fe504f92e1e8510da7526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_003
+    second: {fileID: 2100000, guid: 3d0e993399f9da04a90b44a0f631885c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_004
+    second: {fileID: 2100000, guid: ef59be397613e41439d37e824deaded1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_005
+    second: {fileID: 2100000, guid: 3cdf95c2cf64113448b84bc43a082c12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_006
+    second: {fileID: 2100000, guid: b819b924ba3ec8d41ac19fc362810b87, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_007
+    second: {fileID: 2100000, guid: a41638f1b178d6447b2a00a572d12028, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_008
+    second: {fileID: 2100000, guid: f4d1d4c9f74b9b14c9bfd843b4f86744, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

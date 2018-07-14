@@ -16,6 +16,10 @@ ModelImporter:
     100020: RightBot0
     100022: RightBot1
     100024: RightTop
+    100026: BedroomWallpaper_001
+    100028: BedroomWalls
+    100030: CrawlSpace
+    100032: CrawlSpaceCover
     400000: BackBot
     400002: BackTop
     400004: BedroomCeiling
@@ -29,6 +33,10 @@ ModelImporter:
     400020: RightBot0
     400022: RightBot1
     400024: RightTop
+    400026: BedroomWallpaper_001
+    400028: BedroomWalls
+    400030: CrawlSpace
+    400032: CrawlSpaceCover
     2100000: Ceil_Mat
     2100002: Wall
     2100004: Rim_Mat_008
@@ -41,6 +49,11 @@ ModelImporter:
     2100018: Rim_Mat_002
     2100020: Rim_Mat_003
     2100022: Rim_Mat_004
+    2100024: unnamed
+    2100026: Wall_001
+    2100028: CrawlSpaceCover_Mat
+    2100030: Cover_Mat
+    2100032: CrawlSpace_Mat
     2300000: BackBot
     2300002: BackTop
     2300004: BedroomCeiling
@@ -53,6 +66,9 @@ ModelImporter:
     2300018: RightBot0
     2300020: RightBot1
     2300022: RightTop
+    2300024: BedroomWallpaper_001
+    2300026: CrawlSpace
+    2300028: CrawlSpaceCover
     3300000: BackBot
     3300002: BackTop
     3300004: BedroomCeiling
@@ -65,6 +81,9 @@ ModelImporter:
     3300018: RightBot0
     3300020: RightBot1
     3300022: RightTop
+    3300024: BedroomWallpaper_001
+    3300026: CrawlSpace
+    3300028: CrawlSpaceCover
     4300000: BedroomCeiling
     4300002: BedroomWallpaper
     4300004: RightBot1
@@ -77,6 +96,9 @@ ModelImporter:
     4300018: FrontBot0
     4300020: FrontBot1
     4300022: FrontTop
+    4300024: CrawlSpace
+    4300026: CrawlSpaceCover
+    4300028: BedroomWallpaper_001
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -85,6 +107,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Ceil_Mat
     second: {fileID: 2100000, guid: 7edebba7e51d67746b251cb11aa8aafc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cover_Mat
+    second: {fileID: 2100000, guid: ec0b7ead9046a9041a8829dc104eda63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CrawlSpace_Mat
+    second: {fileID: 2100000, guid: 66dcfa660ec33624cb07ffc2c1c8e9e4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -140,6 +172,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Wall
     second: {fileID: 2100000, guid: d8b023c6d92dfc44db561f59e4b84ded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_001
+    second: {fileID: 2100000, guid: e33cb592782780d4f9c485ece47d6480, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 2a1b41dc480dfe1459272457454bbcf2, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

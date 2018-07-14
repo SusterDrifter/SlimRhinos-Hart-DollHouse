@@ -2,18 +2,17 @@
 
 public class Interactable : MonoBehaviour {
 
-    [SerializeField] private float interactRadius = 5f;
+    public float interactRadius = 5f;
 
     bool isFocus = false;
     bool hasInteracted = false;
-    bool highlighted = false;
+    public bool isViable = true;
 
     Transform playerPosition;
-
-    private Renderer rend;
-    private Shader originalShader;
-    private Shader highlightShader;
-
+    private void Start()
+    {
+        gameObject.tag = "Interactable";
+    }
     public virtual void Interact()
     {
         // Being overriden 

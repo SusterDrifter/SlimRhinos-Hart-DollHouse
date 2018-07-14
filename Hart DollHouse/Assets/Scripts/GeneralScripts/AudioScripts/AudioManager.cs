@@ -13,7 +13,6 @@ public class AudioManager : MonoBehaviour {
 
     [SerializeField] Sound[] soundEffects;
     [SerializeField] Sound[] backgroundMusic;
-    [SerializeField] List<Sound> remoteSounds;
     [SerializeField] float fadeDuration = 0.5f;
 
     private Sound musicInPlay;
@@ -32,14 +31,6 @@ public class AudioManager : MonoBehaviour {
         DontDestroyOnLoad(gameObject);
 
         #region Initialisation
-
-        GameObject[] remoteSource = GameObject.FindGameObjectsWithTag("RemoteSound");
-
-        foreach (GameObject obj in remoteSource)
-        {
-            remoteSounds.Add(obj.GetComponent<AudioableObject>().sound);
-        }
-
         foreach (Sound sound in soundEffects)
         {
             sound.source = gameObject.AddComponent<AudioSource>();
@@ -66,18 +57,6 @@ public class AudioManager : MonoBehaviour {
             sound.source.playOnAwake = sound.playOnAwake;
         }
 
-        foreach (Sound sound in remoteSounds)
-        {
-            sound.source = gameObject.AddComponent<AudioSource>();
-            sound.source.clip = sound.clip;
-
-            sound.source.volume = sound.volume;
-            sound.source.pitch = sound.pitch;
-            sound.source.spatialBlend = sound.spatialBlend;
-
-            sound.source.loop = sound.loop;
-            sound.source.playOnAwake = sound.playOnAwake;
-        }
         audioFader = GetComponent<AudioFader>();
         #endregion
     }
@@ -124,22 +103,9 @@ public class AudioManager : MonoBehaviour {
         PlayClip(sound);
     }
 
-    public Sound GetRemoteSound(string name)
-    {
-        Sound sound = null;
-        sound = remoteSounds.Find(s => s.clipName == name);
-        return sound;
-    }
-
     public void PlayRemotely(Sound sound)
     {
         if (sound != null && sound.source != null && !sound.source.isPlaying)
             sound.source.Play();
-    }
-
-    public void PlayRemotely(string name)
-    {
-        Sound sound = GetRemoteSound(name);
-        PlayRemotely(sound);
     }
 }

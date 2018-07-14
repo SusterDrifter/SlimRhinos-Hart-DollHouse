@@ -1,0 +1,293 @@
+fileFormatVersion: 2
+guid: 0b7e1720408697341b243c9431688724
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BackSplash
+    100002: BackSplash_001
+    100004: BackSplash_002
+    100006: BackSplash_003
+    100008: //RootNode
+    100010: Wall
+    100012: Wall_001
+    100014: Wall_002
+    100016: Wall_003
+    100018: Wood
+    100020: Wood_001
+    100022: Wood_002
+    100024: Wood_003
+    100026: DoorBackSplash
+    100028: DoorWall
+    100030: DoorWood
+    100032: LeftBackSplash
+    100034: LeftWall
+    100036: LeftWood
+    100038: OppBackSplash
+    100040: OppWall
+    100042: OppWood
+    100044: RightBackSplash
+    100046: RightWall
+    100048: RightWood
+    100050: Ceiling
+    400000: BackSplash
+    400002: BackSplash_001
+    400004: BackSplash_002
+    400006: BackSplash_003
+    400008: //RootNode
+    400010: Wall
+    400012: Wall_001
+    400014: Wall_002
+    400016: Wall_003
+    400018: Wood
+    400020: Wood_001
+    400022: Wood_002
+    400024: Wood_003
+    400026: DoorBackSplash
+    400028: DoorWall
+    400030: DoorWood
+    400032: LeftBackSplash
+    400034: LeftWall
+    400036: LeftWood
+    400038: OppBackSplash
+    400040: OppWall
+    400042: OppWood
+    400044: RightBackSplash
+    400046: RightWall
+    400048: RightWood
+    400050: Ceiling
+    2100000: Backsplash
+    2100002: Plaster
+    2100004: Wood
+    2100006: Wood_003
+    2100008: Plaster_003
+    2100010: Backsplash_003
+    2100012: Backsplash_001
+    2100014: Plaster_001
+    2100016: Wood_001
+    2100018: Backsplash_002
+    2100020: Plaster_002
+    2100022: Wood_002
+    2100024: Ceil_Mat
+    2300000: BackSplash
+    2300002: BackSplash_001
+    2300004: BackSplash_002
+    2300006: BackSplash_003
+    2300008: Wall
+    2300010: Wall_001
+    2300012: Wall_002
+    2300014: Wall_003
+    2300016: Wood
+    2300018: Wood_001
+    2300020: Wood_002
+    2300022: Wood_003
+    2300024: DoorBackSplash
+    2300026: DoorWall
+    2300028: DoorWood
+    2300030: LeftBackSplash
+    2300032: LeftWall
+    2300034: LeftWood
+    2300036: OppBackSplash
+    2300038: OppWall
+    2300040: OppWood
+    2300042: RightBackSplash
+    2300044: RightWall
+    2300046: RightWood
+    2300048: Ceiling
+    3300000: BackSplash
+    3300002: BackSplash_001
+    3300004: BackSplash_002
+    3300006: BackSplash_003
+    3300008: Wall
+    3300010: Wall_001
+    3300012: Wall_002
+    3300014: Wall_003
+    3300016: Wood
+    3300018: Wood_001
+    3300020: Wood_002
+    3300022: Wood_003
+    3300024: DoorBackSplash
+    3300026: DoorWall
+    3300028: DoorWood
+    3300030: LeftBackSplash
+    3300032: LeftWall
+    3300034: LeftWood
+    3300036: OppBackSplash
+    3300038: OppWall
+    3300040: OppWood
+    3300042: RightBackSplash
+    3300044: RightWall
+    3300046: RightWood
+    3300048: Ceiling
+    4300000: BackSplash_003
+    4300002: Wall_003
+    4300004: Wood_003
+    4300006: Wood_002
+    4300008: Wall_002
+    4300010: BackSplash_002
+    4300012: BackSplash_001
+    4300014: Wall_001
+    4300016: Wood_001
+    4300018: Wood
+    4300020: Wall
+    4300022: BackSplash
+    4300024: RightWood
+    4300026: RightWall
+    4300028: RightBackSplash
+    4300030: LeftBackSplash
+    4300032: LeftWall
+    4300034: LeftWood
+    4300036: OppBackSplash
+    4300038: OppWall
+    4300040: OppWood
+    4300042: DoorWood
+    4300044: DoorWall
+    4300046: DoorBackSplash
+    4300048: Ceiling
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Backsplash
+    second: {fileID: 2100000, guid: bce1c33ea8449b34b94a42ce9cacdc8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Backsplash_001
+    second: {fileID: 2100000, guid: 40dc8b0381487bb438c5ea11c0fd91d9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Backsplash_002
+    second: {fileID: 2100000, guid: d5b79ad215e932f42a739835a0c11b28, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Backsplash_003
+    second: {fileID: 2100000, guid: c44fe539a25296749ae6978c950a416c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceil_Mat
+    second: {fileID: 2100000, guid: 2827e834d0d5e654498a80e7e2c0a71e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster
+    second: {fileID: 2100000, guid: e00d9fb25033ce34aa62fe58e875d526, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster_001
+    second: {fileID: 2100000, guid: 3fcbc372d238d2f4ea95f1edd954e87a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster_002
+    second: {fileID: 2100000, guid: c84828f0fd5278942b8253eb1034e5da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plaster_003
+    second: {fileID: 2100000, guid: f75450a6503fb5a42a1271d95f9fd8b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: f93fac523751e59499e3d61a065e1773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_001
+    second: {fileID: 2100000, guid: 02979dc86b5a42f49aedecbfeabb73ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_002
+    second: {fileID: 2100000, guid: acb1b604402a24841917e4c584fd568c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_003
+    second: {fileID: 2100000, guid: 98165f0a4a7d08243861abb75ba2a711, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

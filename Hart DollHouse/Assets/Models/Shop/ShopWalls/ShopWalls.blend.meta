@@ -11,6 +11,7 @@ ModelImporter:
     100010: ShopRightCorner
     100012: ShopRightWall
     100014: //RootNode
+    100016: CorShop
     400000: Ceiling
     400002: ShopBackWall
     400004: ShopDoor
@@ -19,6 +20,7 @@ ModelImporter:
     400010: ShopRightCorner
     400012: ShopRightWall
     400014: //RootNode
+    400016: CorShop
     2100000: Ceil_Mat
     2100002: ShopWall_Mat_002
     2100004: ShopWall_Mat_003
@@ -30,6 +32,7 @@ ModelImporter:
     2100016: Wall_Mat_000
     2100018: Wall_Mat_004
     2100020: unnamed
+    2100022: Wall_Mat_005
     2300000: Ceiling
     2300002: ShopBackWall
     2300004: ShopDoor
@@ -37,6 +40,7 @@ ModelImporter:
     2300008: ShopLeftWall
     2300010: ShopRightCorner
     2300012: ShopRightWall
+    2300014: CorShop
     3300000: Ceiling
     3300002: ShopBackWall
     3300004: ShopDoor
@@ -44,6 +48,7 @@ ModelImporter:
     3300008: ShopLeftWall
     3300010: ShopRightCorner
     3300012: ShopRightWall
+    3300014: CorShop
     4300000: Ceiling
     4300002: ShopLeftCorner
     4300004: ShopLeftWall
@@ -51,6 +56,7 @@ ModelImporter:
     4300008: ShopRightWall
     4300010: ShopDoor
     4300012: ShopBackWall
+    4300014: CorShop
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -104,6 +110,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Wall_Mat_004
     second: {fileID: 2100000, guid: 823953512c7c5d1409582b9c252b35b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Mat_005
+    second: {fileID: 2100000, guid: 371ad52d3bf331f49b3e261c62c7ac27, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

@@ -17,6 +17,10 @@ ModelImporter:
     100022: DoorOneSide
     100024: HandleOneSide
     100026: HandleOtherSide
+    100028: Handle
+    100030: Lock
+    100032: SimpleDoor
+    100034: DoorOtherSide
     400000: Door
     400002: DoorFrame
     400004: LockOneSide
@@ -31,12 +35,17 @@ ModelImporter:
     400022: DoorOneSide
     400024: HandleOneSide
     400026: HandleOtherSide
+    400028: Handle
+    400030: Lock
+    400032: SimpleDoor
+    400034: DoorOtherSide
     2100000: DoorFrame
     2100002: Handle_003
     2100004: Handle
     2100006: Handle_001
     2100008: Handle_002
     2100010: Door
+    2100012: Door_001
     2300000: Door
     2300002: DoorFrame
     2300004: LockOneSide
@@ -49,6 +58,9 @@ ModelImporter:
     2300018: DoorOneSide
     2300020: HandleOneSide
     2300022: HandleOtherSide
+    2300024: Handle
+    2300026: Lock
+    2300028: DoorOtherSide
     3300000: Door
     3300002: DoorFrame
     3300004: LockOneSide
@@ -61,6 +73,9 @@ ModelImporter:
     3300018: DoorOneSide
     3300020: HandleOneSide
     3300022: HandleOtherSide
+    3300024: Handle
+    3300026: Lock
+    3300028: DoorOtherSide
     4300000: DoorFrame
     4300002: OtherSideHandle
     4300004: OneSideHandle
@@ -73,6 +88,9 @@ ModelImporter:
     4300018: HandleOneSide
     4300020: HandleOtherSide
     4300022: DoorOneSide
+    4300024: Handle
+    4300026: Lock
+    4300028: DoorOtherSide
     7400000: Close_SimpleDoor
     7400002: Open_SimpleDoor
     7400004: Default Take

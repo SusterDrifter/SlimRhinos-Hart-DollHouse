@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Animatable : DialogueObject {
+public class Animatable : AudioableObject {
 
     [SerializeField] private string triggerName = "Interact";
     private bool state = false;
@@ -15,10 +15,8 @@ public class Animatable : DialogueObject {
     {
         
         base.Interact();
-        if (Condition())
+        if (base.isViable)
             PlayAnim();
-        else
-            Consequence();
     }
 
     public void PlayAnim()
@@ -26,11 +24,4 @@ public class Animatable : DialogueObject {
         state = !state;
         animator.SetBool(triggerName, state);
     }
-
-    public virtual bool Condition()
-    {
-        return true;
-    }
-
-    public virtual void Consequence() { }
 }
