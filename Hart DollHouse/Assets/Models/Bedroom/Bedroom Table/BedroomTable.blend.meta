@@ -21,6 +21,14 @@ ModelImporter:
     100030: Handle_005
     100032: Handle_006
     100034: Handle_007
+    100036: HandleL1R
+    100038: HandleL2R
+    100040: HandleL3R
+    100042: HandleL4R
+    100044: HandleR1R
+    100046: HandleR2R
+    100048: HandleR3R
+    100050: HandleR4R
     400000: //RootNode
     400002: Desk
     400004: DrawerL1R
@@ -39,8 +47,31 @@ ModelImporter:
     400030: Handle_005
     400032: Handle_006
     400034: Handle_007
+    400036: HandleL1R
+    400038: HandleL2R
+    400040: HandleL3R
+    400042: HandleL4R
+    400044: HandleR1R
+    400046: HandleR2R
+    400048: HandleR3R
+    400050: HandleR4R
     2100000: Wood
     2100002: Faucet
+    2100004: Wood_001
+    2100006: Wood_002
+    2100008: Wood_003
+    2100010: Wood_004
+    2100012: Wood_005
+    2100014: Wood_006
+    2100016: Wood_007
+    2100018: Wood_008
+    2100020: Faucet_004
+    2100022: Faucet_005
+    2100024: Faucet_006
+    2100026: Faucet_007
+    2100028: Faucet_003
+    2100030: Faucet_002
+    2100032: Faucet_001
     2300000: Desk
     2300002: DrawerL1R
     2300004: DrawerL2R
@@ -58,6 +89,14 @@ ModelImporter:
     2300028: Handle_005
     2300030: Handle_006
     2300032: Handle_007
+    2300034: HandleL1R
+    2300036: HandleL2R
+    2300038: HandleL3R
+    2300040: HandleL4R
+    2300042: HandleR1R
+    2300044: HandleR2R
+    2300046: HandleR3R
+    2300048: HandleR4R
     3300000: Desk
     3300002: DrawerL1R
     3300004: DrawerL2R
@@ -75,6 +114,14 @@ ModelImporter:
     3300028: Handle_005
     3300030: Handle_006
     3300032: Handle_007
+    3300034: HandleL1R
+    3300036: HandleL2R
+    3300038: HandleL3R
+    3300040: HandleL4R
+    3300042: HandleR1R
+    3300044: HandleR2R
+    3300046: HandleR3R
+    3300048: HandleR4R
     4300000: Desk
     4300002: DrawerL1R
     4300004: DrawerL2R
@@ -92,9 +139,102 @@ ModelImporter:
     4300028: Handle_005
     4300030: Handle_006
     4300032: Handle_007
+    4300034: HandleL1R
+    4300036: HandleR1R
+    4300038: HandleR2R
+    4300040: HandleR3R
+    4300042: HandleR4R
+    4300044: HandleL4R
+    4300046: HandleL3R
+    4300048: HandleL2R
     7400000: Default Take
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet
+    second: {fileID: 2100000, guid: e02d267759926ff4bb7793dbc332195a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_001
+    second: {fileID: 2100000, guid: 2440544aeb2649d4cb64dabcacd6c934, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_002
+    second: {fileID: 2100000, guid: bcf5703711ed158418d57f83b64f10cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_003
+    second: {fileID: 2100000, guid: db773cf14001f0d4a9a23c051e2f38c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_004
+    second: {fileID: 2100000, guid: 674e0321240a0ea478535c14a9954459, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_005
+    second: {fileID: 2100000, guid: 44262ee43d5d35342a83a0d705618bc2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_006
+    second: {fileID: 2100000, guid: 021acf2e731db5547bea3cb52b03f61f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet_007
+    second: {fileID: 2100000, guid: 1dc8bc332041a364189eb92929ae6ce0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood
+    second: {fileID: 2100000, guid: ea799a3640a536e47bafc22cf8b3aecf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_001
+    second: {fileID: 2100000, guid: 01f2d4ea2ab027e499bdf069692f1993, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_002
+    second: {fileID: 2100000, guid: c3075171d9c77894aa7fa54b30f0ff47, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_003
+    second: {fileID: 2100000, guid: e017280647ef69f4abf344bcfe15d7fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_004
+    second: {fileID: 2100000, guid: 0486503cc6e7ab24ba220a4cee238ef1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_005
+    second: {fileID: 2100000, guid: e62565bb317a8b24caeb07a149b60e4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_006
+    second: {fileID: 2100000, guid: e975ba4bc59e5ef418a3be8fe4f9e999, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_007
+    second: {fileID: 2100000, guid: 7d33940997513224fb911a3c329dce18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wood_008
+    second: {fileID: 2100000, guid: 73b51070ae561c94db4dcb7ab528de64, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

@@ -133,7 +133,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     spatialBlend: 0
   - clipName: Footstep1
@@ -142,7 +142,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     spatialBlend: 0
   - clipName: Footstep2
@@ -151,7 +151,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     spatialBlend: 0
   - clipName: Footstep3
@@ -160,7 +160,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     spatialBlend: 0
   - clipName: Stopstep0
@@ -169,7 +169,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     spatialBlend: 0
   - clipName: Stopstep1
@@ -178,7 +178,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.5
+    volume: 0.4
     pitch: 1
     spatialBlend: 0
   - clipName: Button
@@ -196,7 +196,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.8
+    volume: 1
     pitch: 1
     spatialBlend: 0
   - clipName: PauseDeactivate
@@ -205,7 +205,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.8
+    volume: 1
     pitch: 1
     spatialBlend: 0
   - clipName: TypeWriter0
@@ -263,6 +263,5 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
   backgroundMusic: []
-  remoteSounds: []
   fadeDuration: 0.5
   audioFader: {fileID: 0}
