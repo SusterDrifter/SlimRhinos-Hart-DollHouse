@@ -1,0 +1,182 @@
+fileFormatVersion: 2
+guid: 1603e2a65a5d0bb4d97872af9bba0c4b
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BedPole
+    100002: LeftPillow
+    100004: Lighting
+    100006: Mattress
+    100008: MetalFrame
+    100010: PoleDeets
+    100012: RightPillow
+    100014: //RootNode
+    100016: SimpleBed
+    100018: SmallVertBedPoles
+    100020: WireBars
+    400000: BedPole
+    400002: LeftPillow
+    400004: Lighting
+    400006: Mattress
+    400008: MetalFrame
+    400010: PoleDeets
+    400012: RightPillow
+    400014: //RootNode
+    400016: SimpleBed
+    400018: SmallVertBedPoles
+    400020: WireBars
+    2100000: LeftPillow
+    2100002: MattressMaterial
+    2100004: RightPillow
+    2100006: PoleDeets
+    2100008: MetalFrame
+    2100010: SmallVertBedPoles
+    2100012: WireBars
+    2100014: BedPole
+    2300000: BedPole
+    2300002: LeftPillow
+    2300004: Mattress
+    2300006: MetalFrame
+    2300008: PoleDeets
+    2300010: RightPillow
+    2300012: SmallVertBedPoles
+    2300014: WireBars
+    3300000: BedPole
+    3300002: LeftPillow
+    3300004: Mattress
+    3300006: MetalFrame
+    3300008: PoleDeets
+    3300010: RightPillow
+    3300012: SmallVertBedPoles
+    3300014: WireBars
+    4300000: LeftPillow
+    4300002: Mattress
+    4300004: RightPillow
+    4300006: PoleDeets
+    4300008: MetalFrame
+    4300010: SmallVertBedPoles
+    4300012: WireBars
+    4300014: BedPole
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BedPole
+    second: {fileID: 2100000, guid: 474bed7c6fed1ab4e9ee6317c59c353c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftPillow
+    second: {fileID: 2100000, guid: cac84e89f67e0f648bc8c2871e89d8c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MattressMaterial
+    second: {fileID: 2100000, guid: cd5cda0b8de03514eb37b4a5c5a20b86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalFrame
+    second: {fileID: 2100000, guid: f1f771fbdd8c292499502c0e692fdeca, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PoleDeets
+    second: {fileID: 2100000, guid: c048ebe2c2e7b8747b79f87cecd5911e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightPillow
+    second: {fileID: 2100000, guid: 5d90a0a2c4ad20f4e9804c3230983678, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SmallVertBedPoles
+    second: {fileID: 2100000, guid: 8ddff80a62ee15d4e973e18a47f45ca8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WireBars
+    second: {fileID: 2100000, guid: aaf2271083148374891672cb685e4b26, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

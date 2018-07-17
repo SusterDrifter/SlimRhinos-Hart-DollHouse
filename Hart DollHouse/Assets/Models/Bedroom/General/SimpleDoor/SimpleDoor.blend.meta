@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: c626a9b17db13ee44b4aadbe663a9595
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Door
+    100002: DoorFrame
+    100004: LockOneSide
+    100006: LockOtherSide
+    100008: OneSideHandle
+    100010: OtherSideHandle
+    100012: //RootNode
+    100014: HingePoint
+    100016: DooOtherSide
+    100018: DoorFrameOneSide
+    100020: DoorFrameOtherSide
+    100022: DoorOneSide
+    100024: HandleOneSide
+    100026: HandleOtherSide
+    100028: Handle
+    100030: Lock
+    100032: SimpleDoor
+    100034: DoorOtherSide
+    400000: Door
+    400002: DoorFrame
+    400004: LockOneSide
+    400006: LockOtherSide
+    400008: OneSideHandle
+    400010: OtherSideHandle
+    400012: //RootNode
+    400014: HingePoint
+    400016: DooOtherSide
+    400018: DoorFrameOneSide
+    400020: DoorFrameOtherSide
+    400022: DoorOneSide
+    400024: HandleOneSide
+    400026: HandleOtherSide
+    400028: Handle
+    400030: Lock
+    400032: SimpleDoor
+    400034: DoorOtherSide
+    2100000: DoorFrame
+    2100002: Handle_003
+    2100004: Handle
+    2100006: Handle_001
+    2100008: Handle_002
+    2100010: Door
+    2100012: Door_001
+    2300000: Door
+    2300002: DoorFrame
+    2300004: LockOneSide
+    2300006: LockOtherSide
+    2300008: OneSideHandle
+    2300010: OtherSideHandle
+    2300012: DooOtherSide
+    2300014: DoorFrameOneSide
+    2300016: DoorFrameOtherSide
+    2300018: DoorOneSide
+    2300020: HandleOneSide
+    2300022: HandleOtherSide
+    2300024: Handle
+    2300026: Lock
+    2300028: DoorOtherSide
+    3300000: Door
+    3300002: DoorFrame
+    3300004: LockOneSide
+    3300006: LockOtherSide
+    3300008: OneSideHandle
+    3300010: OtherSideHandle
+    3300012: DooOtherSide
+    3300014: DoorFrameOneSide
+    3300016: DoorFrameOtherSide
+    3300018: DoorOneSide
+    3300020: HandleOneSide
+    3300022: HandleOtherSide
+    3300024: Handle
+    3300026: Lock
+    3300028: DoorOtherSide
+    4300000: DoorFrame
+    4300002: OtherSideHandle
+    4300004: OneSideHandle
+    4300006: LockOtherSide
+    4300008: LockOneSide
+    4300010: Door
+    4300012: DoorFrameOtherSide
+    4300014: DoorFrameOneSide
+    4300016: DooOtherSide
+    4300018: HandleOneSide
+    4300020: HandleOtherSide
+    4300022: DoorOneSide
+    4300024: Handle
+    4300026: Lock
+    4300028: DoorOtherSide
+    7400000: Close_SimpleDoor
+    7400002: Open_SimpleDoor
+    7400004: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door
+    second: {fileID: 2100000, guid: 6833f09d48c85e6428d6c6be3e9c05e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DoorFrame
+    second: {fileID: 2100000, guid: 70a3cd82e8c5abb4dbad513dcc37b82d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_001
+    second: {fileID: 2100000, guid: d945126a7cfefae4eae48637c2d19617, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle
+    second: {fileID: 2100000, guid: 74cbca6cccd453b43827ca9eb1cdb3ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_001
+    second: {fileID: 2100000, guid: e1d59bedd435a13498266ee343f06804, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_002
+    second: {fileID: 2100000, guid: f770d1e04324cf84ca4eadbb63f0512f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_003
+    second: {fileID: 2100000, guid: 4130b34ef0fa303409670caae48a8516, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 065b07f9dd0aaaa49a0756d8bd6c86ea
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BlackCape
+    100002: Body
+    100004: Button
+    100006: Clothes
+    100008: DressLeftArm
+    100010: DressRightArm
+    100012: Head
+    100014: Jumper
+    100016: LeftHand
+    100018: Legs
+    100020: //RootNode
+    100022: Pockets
+    100024: RealArmLeft
+    100026: RealArmRight
+    100028: RightHand
+    100030: RightShoe
+    100032: Scalp
+    100034: Shirt
+    100036: Torso
+    400000: BlackCape
+    400002: Body
+    400004: Button
+    400006: Clothes
+    400008: DressLeftArm
+    400010: DressRightArm
+    400012: Head
+    400014: Jumper
+    400016: LeftHand
+    400018: Legs
+    400020: //RootNode
+    400022: Pockets
+    400024: RealArmLeft
+    400026: RealArmRight
+    400028: RightHand
+    400030: RightShoe
+    400032: Scalp
+    400034: Shirt
+    400036: Torso
+    2100000: Towel_surface_-_needs_hair_particles_001
+    2100002: DenimJumper
+    2100004: Faucet
+    2100006: DenimPocket
+    2100008: Shirt
+    2100010: CeramicFace
+    2100012: CeramicLeftHand
+    2100014: CeramicRightHand
+    2100016: CeramicRightArm
+    2100018: CeramicLeftArm
+    2100020: RightShoes
+    2100022: LeftShoe
+    2100024: CeramicTorso
+    2100026: Scalp_Transperent_001
+    2300000: BlackCape
+    2300002: Button
+    2300004: DressLeftArm
+    2300006: DressRightArm
+    2300008: Head
+    2300010: Jumper
+    2300012: LeftHand
+    2300014: Legs
+    2300016: Pockets
+    2300018: RealArmLeft
+    2300020: RealArmRight
+    2300022: RightHand
+    2300024: RightShoe
+    2300026: Scalp
+    2300028: Shirt
+    2300030: Torso
+    3300000: BlackCape
+    3300002: Button
+    3300004: DressLeftArm
+    3300006: DressRightArm
+    3300008: Head
+    3300010: Jumper
+    3300012: LeftHand
+    3300014: Legs
+    3300016: Pockets
+    3300018: RealArmLeft
+    3300020: RealArmRight
+    3300022: RightHand
+    3300024: RightShoe
+    3300026: Scalp
+    3300028: Shirt
+    3300030: Torso
+    4300000: BlackCape
+    4300002: Jumper
+    4300004: Button
+    4300006: Pockets
+    4300008: Shirt
+    4300010: DressLeftArm
+    4300012: DressRightArm
+    4300014: Head
+    4300016: LeftHand
+    4300018: Legs
+    4300020: RealArmRight
+    4300022: RealArmLeft
+    4300024: RightHand
+    4300026: RightShoe
+    4300028: Torso
+    4300030: Scalp
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicFace
+    second: {fileID: 2100000, guid: eeacb03e74b17814680f036d5289779c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicLeftArm
+    second: {fileID: 2100000, guid: c3e58cdf43d8e3c4192b9e53806d51a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicLeftHand
+    second: {fileID: 2100000, guid: 40ae922e7d7f9f34b853d441efaaae9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicRightArm
+    second: {fileID: 2100000, guid: dff1ee6a383fac84db09c7d56844d69c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicRightHand
+    second: {fileID: 2100000, guid: 281e7771f06bb1144b85857fed956b0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicTorso
+    second: {fileID: 2100000, guid: a6609d0a4cb9e3347a122a6b885d77dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DenimJumper
+    second: {fileID: 2100000, guid: 4285cba8fe8a5a942bd863872cf1a5b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DenimPocket
+    second: {fileID: 2100000, guid: 623d00055348f3341a462f9b7b854b3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Faucet
+    second: {fileID: 2100000, guid: fcafd356086d9df429bbdadeeef1f951, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftShoe
+    second: {fileID: 2100000, guid: a7776e9b729a390449d07a8a7c919eb5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightShoes
+    second: {fileID: 2100000, guid: bb059f4032730464d95f47113b8fad8f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scalp_Transperent_001
+    second: {fileID: 2100000, guid: d475a3b18fd51c14fb658806980a1e4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shirt
+    second: {fileID: 2100000, guid: c1479daf92916674e9d510da40e9af49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Towel_surface_-_needs_hair_particles_001
+    second: {fileID: 2100000, guid: 1d263ee7ebf7a524485ebe1b8fe69362, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -12,14 +12,17 @@ public class DialogueObject : Interactable {
     public override void Interact()
     {
         base.Interact();
-        if (base.isViable && !useNewDiag && oldViableDiag)
-            TriggerDialogue(oldViableDiag);
-        else if (!base.isViable && !useNewDiag && oldNonviableDiag)
-            TriggerDialogue(oldNonviableDiag);
-        else if (base.isViable && useNewDiag && newViableDiag)
-            TriggerDialogue(newViableDiag);
-        else if (!base.isViable && useNewDiag && newNonviableDiag)
-            TriggerDialogue(newNonviableDiag);
+        if (base.state)
+        {
+            if (base.isViable && !useNewDiag && oldViableDiag)
+                TriggerDialogue(oldViableDiag);
+            else if (!base.isViable && !useNewDiag && oldNonviableDiag)
+                TriggerDialogue(oldNonviableDiag);
+            else if (base.isViable && useNewDiag && newViableDiag)
+                TriggerDialogue(newViableDiag);
+            else if (!base.isViable && useNewDiag && newNonviableDiag)
+                TriggerDialogue(newNonviableDiag);
+        }
     }
 
     public virtual void TriggerDialogue(Dialogue dialogue) {

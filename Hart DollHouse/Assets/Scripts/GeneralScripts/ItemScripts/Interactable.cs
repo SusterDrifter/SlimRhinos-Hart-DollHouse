@@ -8,6 +8,9 @@ public class Interactable : MonoBehaviour {
     bool hasInteracted = false;
     public bool isViable = true;
 
+    public bool state = true;
+    public bool switchable = false;
+
     Transform playerPosition;
     private void Start()
     {

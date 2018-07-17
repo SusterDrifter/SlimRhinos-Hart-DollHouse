@@ -38,20 +38,10 @@ public class Chapter1_1 : MonoBehaviour {
         blurAperture.value = 0.01f;
 
         #endregion
-        BlurEffect();
-        LockMovement();
+        StartCoroutine(ChangeBlur(2.0f));
+        StartCoroutine(StartDiag(1.0f));
     }
     #endregion
-
-    private void BlurEffect()
-    {
-        StartCoroutine(ChangeBlur(2.0f));
-    }
-
-    private void LockMovement()
-    {
-        StartCoroutine(LockMovementFor(9.0f));
-    }
     
     IEnumerator ChangeBlur(float duration)
     {
@@ -71,7 +61,6 @@ public class Chapter1_1 : MonoBehaviour {
         }
 
         depthOfField.aperture.value = normAperture.value;
-        MainUIManager.instance.GetDialogueUIManager().GetManager().BeginDialogue(startDiag);
     }
 
     IEnumerator LockMovementFor(float seconds)
@@ -79,6 +68,12 @@ public class Chapter1_1 : MonoBehaviour {
         ClampingTrigger.instance.ActivateLocking();
         yield return new WaitForSecondsRealtime(seconds);
         ClampingTrigger.instance.DeactivateLocking();
+    }
+
+    IEnumerator StartDiag(float seconds)
+    {
+        yield return new WaitForSecondsRealtime(seconds);
+        MainUIManager.instance.GetDialogueUIManager().GetManager().BeginDialogue(startDiag);
     }
 
     public void RhymeGameFinish()

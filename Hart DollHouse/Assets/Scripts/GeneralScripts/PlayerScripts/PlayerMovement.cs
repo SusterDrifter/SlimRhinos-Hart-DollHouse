@@ -159,9 +159,6 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void Lock() {
-        Debug.Log("LOCKING");
-        Debug.Log("minCamAngleClamp " + minCamAngleClamp + " maxCamAngleClamp " + maxCamAngleClamp);
-        Debug.Log("minRotationClamp " + minRotationClamp + " maxRotationClamp " + maxRotationClamp);
         minCamAngleClamp = currentCamAngle - camRotationLock;
         maxCamAngleClamp = currentCamAngle + camRotationLock;
 
@@ -172,14 +169,11 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void Unlock() {
-        Debug.Log("UNLOCKING");
         minCamAngleClamp = -camAngleClampNorm;
         maxCamAngleClamp = camAngleClampNorm;
 
         minRotationClamp = -rotationClampNorm;
         maxRotationClamp = rotationClampNorm;
-        Debug.Log("AFTER minCamAngleClamp " + minCamAngleClamp + " maxCamAngleClamp " + maxCamAngleClamp);
-        Debug.Log("AFTER minRotationClamp " + minRotationClamp + " maxRotationClamp " + maxRotationClamp);
         movementLock = false;
     }
 

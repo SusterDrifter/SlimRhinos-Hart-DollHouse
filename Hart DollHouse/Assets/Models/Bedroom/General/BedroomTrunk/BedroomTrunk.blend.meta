@@ -1,0 +1,292 @@
+fileFormatVersion: 2
+guid: 15c5f25b2c6a6f94f9a80499cad67d4a
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BackBotLeftCorner
+    100002: BackBotRightCorner
+    100004: BackTopLeftCorner
+    100006: BackTopRightCorner
+    100008: //RootNode
+    100010: FrontBotLeftCorner
+    100012: FrontBotRightCorner
+    100014: FrontTopLeftCorner
+    100016: FrontTopRightCorner
+    100018: LeftGrip
+    100020: LLeatherGripLeftSide
+    100022: LLeatherGripRightSide
+    100024: MainLock
+    100026: RightGrip
+    100028: RLeatherGripLeftSide
+    100030: RLeatherGripRightSide
+    100032: TopLock
+    100034: TrunkBody
+    100036: TrunkBodyGroup
+    100038: TrunkCover
+    100040: TrunkCoverGroup
+    400000: BackBotLeftCorner
+    400002: BackBotRightCorner
+    400004: BackTopLeftCorner
+    400006: BackTopRightCorner
+    400008: //RootNode
+    400010: FrontBotLeftCorner
+    400012: FrontBotRightCorner
+    400014: FrontTopLeftCorner
+    400016: FrontTopRightCorner
+    400018: LeftGrip
+    400020: LLeatherGripLeftSide
+    400022: LLeatherGripRightSide
+    400024: MainLock
+    400026: RightGrip
+    400028: RLeatherGripLeftSide
+    400030: RLeatherGripRightSide
+    400032: TopLock
+    400034: TrunkBody
+    400036: TrunkBodyGroup
+    400038: TrunkCover
+    400040: TrunkCoverGroup
+    2100000: Trunk_Mat_001
+    2100002: Handle_Mat
+    2100004: Rubber_003
+    2100006: Rubber_004
+    2100008: Metal_Mat
+    2100010: Handle_Mat_001
+    2100012: Rubber_006
+    2100014: Rubber_007
+    2100016: Rubber_008
+    2100018: Rubber_010
+    2100020: Rubber_009
+    2100022: Rubber_011
+    2100024: Trunk_Mat
+    2100026: Rubber_005
+    2100028: Rubber_001
+    2100030: Rubber_002
+    2100032: Rubber
+    2100034: Metal_Mat_001
+    2300000: BackBotLeftCorner
+    2300002: BackBotRightCorner
+    2300004: BackTopLeftCorner
+    2300006: BackTopRightCorner
+    2300008: FrontBotLeftCorner
+    2300010: FrontBotRightCorner
+    2300012: FrontTopLeftCorner
+    2300014: FrontTopRightCorner
+    2300016: LeftGrip
+    2300018: LLeatherGripLeftSide
+    2300020: LLeatherGripRightSide
+    2300022: MainLock
+    2300024: RightGrip
+    2300026: RLeatherGripLeftSide
+    2300028: RLeatherGripRightSide
+    2300030: TopLock
+    2300032: TrunkBody
+    2300034: TrunkCover
+    3300000: BackBotLeftCorner
+    3300002: BackBotRightCorner
+    3300004: BackTopLeftCorner
+    3300006: BackTopRightCorner
+    3300008: FrontBotLeftCorner
+    3300010: FrontBotRightCorner
+    3300012: FrontTopLeftCorner
+    3300014: FrontTopRightCorner
+    3300016: LeftGrip
+    3300018: LLeatherGripLeftSide
+    3300020: LLeatherGripRightSide
+    3300022: MainLock
+    3300024: RightGrip
+    3300026: RLeatherGripLeftSide
+    3300028: RLeatherGripRightSide
+    3300030: TopLock
+    3300032: TrunkBody
+    3300034: TrunkCover
+    4300000: TrunkBody
+    4300002: RightGrip
+    4300004: RLeatherGripRightSide
+    4300006: RLeatherGripLeftSide
+    4300008: MainLock
+    4300010: LeftGrip
+    4300012: LLeatherGripRightSide
+    4300014: LLeatherGripLeftSide
+    4300016: FrontBotRightCorner
+    4300018: BackBotRightCorner
+    4300020: FrontBotLeftCorner
+    4300022: BackBotLeftCorner
+    4300024: TrunkCover
+    4300026: FrontTopRightCorner
+    4300028: FrontTopLeftCorner
+    4300030: BackTopRightCorner
+    4300032: BackTopLeftCorner
+    4300034: TopLock
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat
+    second: {fileID: 2100000, guid: 79226a233a101f046b6f490b84102677, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Handle_Mat_001
+    second: {fileID: 2100000, guid: 371f0cabdd79ff144a18c404d5360f09, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat
+    second: {fileID: 2100000, guid: b044f2076a2d834478d01b59a6117a6f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_001
+    second: {fileID: 2100000, guid: c5d687cee12a7c84eaf6170901b73f5b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber
+    second: {fileID: 2100000, guid: 15225f4650dfcc64fa494b2a96508343, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_001
+    second: {fileID: 2100000, guid: 039407dc66b51354d88ede74df323a6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_002
+    second: {fileID: 2100000, guid: c15e4f469a4258e40894214178633f31, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_003
+    second: {fileID: 2100000, guid: 545f0d2da76c65a449aafd6e6f4f3e9b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_004
+    second: {fileID: 2100000, guid: 0c2bc1464f424214b9b0ff0baad984ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_005
+    second: {fileID: 2100000, guid: eefaa35ac2f5f6549a5ba41bcf6da66b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_006
+    second: {fileID: 2100000, guid: 6fdb641ce62171043bda2d98fdfe3413, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_007
+    second: {fileID: 2100000, guid: 880fd8b18671cc04993e17dc72943f11, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_008
+    second: {fileID: 2100000, guid: 6d9d37d1677269248b52f78d64ebc229, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_009
+    second: {fileID: 2100000, guid: 70a35725b63e24f46b835b6db60252e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_010
+    second: {fileID: 2100000, guid: 0cf1a6601ead9884192d116fe4d9e420, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rubber_011
+    second: {fileID: 2100000, guid: 2e053f09fe0f28244a7253b5ad0260a5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunk_Mat
+    second: {fileID: 2100000, guid: d38216a4a0d38a14ea9e28e3f8c66989, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Trunk_Mat_001
+    second: {fileID: 2100000, guid: d3518b198f20ee9439840a19d4d14c39, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
