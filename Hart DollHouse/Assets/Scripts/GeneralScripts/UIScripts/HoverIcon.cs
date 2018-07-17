@@ -16,6 +16,8 @@ public class HoverIcon : MonoBehaviour {
             return;
 
         instance = this;
+        crosshair = GetComponent<Image>();
+        crosshair.sprite = defaultCrosshair;
     }
     #endregion
 

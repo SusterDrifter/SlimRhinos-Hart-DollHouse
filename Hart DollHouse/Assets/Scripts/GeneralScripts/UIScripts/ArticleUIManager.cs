@@ -7,6 +7,7 @@ public class ArticleUIManager : MonoBehaviour {
     [SerializeField] private ArticlePopup popup;
     [SerializeField] private CanvasGroup UIElement;
     [SerializeField] private Image icon;
+    [SerializeField] private Text prompt;
 
     private Sound articleUIOpen;
     private Sound articleUIClose;
@@ -16,7 +17,9 @@ public class ArticleUIManager : MonoBehaviour {
         UIElement = GetComponent<CanvasGroup>();
         popup = GetComponentInChildren<ArticlePopup>();
         icon = GetComponentInChildren<Image>();
+        prompt = GetComponentInChildren<Text>();
 
+        prompt.enabled = false;
         UIElement.alpha = 0;
 	}
 
@@ -37,8 +40,10 @@ public class ArticleUIManager : MonoBehaviour {
             articleUIClose = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "ItemUIClose");
         AudioManager.instance.PlayClip(articleUIClose);
         popup.ResetDesc();
+        prompt.enabled = false;
     }
 
+    public void ActivePrompt() { prompt.enabled = true; }
     public void SetIcon (Sprite sprite) { icon.sprite = sprite; }
     public void SetDesc (List<string> desc) { popup.SetDesc(desc); }
     public void Examine() { popup.ActivateDesc(); }

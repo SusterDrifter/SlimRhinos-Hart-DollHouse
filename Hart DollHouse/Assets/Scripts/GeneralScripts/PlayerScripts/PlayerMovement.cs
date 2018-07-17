@@ -34,8 +34,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float camRotationLock = 20f;
 
     private bool movementLock = false;
-    private float camAngleClampNorm;
-    private float rotationClampNorm;
+    private float camAngleClampNorm = 70f;
+    private float rotationClampNorm = float.PositiveInfinity;
 
     private Rigidbody obj;
     private PlayerVitals vitals;
@@ -59,8 +59,6 @@ public class PlayerMovement : MonoBehaviour
         obj = GetComponent<Rigidbody>();
         cam = Camera.main;
         vitals = GetComponent<PlayerVitals>();
-        camAngleClampNorm = maxCamAngleClamp;
-        rotationClampNorm = maxRotationClamp;
 
         footSteps = new Sound[4];
         stoppingSteps = new Sound[2];
@@ -117,7 +115,7 @@ public class PlayerMovement : MonoBehaviour
      */
     public void KeyboardMovement()
     {
-        if (!movementLock) { 
+        if (!movementLock) {
             // Takes in keyboard input 
             float zKey = Input.GetAxisRaw("Horizontal");
             float xKey = Input.GetAxisRaw("Vertical");
@@ -161,6 +159,9 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void Lock() {
+        Debug.Log("LOCKING");
+        Debug.Log("minCamAngleClamp " + minCamAngleClamp + " maxCamAngleClamp " + maxCamAngleClamp);
+        Debug.Log("minRotationClamp " + minRotationClamp + " maxRotationClamp " + maxRotationClamp);
         minCamAngleClamp = currentCamAngle - camRotationLock;
         maxCamAngleClamp = currentCamAngle + camRotationLock;
 
@@ -171,12 +172,14 @@ public class PlayerMovement : MonoBehaviour
     }
 
     public void Unlock() {
+        Debug.Log("UNLOCKING");
         minCamAngleClamp = -camAngleClampNorm;
         maxCamAngleClamp = camAngleClampNorm;
 
         minRotationClamp = -rotationClampNorm;
         maxRotationClamp = rotationClampNorm;
-
+        Debug.Log("AFTER minCamAngleClamp " + minCamAngleClamp + " maxCamAngleClamp " + maxCamAngleClamp);
+        Debug.Log("AFTER minRotationClamp " + minRotationClamp + " maxRotationClamp " + maxRotationClamp);
         movementLock = false;
     }
 

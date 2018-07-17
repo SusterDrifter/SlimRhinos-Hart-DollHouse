@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 
-public class ArticleObject : Interactable {
+public class ArticleObject : DialogueObject {
 
     [SerializeField] private Item item;
+    [SerializeField] private bool hasDescription = false;
 
     private bool isUIActive = false;
     private bool mouseReleased = false;
@@ -23,7 +24,7 @@ public class ArticleObject : Interactable {
             if (Input.GetMouseButtonUp(0))
                 mouseReleased = true;
 
-            if (Input.GetKeyDown(KeyCode.E))
+            if (hasDescription &&Input.GetKeyDown(KeyCode.E))
             {
                 if (!isDescActive)
                     Examine();
@@ -43,7 +44,10 @@ public class ArticleObject : Interactable {
             MainUIManager.instance.GetArticleManager().SetIcon(item.icon);
             MainUIManager.instance.GetArticleManager().SetDesc(item.description);
         }
-            
+
+        if (hasDescription)
+            MainUIManager.instance.GetArticleManager().ActivePrompt();
+
         MainUIManager.instance.GetArticleManager().ActivateUI();
         isUIActive = true;
     }

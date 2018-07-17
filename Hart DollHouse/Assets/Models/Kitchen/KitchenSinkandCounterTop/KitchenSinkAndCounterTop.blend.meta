@@ -23,6 +23,8 @@ ModelImporter:
     100034: Sink
     100036: Tabletop
     100038: Tap
+    100040: Tabletop_001
+    100042: TabletopCeramic
     400000: BottomLeftCover0
     400002: BottomLeftCover0Handle
     400004: BottomLeftCover1
@@ -43,6 +45,8 @@ ModelImporter:
     400034: Sink
     400036: Tabletop
     400038: Tap
+    400040: Tabletop_001
+    400042: TabletopCeramic
     2100000: DrawerFrame_Mat_001
     2100002: Handle_Mat_001
     2100004: DrawerFrame_Mat
@@ -62,6 +66,7 @@ ModelImporter:
     2100032: Ceramic
     2100034: Wood
     2100036: Faucet
+    2100038: Ceramic_001
     2300000: BottomLeftCover0
     2300002: BottomLeftCover0Handle
     2300004: BottomLeftCover1
@@ -81,6 +86,8 @@ ModelImporter:
     2300032: Sink
     2300034: Tabletop
     2300036: Tap
+    2300038: Tabletop_001
+    2300040: TabletopCeramic
     3300000: BottomLeftCover0
     3300002: BottomLeftCover0Handle
     3300004: BottomLeftCover1
@@ -100,6 +107,8 @@ ModelImporter:
     3300032: Sink
     3300034: Tabletop
     3300036: Tap
+    3300038: Tabletop_001
+    3300040: TabletopCeramic
     4300000: LeftDrawerTop
     4300002: LeftDrawerTopHandle
     4300004: RightDrawerTop
@@ -119,6 +128,8 @@ ModelImporter:
     4300032: Sink
     4300034: Tabletop
     4300036: Tap
+    4300038: Tabletop_001
+    4300040: TabletopCeramic
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -127,6 +138,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Ceramic
     second: {fileID: 2100000, guid: 1c9fdefe2669354478f69fe5e8534ef7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ceramic_001
+    second: {fileID: 2100000, guid: 5f7d15e1d269e814ab16e569ca613221, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

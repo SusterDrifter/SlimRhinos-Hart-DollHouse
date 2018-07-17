@@ -17,6 +17,8 @@ public class CameraPPSControl : MonoBehaviour {
 
     private Vignette vignette;
     private DepthOfField depthOfField;
+    [SerializeField] private FloatParameter blurAperture;
+    [SerializeField] private FloatParameter normAperture;
 
     private MainUIManager mainUI;
 
@@ -27,20 +29,29 @@ public class CameraPPSControl : MonoBehaviour {
         volume.profile.TryGetSettings<DepthOfField>(out depthOfField);
         mainUI = MainUIManager.instance;
 
-        vignette.enabled.value = false;
-        depthOfField.enabled.value = false;
+        blurAperture = new FloatParameter();
+        blurAperture.value = 0.05f;
+
+        if (depthOfField)
+            normAperture = depthOfField.aperture;
+
+        if (vignette)
+            vignette.enabled.value = false;
     }
 
     public void BlurVignetteUIActivate()
     {
         vignette.enabled.value = true;
-        depthOfField.enabled.value = true;
+        // Change aperture to 0.05
+        depthOfField.aperture = blurAperture;
     }
 
     public void BlurVignetteUIDeactivate()
     {
         vignette.enabled.value = false;
         depthOfField.enabled.value = false;
+        // Change aperture to normal
+        depthOfField.aperture = normAperture;
     }
 
     public void PassingOutEffect(float percentage)

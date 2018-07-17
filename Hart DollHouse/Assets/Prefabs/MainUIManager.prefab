@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 224713666439975474}
   - component: {fileID: 222876799755997670}
   - component: {fileID: 114651814165280596}
+  - component: {fileID: 114457491089121874}
   m_Layer: 5
   m_Name: CrosshairIcon
   m_TagString: Untagged
@@ -356,6 +357,7 @@ GameObject:
   - component: {fileID: 224560474901787458}
   - component: {fileID: 222248469452731954}
   - component: {fileID: 114273510547283080}
+  - component: {fileID: 114358862457825244}
   m_Layer: 5
   m_Name: Crosshair
   m_TagString: Untagged
@@ -1417,6 +1419,20 @@ MonoBehaviour:
   keyword: KEYWORD
   source: {fileID: 21300000, guid: 016bd27d2e4c61146a07ba445d3a4a7c, type: 3}
   image: {fileID: 0}
+--- !u!114 &114358862457825244
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1549789715361048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c3808748547fe4c8cbf1d9fb080d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultCrosshair: {fileID: 0}
+  interactCrosshair: {fileID: 0}
+  crosshair: {fileID: 0}
 --- !u!114 &114359472340594722
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1468,7 +1484,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1716,6 +1732,20 @@ MonoBehaviour:
   - {fileID: 0}
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &114457491089121874
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1497629852016652}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68c3808748547fe4c8cbf1d9fb080d85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultCrosshair: {fileID: 21300000, guid: 43536fbe31b04e64a902926711d8b4d4, type: 3}
+  interactCrosshair: {fileID: 21300000, guid: 943fca5438e56874485a8b59772cfc87, type: 3}
+  crosshair: {fileID: 114651814165280596}
 --- !u!114 &114458266463312378
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1746,6 +1776,7 @@ MonoBehaviour:
   popup: {fileID: 0}
   UIElement: {fileID: 0}
   icon: {fileID: 0}
+  prompt: {fileID: 0}
 --- !u!114 &114477082390157664
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2029,7 +2060,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 21300000, guid: 43536fbe31b04e64a902926711d8b4d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2657,12 +2688,12 @@ Canvas:
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
-  m_OverrideSorting: 0
+  m_OverrideSorting: 1
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_TargetDisplay: 0
 --- !u!224 &224042168901613630
 RectTransform:
@@ -3243,7 +3274,7 @@ RectTransform:
   m_GameObject: {fileID: 1497629852016652}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.055132728, y: 0.055132728, z: 0.055132728}
+  m_LocalScale: {x: 0.54615057, y: 0.5461502, z: 0.5461502}
   m_Children: []
   m_Father: {fileID: 224560474901787458}
   m_RootOrder: 0
@@ -3441,9 +3472,9 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1918016065043678}
   m_Enabled: 1
-  m_Alpha: 0
+  m_Alpha: 1
   m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!225 &225237507287438312
 CanvasGroup:

@@ -21,7 +21,8 @@ public class DialogueManager : MonoBehaviour {
 
     private Queue<string> dialogues;
 
-    
+    public bool useNewDiag = false;
+
     private void Start()
     {
         timer = GetComponent<Timer>();

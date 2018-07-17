@@ -9,12 +9,16 @@ ModelImporter:
     100006: RWoodFrame
     100008: //RootNode
     100010: WoodenBody
+    100012: LeftHinge
+    100014: RightHinge
     400000: LGlass
     400002: LWoodFrame
     400004: RGlass
     400006: RWoodFrame
     400008: //RootNode
     400010: WoodenBody
+    400012: LeftHinge
+    400014: RightHinge
     2100000: PedestalFrame_Mat_001
     2100002: PedestalGlass_Mat_001
     2100004: PedestalGlass_Mat

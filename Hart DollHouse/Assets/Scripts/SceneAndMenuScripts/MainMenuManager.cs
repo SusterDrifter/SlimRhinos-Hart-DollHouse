@@ -5,9 +5,11 @@ using TMPro;
 public class MainMenuManager : MonoBehaviour {
 
     private Sound button;
+    private Sound backgroundMusic;
 
     [SerializeField] private Button continueButton;
     [SerializeField] private TextMeshProUGUI continueText;
+    public bool musicPlay = false;
 
     private void Awake()
     {
@@ -18,11 +20,26 @@ public class MainMenuManager : MonoBehaviour {
             continueButton.interactable = false;
             continueText.alpha = 0.2f;
         }
+        PlayMusic();
+    }
+
+    private void PlayMusic()
+    {
+        if (backgroundMusic == null)
+            backgroundMusic = AudioManager.instance.GetSound(Sound.SoundType.BackgroundMusic, "MenuBackgroundMusic");
+        backgroundMusic.source.Play();
+        musicPlay = true;
+    }
+
+    private void StopMusic()
+    {
+        AudioManager.instance.audioFader.FadeOut(backgroundMusic);
     }
 
     public void PlayGame()
     {
         GameManager.instance.FadeNextChapter();
+        StopMusic();
     }
 
     public void Continue()
