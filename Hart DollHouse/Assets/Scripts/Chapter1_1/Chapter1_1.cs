@@ -12,6 +12,7 @@ public class Chapter1_1 : MonoBehaviour {
     public RhymeGame rhymeGame;
 
     private bool endingSequenceStarted = false;
+    private bool endingTriggered = false;
     
     private PostProcessVolume cameraPPV;
     private DepthOfField depthOfField;
@@ -51,16 +52,28 @@ public class Chapter1_1 : MonoBehaviour {
     {
         if (endingSequenceStarted)
         {
-            if (MainUIManager.instance.GetBreathingManager().curCycleFinished)
+            if (MainUIManager.instance.GetBreathingManager().curCycleFinished && !endingTriggered)
             {
-                MainUIManager.instance.GetDialogueUIManager().GetManager().BeginDialogue(endingDiag);
+
+                endingTriggered = true;
+                StartCoroutine(EndingScene(5f));
             }
         }
     }
+
     public void EndSequence()
     {
-        StartCoroutine(StartPanic(4.0f));
+        StartCoroutine(StartPanic(8.0f));
         endingSequenceStarted = true;
+    }
+
+    IEnumerator EndingScene(float duration)
+    {
+        endingTriggered = true;
+        yield return new WaitForSecondsRealtime(duration);
+        MainUIManager.instance.GetDialogueUIManager().GetManager().BeginDialogue(endingDiag);
+        yield return new WaitForSecondsRealtime(30f);
+        GameManager.instance.FadeNextChapter();
     }
 
     IEnumerator ChangeBlur(float duration)

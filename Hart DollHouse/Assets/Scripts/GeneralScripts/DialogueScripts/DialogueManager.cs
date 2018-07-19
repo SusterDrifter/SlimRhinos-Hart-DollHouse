@@ -15,8 +15,8 @@ public class DialogueManager : MonoBehaviour {
     [SerializeField] private CanvasGroup UIElement;
     [SerializeField] private Text screenText;
     [SerializeField] private UIFader fader;
-    [SerializeField] private float delayPerChar = 0.15f;
-    [SerializeField] private float minDelayBetweenSentences = 3f;
+    [SerializeField] private float delayPerChar = 0.003f;
+    [SerializeField] private float minDelayBetweenSentences = 2.5f;
     [SerializeField] private float fadeDuration = 0.75f;
 
     private Queue<string> dialogues;

@@ -11,9 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f6c32ee466260b4fb56d8103eee2ae1, type: 3}
   m_Name: Ending
   m_EditorClassIdentifier: 
-  speaker: Jin
+  speaker: Charlotte
   sentences:
-  - Were you... watching me? Stumbling around doing your stupid games,
-  - knowing it wouldn't do anything?
-  - Is this some sort of joke to you? Entertainment?!
-  - I AM NOT YOUR TOY! LEAVE ME ALONE!
+  - The bad people can't get us anymore.
+  - We're safe. See? They're still outside.

@@ -1202,7 +1202,7 @@ GameObject:
   - component: {fileID: 4805335073083668}
   - component: {fileID: 65501474092985198}
   - component: {fileID: 95751044416250976}
-  - component: {fileID: 114124280657316600}
+  - component: {fileID: 114659462166485078}
   m_Layer: 0
   m_Name: HingePoint
   m_TagString: Untagged
@@ -1809,7 +1809,7 @@ GameObject:
   - component: {fileID: 4771250677607148}
   - component: {fileID: 65356162925387578}
   - component: {fileID: 95170198230750418}
-  - component: {fileID: 114251475177510142}
+  - component: {fileID: 114282939258284420}
   m_Layer: 0
   m_Name: HingePoint
   m_TagString: Untagged
@@ -4691,7 +4691,7 @@ GameObject:
   - component: {fileID: 4531872768256500}
   - component: {fileID: 65010829049117772}
   - component: {fileID: 95741883559432486}
-  - component: {fileID: 114905936400327728}
+  - component: {fileID: 114828234313809468}
   m_Layer: 0
   m_Name: TrunkCoverGroup
   m_TagString: Untagged
@@ -5687,6 +5687,7 @@ GameObject:
   - component: {fileID: 33749489155651994}
   - component: {fileID: 23575436647724326}
   - component: {fileID: 64968755722573072}
+  - component: {fileID: 114272418676189398}
   m_Layer: 0
   m_Name: Desk
   m_TagString: Untagged
@@ -5991,6 +5992,7 @@ GameObject:
   - component: {fileID: 4333727208383258}
   - component: {fileID: 95775647181950124}
   - component: {fileID: 65155209048208982}
+  - component: {fileID: 114509843153803484}
   m_Layer: 0
   m_Name: BedroomClock
   m_TagString: Untagged
@@ -8219,6 +8221,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4011914738646758}
   - component: {fileID: 95094518113329454}
+  - component: {fileID: 65648511640391322}
   m_Layer: 0
   m_Name: CoffeeTable
   m_TagString: Untagged
@@ -47972,8 +47975,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.414367, y: 7.494059, z: 1.3459951}
-  m_Center: {x: -0.8384476, y: 0.1330769, z: -0.17299743}
+  m_Size: {x: 7.414367, y: 7.332759, z: 0.6861326}
+  m_Center: {x: -0.8384476, y: 0.21372657, z: -0.22432026}
 --- !u!65 &65433365363375638
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -48226,6 +48229,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.000004000002, y: 15.053631, z: 9.502076}
   m_Center: {x: -0.000009536743, y: -0.0000009536743, z: 0.00000047683716}
+--- !u!65 &65648511640391322
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1685513698534286}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.6549993, y: 4.686157, z: 1.5812678}
+  m_Center: {x: -0.70898175, y: -0.4403864, z: -0.7750402}
 --- !u!65 &65667629710796040
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -51712,9 +51727,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 5
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: 58691e532f36c5b40961d04cff808917, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 69eb8d40e5cbd174fa60e0e3179e87d3, type: 2}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -51760,8 +51780,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -51806,13 +51831,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 3
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: c2d4d75d3ec45ba49a31372843a345cd, type: 2}
+  newViableDiag: {fileID: 11400000, guid: 0f75daa24b427bd479037313ad49373f, type: 2}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 7f3dab22a8cad6d41a94673e3a6e334a, type: 3}
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
@@ -51822,7 +51852,7 @@ MonoBehaviour:
   viableSoundOff:
     clipName: Default Name
     type: 0
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: d7259fad68d1a6d4ca97b79f240a4cb8, type: 3}
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
@@ -51854,8 +51884,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -51901,55 +51936,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
---- !u!114 &114124280657316600
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1109427577888898}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15b0a544995d3e748aed9d2305cd7368, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactRadius: 5
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
-  viableSoundOn:
-    clipName: DoorOpen
-    type: 0
-    clip: {fileID: 8300000, guid: 19af7d8f70d235f4e82982b1550dc99a, type: 3}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 0.5
-    pitch: 1
-    spatialBlend: 0.8
-  viableSoundOff:
-    clipName: DoorClose
-    type: 0
-    clip: {fileID: 8300000, guid: 88d36cea7f53c4043ad28e633aebde52, type: 3}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 0.5
-    pitch: 1
-    spatialBlend: 0.8
-  nonviableSound:
-    clipName: DoorLocked
-    type: 0
-    clip: {fileID: 8300000, guid: 36c0e88f334a88244bcbd073ece33cf9, type: 3}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 0.5
-    pitch: 1
-    spatialBlend: 0.8
-  triggerName: Interact
-  animator: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 11400000, guid: 818b52d2da5b383449b271493818c289, type: 2}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
 --- !u!114 &114141474559287822
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -51963,8 +51956,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -52010,8 +52008,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -52056,9 +52059,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 5
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: 58691e532f36c5b40961d04cff808917, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 69eb8d40e5cbd174fa60e0e3179e87d3, type: 2}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52104,8 +52112,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52151,10 +52164,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   item: {fileID: 0}
   hasDescription: 0
+  isUIActive: 0
 --- !u!114 &114192788165420530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -52168,8 +52187,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52215,8 +52239,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52249,53 +52278,26 @@ MonoBehaviour:
     spatialBlend: 0.8
   triggerName: Interact
   animator: {fileID: 0}
---- !u!114 &114251475177510142
+--- !u!114 &114272418676189398
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1156567832484960}
+  m_GameObject: {fileID: 1472251732997876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15b0a544995d3e748aed9d2305cd7368, type: 3}
+  m_Script: {fileID: 11500000, guid: d7e60fff509eb6a4b9c7f44dd34c8731, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 5
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
-  viableSoundOn:
-    clipName: DoorOpen
-    type: 0
-    clip: {fileID: 8300000, guid: 19af7d8f70d235f4e82982b1550dc99a, type: 3}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 0.5
-    pitch: 1
-    spatialBlend: 0.8
-  viableSoundOff:
-    clipName: DoorClose
-    type: 0
-    clip: {fileID: 8300000, guid: 88d36cea7f53c4043ad28e633aebde52, type: 3}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 0.5
-    pitch: 1
-    spatialBlend: 0.8
-  nonviableSound:
-    clipName: DoorLocked
-    type: 0
-    clip: {fileID: 8300000, guid: 36c0e88f334a88244bcbd073ece33cf9, type: 3}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 0.5
-    pitch: 1
-    spatialBlend: 0.8
-  triggerName: Interact
-  animator: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: 58691e532f36c5b40961d04cff808917, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 3884687e055bfcb478d01fddf78c0171, type: 2}
+  useNewDiag: 0
 --- !u!114 &114272752538228540
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -52309,8 +52311,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -52356,10 +52363,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   item: {fileID: 0}
   hasDescription: 0
+  isUIActive: 0
 --- !u!114 &114279003377777288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -52373,8 +52386,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52420,10 +52438,83 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   item: {fileID: 0}
   hasDescription: 0
+  isUIActive: 0
+--- !u!114 &114282939258284420
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1156567832484960}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c607db9eee58f0c4dadafc3e675d674b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 5
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: eed8c19e7c6726b4f96f1a3cd84ff69b, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
+  viableSoundOn:
+    clipName: Default Name
+    type: 0
+    clip: {fileID: 8300000, guid: fc9873bb685241044bc750fe02a84732, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0.8
+  viableSoundOff:
+    clipName: Default Name
+    type: 0
+    clip: {fileID: 8300000, guid: 88d36cea7f53c4043ad28e633aebde52, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0.8
+  nonviableSound:
+    clipName: Default Name
+    type: 0
+    clip: {fileID: 8300000, guid: 36c0e88f334a88244bcbd073ece33cf9, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0.8
+  triggerName: Interact
+  animator: {fileID: 0}
+  triggered:
+  - {fileID: 1109427577888898}
+  - {fileID: 1472251732997876}
+  - {fileID: 1908654351167500}
+  - {fileID: 1607692136298108}
+  - {fileID: 1734448197927308}
+  - {fileID: 1599130034382200}
+  - {fileID: 1062966095387998}
+  - {fileID: 1610757277505530}
+  - {fileID: 1649708880516956}
+  - {fileID: 1805097896977802}
+  - {fileID: 1457140174740950}
+  - {fileID: 1735022120790468}
+  wardrobeLeft: {fileID: 1457140174740950}
+  wardrobeRight: {fileID: 1735022120790468}
 --- !u!114 &114316869368068000
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -52436,9 +52527,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 5
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: 58691e532f36c5b40961d04cff808917, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 69eb8d40e5cbd174fa60e0e3179e87d3, type: 2}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52484,8 +52580,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52530,9 +52631,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 5
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: 58691e532f36c5b40961d04cff808917, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 69eb8d40e5cbd174fa60e0e3179e87d3, type: 2}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52578,8 +52684,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DoorOpen
     type: 0
@@ -52625,8 +52736,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52672,8 +52788,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52706,6 +52827,26 @@ MonoBehaviour:
     spatialBlend: 0.8
   triggerName: Interact
   animator: {fileID: 0}
+--- !u!114 &114509843153803484
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1508830045736158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e60fff509eb6a4b9c7f44dd34c8731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 5
+  isViable: 1
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 11400000, guid: c8eef1d2b46943c40a62a943bd39204b, type: 2}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
 --- !u!114 &114531228310990150
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -52719,8 +52860,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52766,8 +52912,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52813,8 +52964,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52860,8 +53016,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52906,9 +53067,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 5
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: 58691e532f36c5b40961d04cff808917, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 69eb8d40e5cbd174fa60e0e3179e87d3, type: 2}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -52954,8 +53120,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53001,8 +53172,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53048,8 +53224,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -53095,8 +53276,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DoorOpen
     type: 0
@@ -53142,8 +53328,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53176,6 +53367,58 @@ MonoBehaviour:
     spatialBlend: 0.8
   triggerName: Interact
   animator: {fileID: 0}
+--- !u!114 &114659462166485078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1109427577888898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15b0a544995d3e748aed9d2305cd7368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 5
+  isViable: 0
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: b502a7b80ad5edb409a342ad0bcbf296, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 38b2fabb2a7addb4f9681c08b77461c3, type: 2}
+  useNewDiag: 0
+  viableSoundOn:
+    clipName: DoorOpen
+    type: 0
+    clip: {fileID: 8300000, guid: 19af7d8f70d235f4e82982b1550dc99a, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0.8
+  viableSoundOff:
+    clipName: DoorClose
+    type: 0
+    clip: {fileID: 8300000, guid: 88d36cea7f53c4043ad28e633aebde52, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0.8
+  nonviableSound:
+    clipName: DoorLocked
+    type: 0
+    clip: {fileID: 8300000, guid: 36c0e88f334a88244bcbd073ece33cf9, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 1
+    spatialBlend: 0.8
+  triggerName: Interact
+  animator: {fileID: 0}
 --- !u!114 &114664157170977202
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -53189,8 +53432,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53236,8 +53484,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -53283,8 +53536,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53330,8 +53588,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -53376,8 +53639,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53422,13 +53690,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 3
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: c2d4d75d3ec45ba49a31372843a345cd, type: 2}
+  newViableDiag: {fileID: 11400000, guid: 0f75daa24b427bd479037313ad49373f, type: 2}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: 7f3dab22a8cad6d41a94673e3a6e334a, type: 3}
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
@@ -53438,7 +53711,7 @@ MonoBehaviour:
   viableSoundOff:
     clipName: Default Name
     type: 0
-    clip: {fileID: 0}
+    clip: {fileID: 8300000, guid: d7259fad68d1a6d4ca97b79f240a4cb8, type: 3}
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
@@ -53470,8 +53743,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53517,8 +53795,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53564,8 +53847,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53611,8 +53899,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -53657,9 +53950,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 5
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: 58691e532f36c5b40961d04cff808917, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 69eb8d40e5cbd174fa60e0e3179e87d3, type: 2}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53705,8 +54003,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -53752,8 +54055,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53798,9 +54106,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 3
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: 840d52dd0d46d604da0d05548101eb0a, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 9140b2087cf602449a0ec21161a79107, type: 2}
+  useNewDiag: 0
   viableSoundOn:
     clipName: MiniBoxOpen
     type: 0
@@ -53846,8 +54159,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -53893,8 +54211,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53927,6 +54250,58 @@ MonoBehaviour:
     spatialBlend: 0.8
   triggerName: Interact
   animator: {fileID: 0}
+--- !u!114 &114828234313809468
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1399764963768326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4adeefff86f418047b5ca5e728212b72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 5
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 11400000, guid: 114ae3b6551058742853c65490dfb3ee, type: 2}
+  oldNonviableDiag: {fileID: 11400000, guid: a1860b1e63d66e34186edae2ade3ce91, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
+  viableSoundOn:
+    clipName: Default Name
+    type: 0
+    clip: {fileID: 8300000, guid: cc0155e42ddb7f446b772af440fec7bb, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 1
+    pitch: 1
+    spatialBlend: 0.8
+  viableSoundOff:
+    clipName: Default Name
+    type: 0
+    clip: {fileID: 8300000, guid: c88fc93b50e3b774898055e1400bfd7e, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 1
+    pitch: 1
+    spatialBlend: 0.8
+  nonviableSound:
+    clipName: Default Name
+    type: 0
+    clip: {fileID: 8300000, guid: 11aa36e03901ea9469195c314557ca45, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 1
+    pitch: 1
+    spatialBlend: 0.8
+  triggerName: Interact
+  animator: {fileID: 0}
 --- !u!114 &114833053532951218
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -53939,9 +54314,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 5
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: 58691e532f36c5b40961d04cff808917, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 69eb8d40e5cbd174fa60e0e3179e87d3, type: 2}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -53987,8 +54367,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 11400000, guid: 31374f8d42bcf4646a293931a7cd0c54, type: 2}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
 --- !u!114 &114850436554541060
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54002,8 +54387,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DoorOpen
     type: 0
@@ -54049,8 +54439,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -54096,8 +54491,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -54143,8 +54543,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -54190,8 +54595,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -54237,8 +54647,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -54271,53 +54686,6 @@ MonoBehaviour:
     spatialBlend: 0.8
   triggerName: Interact
   animator: {fileID: 0}
---- !u!114 &114905936400327728
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1399764963768326}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15b0a544995d3e748aed9d2305cd7368, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactRadius: 5
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
-  viableSoundOn:
-    clipName: TrunkOpen
-    type: 0
-    clip: {fileID: 8300000, guid: cc0155e42ddb7f446b772af440fec7bb, type: 3}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 1
-    pitch: 1
-    spatialBlend: 0.8
-  viableSoundOff:
-    clipName: TrunkClose
-    type: 0
-    clip: {fileID: 8300000, guid: c88fc93b50e3b774898055e1400bfd7e, type: 3}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 1
-    pitch: 1
-    spatialBlend: 0.8
-  nonviableSound:
-    clipName: TrunkLocked
-    type: 0
-    clip: {fileID: 8300000, guid: 11aa36e03901ea9469195c314557ca45, type: 3}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 1
-    pitch: 1
-    spatialBlend: 0.8
-  triggerName: Interact
-  animator: {fileID: 0}
 --- !u!114 &114916615164355802
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54330,9 +54698,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactRadius: 5
-  isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: 58691e532f36c5b40961d04cff808917, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 69eb8d40e5cbd174fa60e0e3179e87d3, type: 2}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -54378,8 +54751,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: DrawerOpen
     type: 0
@@ -54425,8 +54803,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -54471,8 +54854,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
@@ -54518,10 +54906,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   item: {fileID: 11400000, guid: 5d2f28e7656349044a92d61ed96fcdbb, type: 2}
-  hasDescription: 0
+  hasDescription: 1
+  isUIActive: 0
 --- !u!114 &114999559385145276
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -54535,8 +54929,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isViable: 1
-  viableDialogue: {fileID: 0}
-  nonviableDialogue: {fileID: 0}
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
   viableSoundOn:
     clipName: Default Name
     type: 0
