@@ -21,6 +21,7 @@ public class BreathingSystemUIController : MonoBehaviour {
     {
         if (handle.hasFinished)
         {
+            curCycleFinished = true;
             SoftDisable();
         }    
     }

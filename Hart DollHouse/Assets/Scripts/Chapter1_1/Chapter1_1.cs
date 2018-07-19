@@ -5,10 +5,14 @@ using System.Collections;
 public class Chapter1_1 : MonoBehaviour {
 
     [SerializeField] private Dialogue startDiag;
+    [SerializeField] private Dialogue endingDiag;
 
     public bool hasRhymeGameFinished = false;
+    public bool hasTrunkOpened = false;
     public RhymeGame rhymeGame;
 
+    private bool endingSequenceStarted = false;
+    
     private PostProcessVolume cameraPPV;
     private DepthOfField depthOfField;
     private FloatParameter normAperture;
@@ -42,7 +46,23 @@ public class Chapter1_1 : MonoBehaviour {
         StartCoroutine(StartDiag(1.0f));
     }
     #endregion
-    
+
+    private void Update()
+    {
+        if (endingSequenceStarted)
+        {
+            if (MainUIManager.instance.GetBreathingManager().curCycleFinished)
+            {
+                MainUIManager.instance.GetDialogueUIManager().GetManager().BeginDialogue(endingDiag);
+            }
+        }
+    }
+    public void EndSequence()
+    {
+        StartCoroutine(StartPanic(4.0f));
+        endingSequenceStarted = true;
+    }
+
     IEnumerator ChangeBlur(float duration)
     {
         float newDur = 0.5f * duration / (Mathf.Pow(Time.deltaTime, 2));
@@ -74,6 +94,13 @@ public class Chapter1_1 : MonoBehaviour {
     {
         yield return new WaitForSecondsRealtime(seconds);
         MainUIManager.instance.GetDialogueUIManager().GetManager().BeginDialogue(startDiag);
+    }
+
+    IEnumerator StartPanic(float seconds)
+    {
+        yield return new WaitForSecondsRealtime(seconds);
+        if (hasTrunkOpened)
+            PanicAttackController.instance.PanicAttackAnim();
     }
 
     public void RhymeGameFinish()

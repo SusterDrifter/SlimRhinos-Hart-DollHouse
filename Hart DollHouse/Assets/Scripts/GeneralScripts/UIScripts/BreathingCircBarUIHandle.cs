@@ -38,7 +38,7 @@ public class BreathingCircBarUIHandle : CircularBarUIController {
         oriDecreaseTimer = decreaseTimer;
         oriIncreaseTimer = increaseTimer;
 
-        audioFader = GetComponent<AudioFader>();
+        audioFader = AudioManager.instance.audioFader;
 	}
 	
 	void FixedUpdate () {

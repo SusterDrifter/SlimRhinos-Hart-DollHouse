@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 [RequireComponent(typeof(CanvasGroup))]
 public class BlackScreenUI : MonoBehaviour {
