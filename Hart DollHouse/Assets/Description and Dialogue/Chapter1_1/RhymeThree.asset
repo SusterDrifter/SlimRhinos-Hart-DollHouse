@@ -14,6 +14,6 @@ MonoBehaviour:
   itemName: RhymeThree
   isImportantItem: 0
   id: -1
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: a9020d9f53309c840b2e758e96dca34d, type: 3}
   description:
-  - A torn piece of paper. It says 'Ashes! Ashes!'.
+  - Upon inspecting, is found to hold a rhyme slip. It says 'Ashes! Ashes!'.

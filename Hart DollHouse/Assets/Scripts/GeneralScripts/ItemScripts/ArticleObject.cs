@@ -5,7 +5,7 @@ public class ArticleObject : DialogueObject {
     [SerializeField] private Item item;
     [SerializeField] private bool hasDescription = false;
 
-    private bool isUIActive = false;
+    [SerializeField] private bool isUIActive = false;
     private bool mouseReleased = false;
     private bool isDescActive = false;
 
@@ -39,6 +39,7 @@ public class ArticleObject : DialogueObject {
 
     private void ActivateUI()
     {
+
         if (item != null)
         {
             MainUIManager.instance.GetArticleManager().SetIcon(item.icon);

@@ -104,6 +104,7 @@ public class DiaryManager : MonoBehaviour {
 
     public void ActivateDiary()
     {
+        MainUIManager.instance.isUIActive = true;
         isActive = true;
         UIElement.alpha = 1;
 
@@ -115,6 +116,7 @@ public class DiaryManager : MonoBehaviour {
 
     public void DeactivateDiary()
     {
+        MainUIManager.instance.isUIActive = false;
         isActive = false;
         UIElement.alpha = 0;
 

@@ -1085,7 +1085,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
+  m_BlockingObjects: 3
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -1430,8 +1430,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68c3808748547fe4c8cbf1d9fb080d85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultCrosshair: {fileID: 0}
-  interactCrosshair: {fileID: 0}
+  defaultCrosshair: {fileID: 21300000, guid: 43536fbe31b04e64a902926711d8b4d4, type: 3}
+  interactCrosshair: {fileID: 21300000, guid: 943fca5438e56874485a8b59772cfc87, type: 3}
   crosshair: {fileID: 0}
 --- !u!114 &114359472340594722
 MonoBehaviour:
@@ -1855,6 +1855,7 @@ MonoBehaviour:
   diary: {fileID: 0}
   notification: {fileID: 0}
   article: {fileID: 0}
+  isUIActive: 0
 --- !u!114 &114558801303883392
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2350,6 +2351,7 @@ MonoBehaviour:
   delayPerChar: 0.15
   minDelayBetweenSentences: 3
   fadeDuration: 0.75
+  useNewDiag: 0
 --- !u!114 &114928176014790172
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3496,7 +3498,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!225 &225504098760455312
 CanvasGroup:
@@ -3518,7 +3520,7 @@ CanvasGroup:
   m_Enabled: 1
   m_Alpha: 0
   m_Interactable: 0
-  m_BlocksRaycasts: 0
+  m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!225 &225588411028934946
 CanvasGroup:

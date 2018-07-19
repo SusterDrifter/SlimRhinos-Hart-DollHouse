@@ -2,12 +2,45 @@
 
 public class RhymeGame : MonoBehaviour {
 
-    [HideInInspector] public bool rhymeOne = false;
-    [HideInInspector] public bool rhymeTwo = false;
-    [HideInInspector] public bool rhymeThree = false;
-    [HideInInspector] public bool rhymeFour = false;
+    [HideInInspector] public bool rhymeOne = false, rhymeTwo = false, rhymeThree = false, rhymeFour = false;
 
-	public void Complete()
+    [SerializeField] private ArticleObject rhymeOneObj;
+    [SerializeField] private ArticleObject rhymeTwoObj;
+    [SerializeField] private ArticleObject rhymeThreeObj;
+    [SerializeField] private ArticleObject rhymeFourObj;
+    [SerializeField] private TrunkKey trunkKey;
+
+    public void ActivateOtherDoll()
+    {
+        if (rhymeThreeObj) 
+            rhymeThreeObj.enabled = true;
+        if (rhymeFourObj)
+            rhymeFourObj.enabled = true;
+    }
+
+    public void ActivateFirstDoll()
+    {
+        if (rhymeTwo && rhymeThree && rhymeFour)
+        {
+            if (rhymeOneObj)
+                rhymeOneObj.gameObject.SetActive(true);
+            if (trunkKey)
+            {
+                trunkKey.GetComponent<TrunkKey>().enabled = false;
+                trunkKey.gameObject.SetActive(true);
+            }
+        }
+    }
+
+    public void ActivateTrunkKey()
+    {
+        if (trunkKey)
+        {
+            trunkKey.GetComponent<TrunkKey>().enabled = true;
+        }
+    }
+
+    public void Complete()
     {
         if (rhymeOne && rhymeTwo && rhymeThree && rhymeFour)
         {

@@ -14,6 +14,6 @@ MonoBehaviour:
   itemName: RhymeFour
   isImportantItem: 0
   id: -1
-  icon: {fileID: 0}
+  icon: {fileID: 21300000, guid: 48e3cc202773b2f45bbfae8c18715b1f, type: 3}
   description:
-  - A torn piece of paper. It says 'We all fall down.'.
+  - Upon inspecting, is found to hold a rhyme slip. It says 'We all fall down.'

@@ -1,5 +1,5 @@
-﻿public class RhymeThree : ArticleObject
-{
+﻿public class TrunkKey : Important {
+
     private bool initDeactivate = false;
 
     private void LateUpdate()
@@ -7,7 +7,7 @@
         base.Update();
         if (gameObject.tag == "Interactable" && !initDeactivate)
         {
-            this.enabled = false;
+            gameObject.SetActive(false);
             initDeactivate = true;
         }
     }
@@ -15,7 +15,6 @@
     public override void Interact()
     {
         base.Interact();
-        Chapter1_1.instance.rhymeGame.rhymeThree = true;
-        Chapter1_1.instance.rhymeGame.ActivateFirstDoll();
+        Chapter1_1.instance.rhymeGame.Complete();
     }
 }

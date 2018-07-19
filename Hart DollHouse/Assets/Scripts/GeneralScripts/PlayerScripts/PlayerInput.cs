@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 
 /**
  * Manages player input that is related to interactivity
@@ -20,30 +21,34 @@ public class PlayerInput : MonoBehaviour {
     public void MouseInput() {
 
         target = null;
+        
         Ray ray = cam.ScreenPointToRay(Input.mousePosition);
         RaycastHit hit;
 
-        if (Physics.Raycast(ray, out hit, 100)) {
-            
-            if (hit.collider.tag == "Interactable") {
+        if (Physics.Raycast(ray, out hit, 7f))
+        {
+
+            if (hit.collider.tag == "Interactable")
+            {
                 target = hit.collider.GetComponent<Interactable>();
                 float distance = Vector3.Distance(target.transform.position, transform.position);
                 if (distance < target.interactRadius)
                 {
                     HoverIcon.instance.InteractCrosshair();
                     interactCrossOn = true;
-                }   
-            } 
+                }
+            }
         }
 
-        if (target == null && interactCrossOn ) {
+        if (target == null && interactCrossOn)
+        {
             HoverIcon.instance.DefaultCrossHair();
             interactCrossOn = false;
         }
 
-        // If input is left click and no object is in focus
-        if (Input.GetMouseButtonDown(0)) {
-
+        if (Input.GetMouseButtonDown(0))
+        {
+            // If input is left click and no object is in focus
             if (target != null)
             {
                 // Control the object
@@ -53,10 +58,12 @@ public class PlayerInput : MonoBehaviour {
 
         // If there is object in focus, we can let go of the object by clicking
         // right mouse button
-        if (Input.GetMouseButtonUp(1)) {
+        if (Input.GetMouseButtonUp(1))
+        {
             // Let go of object
             Defocus();
         }
+       
     }
 
     public void KeyboardInput()
@@ -103,8 +110,8 @@ public class PlayerInput : MonoBehaviour {
         if (objFocus != null)
         {
             objFocus.OnDefocused();
+            objFocus = null;
         }
-        objFocus = null;
     }
 
     public void Focus(Interactable target) {
@@ -113,8 +120,10 @@ public class PlayerInput : MonoBehaviour {
                 objFocus.OnDefocused();
             }
             objFocus = target;
+            objFocus.OnFocused(transform);
+        } else
+        {
+            Defocus();
         }
-
-        objFocus.OnFocused(transform);
     }
 }

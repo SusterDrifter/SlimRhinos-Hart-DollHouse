@@ -24,6 +24,8 @@ public class MainUIManager : MonoBehaviour {
     [SerializeField] private NotificationUIManager notification;
     [SerializeField] private ArticleUIManager article;
 
+    public bool isUIActive = false;
+
     private void Start()
     {
         blackScreen = GetComponentInChildren<BlackScreenUI>();
@@ -35,7 +37,7 @@ public class MainUIManager : MonoBehaviour {
         notification = GetComponentInChildren<NotificationUIManager>();
         article = GetComponentInChildren<ArticleUIManager>();
     }
-    
+
     public ItemUI GetItemUI()
     {
         return itemUI;
@@ -75,5 +77,4 @@ public class MainUIManager : MonoBehaviour {
     {
         return article;
     }
-
 }

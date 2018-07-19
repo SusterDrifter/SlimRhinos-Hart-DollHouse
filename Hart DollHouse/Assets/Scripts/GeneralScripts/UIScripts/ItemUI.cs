@@ -23,6 +23,7 @@ public class ItemUI : MonoBehaviour {
     }
 
     public void ActivateUI() {
+        MainUIManager.instance.isUIActive = true;
         UIElement.alpha = 1;
         CameraPPSControl.instance.BlurVignetteUIActivate();
         if (itemUIOpen == null)
@@ -31,6 +32,7 @@ public class ItemUI : MonoBehaviour {
     }
 
     public void DeactivateUI() {
+        MainUIManager.instance.isUIActive = false;
         CameraPPSControl.instance.BlurVignetteUIDeactivate();
         UIElement.alpha = 0;
         if (itemUIClose == null)

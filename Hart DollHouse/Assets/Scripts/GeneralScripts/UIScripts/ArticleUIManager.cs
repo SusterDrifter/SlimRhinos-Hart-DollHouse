@@ -25,6 +25,7 @@ public class ArticleUIManager : MonoBehaviour {
 
     public void ActivateUI()
     {
+        MainUIManager.instance.isUIActive = true;
         UIElement.alpha = 1;
         CameraPPSControl.instance.BlurVignetteUIActivate();
         if (articleUIOpen == null)
@@ -34,8 +35,9 @@ public class ArticleUIManager : MonoBehaviour {
 
     public void DeactivateUI()
     {
-        CameraPPSControl.instance.BlurVignetteUIDeactivate();
+        MainUIManager.instance.isUIActive = false;
         UIElement.alpha = 0;
+        CameraPPSControl.instance.BlurVignetteUIDeactivate();
         if (articleUIClose == null)
             articleUIClose = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "ItemUIClose");
         AudioManager.instance.PlayClip(articleUIClose);

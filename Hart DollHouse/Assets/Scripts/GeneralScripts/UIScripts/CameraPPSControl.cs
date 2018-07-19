@@ -32,8 +32,8 @@ public class CameraPPSControl : MonoBehaviour {
         blurAperture = new FloatParameter();
         blurAperture.value = 0.05f;
 
-        if (depthOfField)
-            normAperture = depthOfField.aperture;
+        normAperture = new FloatParameter();
+        normAperture.value = 20f;
 
         if (vignette)
             vignette.enabled.value = false;
@@ -43,15 +43,14 @@ public class CameraPPSControl : MonoBehaviour {
     {
         vignette.enabled.value = true;
         // Change aperture to 0.05
-        depthOfField.aperture = blurAperture;
+        depthOfField.aperture.value = blurAperture.value;
     }
 
     public void BlurVignetteUIDeactivate()
     {
         vignette.enabled.value = false;
-        depthOfField.enabled.value = false;
         // Change aperture to normal
-        depthOfField.aperture = normAperture;
+        depthOfField.aperture.value = normAperture.value;
     }
 
     public void PassingOutEffect(float percentage)
