@@ -262,6 +262,15 @@ MonoBehaviour:
     volume: 0.58
     pitch: 1
     spatialBlend: 0
+  - clipName: DiaryUpdate
+    type: 0
+    clip: {fileID: 8300000, guid: 9529599ea918e63449fa38538cb646ad, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.58
+    pitch: 1
+    spatialBlend: 0
   backgroundMusic: []
   fadeDuration: 0.5
   audioFader: {fileID: 0}
