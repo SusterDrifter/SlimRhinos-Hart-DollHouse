@@ -1168,6 +1168,7 @@ GameObject:
   - component: {fileID: 33671109959573164}
   - component: {fileID: 23812377933048596}
   - component: {fileID: 64689319138251214}
+  - component: {fileID: 65262767592179664}
   m_Layer: 0
   m_Name: Wardrobe
   m_TagString: Untagged
@@ -1979,7 +1980,7 @@ GameObject:
   - component: {fileID: 4281444117638556}
   - component: {fileID: 65964082456019132}
   - component: {fileID: 95070469748043980}
-  - component: {fileID: 114778619559483266}
+  - component: {fileID: 114558702319645028}
   m_Layer: 0
   m_Name: TopPart
   m_TagString: Untagged
@@ -7097,7 +7098,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1603963399725384
 GameObject:
   m_ObjectHideFlags: 1
@@ -8530,7 +8531,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1708162646236226
 GameObject:
   m_ObjectHideFlags: 1
@@ -47797,6 +47798,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.494231, y: 2.9323583, z: 4.1782823}
   m_Center: {x: 0.1155452, y: -0.0000001756665, z: 1.589142}
+--- !u!65 &65262767592179664
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1103054607208634}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4043872, y: 2.206592, z: 0.3855675}
+  m_Center: {x: -0.1130668, y: -0.0023022026, z: 0.83150095}
 --- !u!65 &65266519707442418
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -47975,8 +47988,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.414367, y: 7.332759, z: 0.6861326}
-  m_Center: {x: -0.8384476, y: 0.21372657, z: -0.22432026}
+  m_Size: {x: 7.159667, y: 6.862072, z: 0.5754538}
+  m_Center: {x: -0.88063985, y: 0.17889687, z: -0.21509701}
 --- !u!65 &65433365363375638
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -52166,12 +52179,12 @@ MonoBehaviour:
   isViable: 1
   state: 1
   switchable: 0
-  oldViableDiag: {fileID: 0}
+  oldViableDiag: {fileID: 11400000, guid: 9557f4610e29f594fa58418a5b3aebbe, type: 2}
   oldNonviableDiag: {fileID: 0}
   newViableDiag: {fileID: 0}
   newNonviableDiag: {fileID: 0}
   useNewDiag: 0
-  item: {fileID: 0}
+  item: {fileID: 11400000, guid: 6cee989ded140c74584971a5421b4ee4, type: 2}
   hasDescription: 0
   isUIActive: 0
 --- !u!114 &114192788165420530
@@ -52365,12 +52378,12 @@ MonoBehaviour:
   isViable: 1
   state: 1
   switchable: 0
-  oldViableDiag: {fileID: 0}
+  oldViableDiag: {fileID: 11400000, guid: ab4a2c0b5e38a4e4ebc2d672be4da652, type: 2}
   oldNonviableDiag: {fileID: 0}
   newViableDiag: {fileID: 0}
   newNonviableDiag: {fileID: 0}
   useNewDiag: 0
-  item: {fileID: 0}
+  item: {fileID: 11400000, guid: db9f95d992d43ad4bb34557088b66380, type: 2}
   hasDescription: 0
   isUIActive: 0
 --- !u!114 &114279003377777288
@@ -52440,12 +52453,12 @@ MonoBehaviour:
   isViable: 1
   state: 1
   switchable: 0
-  oldViableDiag: {fileID: 0}
+  oldViableDiag: {fileID: 11400000, guid: 425057371147d2845a12456f3f57bc61, type: 2}
   oldNonviableDiag: {fileID: 0}
   newViableDiag: {fileID: 0}
   newNonviableDiag: {fileID: 0}
   useNewDiag: 0
-  item: {fileID: 0}
+  item: {fileID: 11400000, guid: 5ac5de8a29b92504db8040bca964d955, type: 2}
   hasDescription: 0
   isUIActive: 0
 --- !u!114 &114282939258284420
@@ -52989,6 +53002,58 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     volume: 0.3
+    pitch: 1
+    spatialBlend: 0.8
+  nonviableSound:
+    clipName: Default Name
+    type: 0
+    clip: {fileID: 0}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 1
+    pitch: 1
+    spatialBlend: 0.8
+  triggerName: Interact
+  animator: {fileID: 0}
+--- !u!114 &114558702319645028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1166403342723996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb261f1229e02247bc1cf701afdc33b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 5
+  isViable: 0
+  state: 1
+  switchable: 1
+  oldViableDiag: {fileID: 0}
+  oldNonviableDiag: {fileID: 11400000, guid: 840d52dd0d46d604da0d05548101eb0a, type: 2}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 11400000, guid: 9140b2087cf602449a0ec21161a79107, type: 2}
+  useNewDiag: 0
+  viableSoundOn:
+    clipName: Default Name
+    type: 0
+    clip: {fileID: 8300000, guid: 7e18014676b75614494ee2772eeb5bf2, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.4
+    pitch: 1
+    spatialBlend: 0.8
+  viableSoundOff:
+    clipName: Default Name
+    type: 0
+    clip: {fileID: 8300000, guid: 934368d49de8d3c499d7937d6df4f317, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.4
     pitch: 1
     spatialBlend: 0.8
   nonviableSound:
@@ -54080,58 +54145,6 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     volume: 0.3
-    pitch: 1
-    spatialBlend: 0.8
-  nonviableSound:
-    clipName: Default Name
-    type: 0
-    clip: {fileID: 0}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 1
-    pitch: 1
-    spatialBlend: 0.8
-  triggerName: Interact
-  animator: {fileID: 0}
---- !u!114 &114778619559483266
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1166403342723996}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15b0a544995d3e748aed9d2305cd7368, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactRadius: 3
-  isViable: 0
-  state: 1
-  switchable: 1
-  oldViableDiag: {fileID: 0}
-  oldNonviableDiag: {fileID: 11400000, guid: 840d52dd0d46d604da0d05548101eb0a, type: 2}
-  newViableDiag: {fileID: 0}
-  newNonviableDiag: {fileID: 11400000, guid: 9140b2087cf602449a0ec21161a79107, type: 2}
-  useNewDiag: 0
-  viableSoundOn:
-    clipName: MiniBoxOpen
-    type: 0
-    clip: {fileID: 8300000, guid: 7e18014676b75614494ee2772eeb5bf2, type: 3}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 0.4
-    pitch: 1
-    spatialBlend: 0.8
-  viableSoundOff:
-    clipName: Default Name
-    type: 0
-    clip: {fileID: 8300000, guid: 934368d49de8d3c499d7937d6df4f317, type: 3}
-    source: {fileID: 0}
-    loop: 0
-    playOnAwake: 0
-    volume: 0.4
     pitch: 1
     spatialBlend: 0.8
   nonviableSound:

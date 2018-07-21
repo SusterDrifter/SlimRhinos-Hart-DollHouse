@@ -13,10 +13,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: 
   sentences:
+  - 
   - 'After a particular incident involving broken mirror, I had come to understanding
     that increased security was required. '
   - 
-  - S0me of them are so sweet. I hadn't really considered that when I changed the
+  - Some of them are so sweet. I hadn't really considered that when I changed the
     locks. But things are random and unknown. I was...  am concerned. Especially now.
   - 
   - Even though I was told to dive further,.. I have a feeling that for some of them

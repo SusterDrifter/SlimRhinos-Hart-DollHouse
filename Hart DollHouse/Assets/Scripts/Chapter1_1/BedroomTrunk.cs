@@ -8,7 +8,11 @@ public class BedroomTrunk : Animatable {
             base.isViable = true;
 
         base.Interact();
-        Chapter1_1.instance.hasTrunkOpened = true;
-        Chapter1_1.instance.EndSequence();
+
+        if (base.isViable)
+        {
+            Chapter1_1.instance.hasTrunkOpened = true;
+            Chapter1_1.instance.EndSequence();
+        }        
     }
 }
