@@ -3037,7 +3037,7 @@ GameObject:
   - component: {fileID: 23821160244052066}
   - component: {fileID: 95950904400302066}
   - component: {fileID: 65277182666746970}
-  - component: {fileID: 114276389122594248}
+  - component: {fileID: 114358072601243782}
   m_Layer: 0
   m_Name: Rosie
   m_TagString: Untagged
@@ -4038,7 +4038,7 @@ GameObject:
   - component: {fileID: 23727100270951028}
   - component: {fileID: 95738956096703560}
   - component: {fileID: 65328385966650072}
-  - component: {fileID: 114176102982824454}
+  - component: {fileID: 114636318624112430}
   m_Layer: 0
   m_Name: Emil
   m_TagString: Untagged
@@ -5523,7 +5523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1457794601707216
 GameObject:
   m_ObjectHideFlags: 1
@@ -6096,7 +6096,7 @@ GameObject:
   - component: {fileID: 23939985007308348}
   - component: {fileID: 95409267344487564}
   - component: {fileID: 65748073150833496}
-  - component: {fileID: 114282849224396018}
+  - component: {fileID: 114543493635663504}
   m_Layer: 0
   m_Name: Will
   m_TagString: Untagged
@@ -8962,7 +8962,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1735471110575140
 GameObject:
   m_ObjectHideFlags: 1
@@ -19336,7 +19336,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1238722437996440}
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: 2.0774996, y: 6.054, z: 8.099}
+  m_LocalPosition: {x: 2.077, y: 6.054, z: 7.985}
   m_LocalScale: {x: 0.16967267, y: 0.16967268, z: 0.16967268}
   m_Children:
   - {fileID: 4267351943344484}
@@ -52164,29 +52164,6 @@ MonoBehaviour:
     spatialBlend: 0.8
   triggerName: Interact
   animator: {fileID: 0}
---- !u!114 &114176102982824454
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1341650179568278}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbcb9ab3b0842ec4b87bfd370ba5f991, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactRadius: 5
-  isViable: 1
-  state: 1
-  switchable: 0
-  oldViableDiag: {fileID: 11400000, guid: 9557f4610e29f594fa58418a5b3aebbe, type: 2}
-  oldNonviableDiag: {fileID: 0}
-  newViableDiag: {fileID: 0}
-  newNonviableDiag: {fileID: 0}
-  useNewDiag: 0
-  item: {fileID: 11400000, guid: 6cee989ded140c74584971a5421b4ee4, type: 2}
-  hasDescription: 0
-  isUIActive: 0
 --- !u!114 &114192788165420530
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -52363,29 +52340,6 @@ MonoBehaviour:
     spatialBlend: 0.8
   triggerName: Interact
   animator: {fileID: 0}
---- !u!114 &114276389122594248
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1247177573092584}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbcb9ab3b0842ec4b87bfd370ba5f991, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactRadius: 5
-  isViable: 1
-  state: 1
-  switchable: 0
-  oldViableDiag: {fileID: 11400000, guid: ab4a2c0b5e38a4e4ebc2d672be4da652, type: 2}
-  oldNonviableDiag: {fileID: 0}
-  newViableDiag: {fileID: 0}
-  newNonviableDiag: {fileID: 0}
-  useNewDiag: 0
-  item: {fileID: 11400000, guid: db9f95d992d43ad4bb34557088b66380, type: 2}
-  hasDescription: 0
-  isUIActive: 0
 --- !u!114 &114279003377777288
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -52438,29 +52392,6 @@ MonoBehaviour:
     spatialBlend: 0.8
   triggerName: Interact
   animator: {fileID: 0}
---- !u!114 &114282849224396018
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1518755092288220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cbcb9ab3b0842ec4b87bfd370ba5f991, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interactRadius: 5
-  isViable: 1
-  state: 1
-  switchable: 0
-  oldViableDiag: {fileID: 11400000, guid: 425057371147d2845a12456f3f57bc61, type: 2}
-  oldNonviableDiag: {fileID: 0}
-  newViableDiag: {fileID: 0}
-  newNonviableDiag: {fileID: 0}
-  useNewDiag: 0
-  item: {fileID: 11400000, guid: 5ac5de8a29b92504db8040bca964d955, type: 2}
-  hasDescription: 0
-  isUIActive: 0
 --- !u!114 &114282939258284420
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -52632,6 +52563,29 @@ MonoBehaviour:
     spatialBlend: 0.8
   triggerName: Interact
   animator: {fileID: 0}
+--- !u!114 &114358072601243782
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1247177573092584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5bf88d0394ca034ca17fca72e5bfeff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 5
+  isViable: 1
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 11400000, guid: ab4a2c0b5e38a4e4ebc2d672be4da652, type: 2}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
+  item: {fileID: 11400000, guid: db9f95d992d43ad4bb34557088b66380, type: 2}
+  hasDescription: 0
+  isUIActive: 0
 --- !u!114 &114428039848240762
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -52964,6 +52918,29 @@ MonoBehaviour:
     spatialBlend: 0.8
   triggerName: Interact
   animator: {fileID: 0}
+--- !u!114 &114543493635663504
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1518755092288220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8287c3ac691e66f49a888d9010f565e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 5
+  isViable: 1
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 11400000, guid: 425057371147d2845a12456f3f57bc61, type: 2}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
+  item: {fileID: 11400000, guid: 5ac5de8a29b92504db8040bca964d955, type: 2}
+  hasDescription: 0
+  isUIActive: 0
 --- !u!114 &114547808781771086
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -53328,6 +53305,29 @@ MonoBehaviour:
     spatialBlend: 0.8
   triggerName: Interact
   animator: {fileID: 0}
+--- !u!114 &114636318624112430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341650179568278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35df858c276605b4bbedf51e5a869e5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 5
+  isViable: 1
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 11400000, guid: 9557f4610e29f594fa58418a5b3aebbe, type: 2}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
+  item: {fileID: 11400000, guid: 6cee989ded140c74584971a5421b4ee4, type: 2}
+  hasDescription: 0
+  isUIActive: 0
 --- !u!114 &114650918548068164
 MonoBehaviour:
   m_ObjectHideFlags: 1
