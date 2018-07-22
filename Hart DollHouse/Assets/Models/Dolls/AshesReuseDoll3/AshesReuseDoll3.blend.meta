@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 7acd95c925e72fd4594b4e03373abf3f
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Body
+    100004: Clothes
+    100006: Dress
+    100008: Hair
+    100010: Hat
+    100012: Head
+    100014: LeftHand
+    100016: LeftShoe
+    100018: Legs
+    100020: RealArmLeft
+    100022: RealArmRight
+    100024: RightHand
+    100026: RightShoe
+    100028: Torso
+    400000: //RootNode
+    400002: Body
+    400004: Clothes
+    400006: Dress
+    400008: Hair
+    400010: Hat
+    400012: Head
+    400014: LeftHand
+    400016: LeftShoe
+    400018: Legs
+    400020: RealArmLeft
+    400022: RealArmRight
+    400024: RightHand
+    400026: RightShoe
+    400028: Torso
+    2100000: Blonde_Hair
+    2100002: CeramicFace
+    2100004: LeftHand
+    2100006: LeftShoe
+    2100008: Legs
+    2100010: LeftArm
+    2100012: RightArm
+    2100014: RightHand
+    2100016: RightShoes
+    2100018: Torso
+    2100020: DressMaterial_001
+    2100022: BasicDress
+    2300000: Dress
+    2300002: Hair
+    2300004: Hat
+    2300006: Head
+    2300008: LeftHand
+    2300010: LeftShoe
+    2300012: Legs
+    2300014: RealArmLeft
+    2300016: RealArmRight
+    2300018: RightHand
+    2300020: RightShoe
+    2300022: Torso
+    3300000: Dress
+    3300002: Hair
+    3300004: Hat
+    3300006: Head
+    3300008: LeftHand
+    3300010: LeftShoe
+    3300012: Legs
+    3300014: RealArmLeft
+    3300016: RealArmRight
+    3300018: RightHand
+    3300020: RightShoe
+    3300022: Torso
+    4300000: Hair
+    4300002: Head
+    4300004: LeftHand
+    4300006: LeftShoe
+    4300008: Legs
+    4300010: RealArmLeft
+    4300012: RealArmRight
+    4300014: RightHand
+    4300016: RightShoe
+    4300018: Torso
+    4300020: Hat
+    4300022: Dress
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BasicDress
+    second: {fileID: 2100000, guid: f27bc029b77cad24499cd33dd2b13fb4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blonde_Hair
+    second: {fileID: 2100000, guid: c2fdd059e7eae884b9652d1f92fe8666, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicFace
+    second: {fileID: 2100000, guid: 23ff64cc84d19cd4e99447be3512dded, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DressMaterial_001
+    second: {fileID: 2100000, guid: 71ce26c5efa2e7646bd9257f6bcb855c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftArm
+    second: {fileID: 2100000, guid: 65e9358c7113c884095ed66ac766ce0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftHand
+    second: {fileID: 2100000, guid: 759303a76b3db6841a311a836eb8a474, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftShoe
+    second: {fileID: 2100000, guid: e1e839a4f88ea1c488bda3dd6fb786bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Legs
+    second: {fileID: 2100000, guid: bab717fd7919544428f1878d484f1aea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightArm
+    second: {fileID: 2100000, guid: 4e6c4acbb73a11649995201f7fda310c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightHand
+    second: {fileID: 2100000, guid: 83b2187c571b8764ea99cb957d97d5f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightShoes
+    second: {fileID: 2100000, guid: 4fb0e9f5c337eb04fa3c4121e875eda5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torso
+    second: {fileID: 2100000, guid: 667d89f92320bea47acd8647694889e2, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
