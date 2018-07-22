@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 7d8a2a19d368e37448629d9125edc1cf
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: Baked
     100002: //RootNode
@@ -38,6 +38,8 @@ ModelImporter:
     100064: Torso
     100066: upper_arm_L
     100068: upper_arm_R
+    100070: Mesh
+    100072: Mesh_001
     400000: Baked
     400002: //RootNode
     400004: Body
@@ -73,6 +75,8 @@ ModelImporter:
     400064: Torso
     400066: upper_arm_L
     400068: upper_arm_R
+    400070: Mesh
+    400072: Mesh_001
     2100000: LeftArm
     2100002: Robe
     2100004: InnerDress
@@ -86,6 +90,7 @@ ModelImporter:
     2100020: Towel_surface_-_needs_hair_particles
     2100022: Ribbon
     2100024: Scalp_Transperent
+    2100026: unnamed
     2300000: Hat
     2300002: Head
     2300004: InnerDressBaked
@@ -100,6 +105,8 @@ ModelImporter:
     2300022: RobeBaked
     2300024: Scalp
     2300026: Torso
+    2300028: Mesh
+    2300030: Mesh_001
     3300000: Hat
     3300002: Head
     3300004: InnerDressBaked
@@ -114,6 +121,8 @@ ModelImporter:
     3300022: RobeBaked
     3300024: Scalp
     3300026: Torso
+    3300028: Mesh
+    3300030: Mesh_001
     4300000: LeftArmBaked
     4300002: RobeBaked
     4300004: InnerDressBaked
@@ -128,8 +137,11 @@ ModelImporter:
     4300022: Torso
     4300024: Hat
     4300026: Scalp
+    4300028: Mesh_001
+    4300030: Mesh
     7400000: Default Take
     9500000: //RootNode
+    2186277476908879412: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -196,6 +208,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Towel_surface_-_needs_hair_particles
     second: {fileID: 2100000, guid: 9bd6dd42a72005444afc27d78ad48eda, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: d574faed8e6710444801388ca8b1eee5, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -246,6 +263,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
