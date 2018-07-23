@@ -334,6 +334,7 @@ public class IntroductionScribe : MonoBehaviour {
 
     private void FlashesWallTally()
     {
+        animator.SetTrigger("TallyMark");
         IntroScene();
     }
 

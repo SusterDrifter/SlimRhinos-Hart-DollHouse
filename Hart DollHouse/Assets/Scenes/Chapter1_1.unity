@@ -578,7 +578,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1255071067957946, guid: 921b9d5376496c6458d6f61a829d6caa, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 921b9d5376496c6458d6f61a829d6caa, type: 2}
@@ -907,7 +907,7 @@ Prefab:
     - target: {fileID: 224425290397276482, guid: ebfdd1394a4ef1e49abd4c1cdb89a998,
         type: 2}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 224303174170470412, guid: ebfdd1394a4ef1e49abd4c1cdb89a998,
         type: 2}
@@ -932,12 +932,21 @@ Prefab:
     - target: {fileID: 224165008595254546, guid: ebfdd1394a4ef1e49abd4c1cdb89a998,
         type: 2}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 224953892300137018, guid: ebfdd1394a4ef1e49abd4c1cdb89a998,
         type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1995487886922640, guid: ebfdd1394a4ef1e49abd4c1cdb89a998, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 225002990728477916, guid: ebfdd1394a4ef1e49abd4c1cdb89a998,
+        type: 2}
+      propertyPath: m_Alpha
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ebfdd1394a4ef1e49abd4c1cdb89a998, type: 2}
@@ -1018,7 +1027,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: d3933539c826e464babe782e18ea9d31, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.666142
+      value: -6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d3933539c826e464babe782e18ea9d31, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1555,7 +1564,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400002, guid: 7d8a2a19d368e37448629d9125edc1cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.076
+      value: 1.104
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 7d8a2a19d368e37448629d9125edc1cf, type: 3}
       propertyPath: m_LocalPosition.y
