@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 5141e858ef9c4a841acd29eeb84ce13f
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     100002: BlackCape
@@ -57,6 +57,7 @@ ModelImporter:
     2100018: LeftShoe
     2100020: RightShoes
     2100022: Scalp_Transperent
+    2100024: unnamed
     2300000: BlackCape
     2300002: Cape
     2300004: CapeHood
@@ -171,6 +172,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Towel_surface_-_needs_hair_particles_001
     second: {fileID: 2100000, guid: a67db60e9b2ffdc40b560af67904e22f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: d5bbf8f02368c9148828c696e90b9b51, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -221,6 +227,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
