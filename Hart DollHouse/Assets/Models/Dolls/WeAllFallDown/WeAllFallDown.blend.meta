@@ -23,6 +23,7 @@ ModelImporter:
     100034: Torso
     100036: //RootNode
     100038: Mesh
+    100040: Hat
     400000: Body
     400002: Head
     400004: LeftHand
@@ -43,6 +44,7 @@ ModelImporter:
     400034: Torso
     400036: //RootNode
     400038: Mesh
+    400040: Hat
     2100000: Petticoat_001
     2100002: Petticoat
     2100004: Shirt
@@ -57,6 +59,7 @@ ModelImporter:
     2100022: CeramicTorso
     2100024: CeramicRightHand_001
     2100026: unnamed
+    2100028: Hat
     2300000: Head
     2300002: LeftHand
     2300004: LeftShoe
@@ -75,6 +78,7 @@ ModelImporter:
     2300030: Top
     2300032: Torso
     2300034: Mesh
+    2300036: Hat
     3300000: Head
     3300002: LeftHand
     3300004: LeftShoe
@@ -93,6 +97,7 @@ ModelImporter:
     3300030: Top
     3300032: Torso
     3300034: Mesh
+    3300036: Hat
     4300000: Mask
     4300002: RightSleeve
     4300004: LeftSleeve
@@ -111,6 +116,7 @@ ModelImporter:
     4300030: Torso
     4300032: Legs
     4300034: Mesh
+    4300036: Hat
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -149,6 +155,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: CeramicTorso
     second: {fileID: 2100000, guid: 1bdee993872144c45bcee4717ba34abb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat
+    second: {fileID: 2100000, guid: 9ebf29a4e636c124d9065899bb366f59, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule

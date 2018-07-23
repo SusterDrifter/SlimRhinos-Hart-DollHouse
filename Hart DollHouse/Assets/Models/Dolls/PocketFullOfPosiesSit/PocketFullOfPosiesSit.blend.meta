@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 065b07f9dd0aaaa49a0756d8bd6c86ea
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: BlackCape
     100002: Body
@@ -9,100 +9,115 @@ ModelImporter:
     100006: Clothes
     100008: DressLeftArm
     100010: DressRightArm
-    100012: Head
-    100014: Jumper
-    100016: LeftHand
-    100018: Legs
-    100020: //RootNode
-    100022: Pockets
-    100024: RealArmLeft
-    100026: RealArmRight
-    100028: RightHand
-    100030: RightShoe
-    100032: Scalp
-    100034: Shirt
-    100036: Torso
+    100012: Hat
+    100014: Head
+    100016: Jumper
+    100018: LeftHand
+    100020: Legs
+    100022: Mesh
+    100024: //RootNode
+    100026: Pockets
+    100028: RealArmLeft
+    100030: RealArmRight
+    100032: RightHand
+    100034: RightShoe
+    100036: Scalp
+    100038: Shirt
+    100040: Torso
     400000: BlackCape
     400002: Body
     400004: Button
     400006: Clothes
     400008: DressLeftArm
     400010: DressRightArm
-    400012: Head
-    400014: Jumper
-    400016: LeftHand
-    400018: Legs
-    400020: //RootNode
-    400022: Pockets
-    400024: RealArmLeft
-    400026: RealArmRight
-    400028: RightHand
-    400030: RightShoe
-    400032: Scalp
-    400034: Shirt
-    400036: Torso
-    2100000: Towel_surface_-_needs_hair_particles_001
-    2100002: DenimJumper
-    2100004: Faucet
-    2100006: DenimPocket
-    2100008: Shirt
-    2100010: CeramicFace
-    2100012: CeramicLeftHand
-    2100014: CeramicRightHand
-    2100016: CeramicRightArm
-    2100018: CeramicLeftArm
-    2100020: RightShoes
-    2100022: LeftShoe
-    2100024: CeramicTorso
-    2100026: Scalp_Transperent_001
+    400012: Hat
+    400014: Head
+    400016: Jumper
+    400018: LeftHand
+    400020: Legs
+    400022: Mesh
+    400024: //RootNode
+    400026: Pockets
+    400028: RealArmLeft
+    400030: RealArmRight
+    400032: RightHand
+    400034: RightShoe
+    400036: Scalp
+    400038: Shirt
+    400040: Torso
+    2100000: unnamed
+    2100002: Towel_surface_-_needs_hair_particles_001
+    2100004: Hat_001
+    2100006: DenimJumper
+    2100008: Faucet
+    2100010: DenimPocket
+    2100012: Shirt
+    2100014: LeftSleeve
+    2100016: RightSleeve
+    2100018: CeramicFace
+    2100020: CeramicLeftHand
+    2100022: Legs
+    2100024: CeramicRightArm
+    2100026: CeramicLeftArm
+    2100028: RightHand
+    2100030: RightShoes
+    2100032: LeftShoe
+    2100034: CeramicTorso
+    2100036: Scalp_Transperent_001
     2300000: BlackCape
     2300002: Button
     2300004: DressLeftArm
     2300006: DressRightArm
-    2300008: Head
-    2300010: Jumper
-    2300012: LeftHand
-    2300014: Legs
-    2300016: Pockets
-    2300018: RealArmLeft
-    2300020: RealArmRight
-    2300022: RightHand
-    2300024: RightShoe
-    2300026: Scalp
-    2300028: Shirt
-    2300030: Torso
+    2300008: Hat
+    2300010: Head
+    2300012: Jumper
+    2300014: LeftHand
+    2300016: Legs
+    2300018: Mesh
+    2300020: Pockets
+    2300022: RealArmLeft
+    2300024: RealArmRight
+    2300026: RightHand
+    2300028: RightShoe
+    2300030: Scalp
+    2300032: Shirt
+    2300034: Torso
     3300000: BlackCape
     3300002: Button
     3300004: DressLeftArm
     3300006: DressRightArm
-    3300008: Head
-    3300010: Jumper
-    3300012: LeftHand
-    3300014: Legs
-    3300016: Pockets
-    3300018: RealArmLeft
-    3300020: RealArmRight
-    3300022: RightHand
-    3300024: RightShoe
-    3300026: Scalp
-    3300028: Shirt
-    3300030: Torso
-    4300000: BlackCape
-    4300002: Jumper
-    4300004: Button
-    4300006: Pockets
-    4300008: Shirt
-    4300010: DressLeftArm
-    4300012: DressRightArm
-    4300014: Head
-    4300016: LeftHand
-    4300018: Legs
-    4300020: RealArmRight
-    4300022: RealArmLeft
-    4300024: RightHand
-    4300026: RightShoe
-    4300028: Torso
-    4300030: Scalp
+    3300008: Hat
+    3300010: Head
+    3300012: Jumper
+    3300014: LeftHand
+    3300016: Legs
+    3300018: Mesh
+    3300020: Pockets
+    3300022: RealArmLeft
+    3300024: RealArmRight
+    3300026: RightHand
+    3300028: RightShoe
+    3300030: Scalp
+    3300032: Shirt
+    3300034: Torso
+    4300000: Mesh
+    4300002: BlackCape
+    4300004: Hat
+    4300006: Jumper
+    4300008: Button
+    4300010: Pockets
+    4300012: Shirt
+    4300014: DressLeftArm
+    4300016: DressRightArm
+    4300018: Head
+    4300020: LeftHand
+    4300022: Legs
+    4300024: RealArmRight
+    4300026: RealArmLeft
+    4300028: RightHand
+    4300030: RightShoe
+    4300032: Torso
+    4300034: Scalp
     7400000: Default Take
     9500000: //RootNode
   externalObjects:
@@ -110,72 +125,97 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: CeramicFace
-    second: {fileID: 2100000, guid: eeacb03e74b17814680f036d5289779c, type: 2}
+    second: {fileID: 2100000, guid: c069edc401a43da4492c6fc5475c8e2e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: CeramicLeftArm
-    second: {fileID: 2100000, guid: c3e58cdf43d8e3c4192b9e53806d51a7, type: 2}
+    second: {fileID: 2100000, guid: 6f94369d8abfc824887e819067e71351, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: CeramicLeftHand
-    second: {fileID: 2100000, guid: 40ae922e7d7f9f34b853d441efaaae9d, type: 2}
+    second: {fileID: 2100000, guid: 23e28efbd1e366e41af846e3e618cf2e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: CeramicRightArm
-    second: {fileID: 2100000, guid: dff1ee6a383fac84db09c7d56844d69c, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: CeramicRightHand
-    second: {fileID: 2100000, guid: 281e7771f06bb1144b85857fed956b0f, type: 2}
+    second: {fileID: 2100000, guid: 81ea645ac5c68ae489a4292785679cc4, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: CeramicTorso
-    second: {fileID: 2100000, guid: a6609d0a4cb9e3347a122a6b885d77dd, type: 2}
+    second: {fileID: 2100000, guid: 0a1e600fd2491574f8e7475f58d47dbc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: DenimJumper
-    second: {fileID: 2100000, guid: 4285cba8fe8a5a942bd863872cf1a5b1, type: 2}
+    second: {fileID: 2100000, guid: 7ce53d69b1e0e67448b22ae5f7ca5ea5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: DenimPocket
-    second: {fileID: 2100000, guid: 623d00055348f3341a462f9b7b854b3b, type: 2}
+    second: {fileID: 2100000, guid: 2f3c8755727e0bc488f7177a80c79699, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Faucet
-    second: {fileID: 2100000, guid: fcafd356086d9df429bbdadeeef1f951, type: 2}
+    second: {fileID: 2100000, guid: 8384d95634ca9e34d8e461206118c11d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat_001
+    second: {fileID: 2100000, guid: 3f40e4b9602689e4a8b4671f8efd82b0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: LeftShoe
-    second: {fileID: 2100000, guid: a7776e9b729a390449d07a8a7c919eb5, type: 2}
+    second: {fileID: 2100000, guid: b41804e5835f9d54c9d29d47987b442a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftSleeve
+    second: {fileID: 2100000, guid: ba0fb50bdf154c84c9184c732995c06d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Legs
+    second: {fileID: 2100000, guid: 0428a455551eb6247abbf7a950ca7c0e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightHand
+    second: {fileID: 2100000, guid: ae006c8bcbcd7994fae3d577f7c3f968, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: RightShoes
-    second: {fileID: 2100000, guid: bb059f4032730464d95f47113b8fad8f, type: 2}
+    second: {fileID: 2100000, guid: d28c703d35c26d34593b78e2c8222dd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightSleeve
+    second: {fileID: 2100000, guid: 489bb47bb0bbd7e438bdeda4f266fa36, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Scalp_Transperent_001
-    second: {fileID: 2100000, guid: d475a3b18fd51c14fb658806980a1e4e, type: 2}
+    second: {fileID: 2100000, guid: 94b6bee614e9dd340b681f614c86bc6c, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Shirt
-    second: {fileID: 2100000, guid: c1479daf92916674e9d510da40e9af49, type: 2}
+    second: {fileID: 2100000, guid: 6d5de838e1084fe45b21b43a295e6c1f, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Towel_surface_-_needs_hair_particles_001
-    second: {fileID: 2100000, guid: 1d263ee7ebf7a524485ebe1b8fe69362, type: 2}
+    second: {fileID: 2100000, guid: 6fcb10a2085dd3349aa4ccaed3a08b4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: aec1bab1edf2f094585c036acd20f2cb, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -226,6 +266,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
