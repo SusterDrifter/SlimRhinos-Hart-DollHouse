@@ -4,6 +4,8 @@ public class BreathingSystemUIController : MonoBehaviour {
 
     public bool curCycleFinished = false;
 
+    private Sound music;
+
     [SerializeField] BreathingCircBarUIHandle handle;
     [SerializeField] UIFader fader;
     [SerializeField] CanvasGroup UIElement;
@@ -31,6 +33,11 @@ public class BreathingSystemUIController : MonoBehaviour {
         curCycleFinished = false;
         handle.HardcoreMode();
         UIElement.blocksRaycasts = true;
+
+        if (music == null)
+            music = AudioManager.instance.GetSound(Sound.SoundType.BackgroundMusic, "PanicAttackMusic");
+
+        AudioManager.instance.PlayClip(music);
         fader.FadeIn(UIElement, 0.5f);
         handle.StartBreathingSystem();
     }
@@ -51,5 +58,6 @@ public class BreathingSystemUIController : MonoBehaviour {
         UIElement.blocksRaycasts = false;
         curCycleFinished = true;
         MainUIManager.instance.GetBlackScreen().ChangeAlpha(0);
+        AudioManager.instance.audioFader.FadeOut(music, 15f);
     }
 }

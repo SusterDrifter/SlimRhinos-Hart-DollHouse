@@ -34,12 +34,12 @@ public class DiaryFlip : MonoBehaviour {
         UIElement.alpha = 0;
     }
 
-    public void BeginReading()
+    public void BeginReading(int left = 0, int right = 1)
     {
         StopAllCoroutines();
         fader.FadeIn(UIElement, fadeDuration);
-        OrganisePage(0);
-        OrganisePage(1);
+        OrganisePage(left);
+        OrganisePage(right);
         // Fade in text
         
     }

@@ -90,7 +90,7 @@ public class DiaryManager : MonoBehaviour {
                         diaryOpen = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "DiaryOpen");
 
                     AudioManager.instance.PlayClip(diaryOpen);
-                    pages.BeginReading();
+                    pages.BeginReading(pages.lastPageIndex - 2, pages.lastPageIndex - 1);
                 }
                 else
                 {

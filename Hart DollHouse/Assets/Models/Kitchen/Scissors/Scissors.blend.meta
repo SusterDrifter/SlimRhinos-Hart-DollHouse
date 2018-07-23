@@ -25,7 +25,22 @@ ModelImporter:
     4300004: ScissorBase
     7400000: Default Take
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hinge
+    second: {fileID: 2100000, guid: 8944ca929ca7bd040805ca7a5c9b9d21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ScissorBase
+    second: {fileID: 2100000, guid: 4a3a6978c9f26b4478ed2ae9488e546c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ScissorTop
+    second: {fileID: 2100000, guid: 1de2186d321123a47894ce476aa5a377, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
