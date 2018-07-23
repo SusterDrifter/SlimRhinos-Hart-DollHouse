@@ -58,6 +58,12 @@ ModelImporter:
     2100020: RightShoes
     2100022: Scalp_Transperent
     2100024: unnamed
+    2100026: LeftHand
+    2100028: Legs
+    2100030: LeftArm
+    2100032: RightArm
+    2100034: RightHand
+    2100036: Torso
     2300000: BlackCape
     2300002: Cape
     2300004: CapeHood
@@ -150,13 +156,38 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: LeftArm
+    second: {fileID: 2100000, guid: 04ad3f2088e77e1499fb246c51c5a76d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftHand
+    second: {fileID: 2100000, guid: 4e491ac6cea3038498950eab46ca1847, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: LeftShoe
     second: {fileID: 2100000, guid: 1f898774100d1aa44bd590eb49cb0209, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Legs
+    second: {fileID: 2100000, guid: 260d63e0323e59f42a14a71110f4675a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Ribbon
     second: {fileID: 2100000, guid: 2b868f12cd7e01c44a8f2eb9215d1445, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightArm
+    second: {fileID: 2100000, guid: 9408c6889c0c8e047b92b9b0c446df96, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightHand
+    second: {fileID: 2100000, guid: acb27920dff33784a975cd4d0f2dc3d3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -167,6 +198,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: Scalp_Transperent
     second: {fileID: 2100000, guid: 1f7605f320d40d744a14e30d7e219b8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Torso
+    second: {fileID: 2100000, guid: bd24a45a4b7c0854695a0c75f169fa6d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
