@@ -15,7 +15,7 @@ public class AudioManager : MonoBehaviour {
     [SerializeField] Sound[] backgroundMusic;
     [SerializeField] float fadeDuration = 0.5f;
 
-    private Sound musicInPlay;
+    [SerializeField] public Sound musicInPlay;
     public AudioFader audioFader;
 
     #region Singleton
@@ -85,13 +85,14 @@ public class AudioManager : MonoBehaviour {
             if (sound.type == Sound.SoundType.BackgroundMusic)
             {
                 // Check if there is a current music playing
-                if (musicInPlay != null && musicInPlay.source.isPlaying)
+                if (musicInPlay.clip != null && musicInPlay.source.isPlaying)
                 {
                     // FadeOut the music, FadeIn the new one
                     audioFader.FadeInNewSound(musicInPlay, sound, sound.source.volume, fadeDuration);
-                }          
+                }
                 // Keep track of this variable
-                musicInPlay = sound;
+                musicInPlay.clip = sound.clip;
+                musicInPlay.source = sound.source;
             }
             sound.source.Play();
         }
@@ -107,5 +108,11 @@ public class AudioManager : MonoBehaviour {
     {
         if (sound != null && sound.source != null && !sound.source.isPlaying)
             sound.source.Play();
+    }
+
+    public void FadeOutMusic()
+    {
+        if (musicInPlay.clip && musicInPlay.source)
+            audioFader.FadeOut(musicInPlay);
     }
 }

@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class PanicAttackController : MonoBehaviour {
 
@@ -34,5 +32,10 @@ public class PanicAttackController : MonoBehaviour {
         timer.SetDuration(winDuration);
         timer.RestartTimer();
         breathingGame.BeginBreathingSystem();
+    }
+
+    public void PanicAttackEntry()
+    {
+        AudioManager.instance.PlayClip(Sound.SoundType.SoundEffect, "PanicAttackEntry");
     }
 }

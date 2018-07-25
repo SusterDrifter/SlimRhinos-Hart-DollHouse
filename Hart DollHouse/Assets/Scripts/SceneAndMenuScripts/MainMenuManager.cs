@@ -27,7 +27,18 @@ public class MainMenuManager : MonoBehaviour {
     {
         if (backgroundMusic == null)
             backgroundMusic = AudioManager.instance.GetSound(Sound.SoundType.BackgroundMusic, "MenuBackgroundMusic");
-        backgroundMusic.source.Play();
+
+        if (AudioManager.instance.musicInPlay.clip != null && AudioManager.instance.musicInPlay.source.isPlaying)
+        {
+            AudioManager.instance.audioFader.FadeInNewSound(AudioManager.instance.musicInPlay, backgroundMusic, backgroundMusic.volume, 8f);
+            Debug.Log(backgroundMusic.volume);
+        } else
+        {
+            Debug.Log(backgroundMusic.volume + " else clause");
+            AudioManager.instance.audioFader.FadeIn(backgroundMusic);
+        }
+            
+
         musicPlay = true;
     }
 

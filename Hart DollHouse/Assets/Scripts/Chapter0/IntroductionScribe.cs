@@ -378,4 +378,9 @@ public class IntroductionScribe : MonoBehaviour {
 
         AudioManager.instance.PlayClip(button);
     }
+
+    public void PanicAttackEntry()
+    {
+        AudioManager.instance.PlayClip(Sound.SoundType.SoundEffect, "PanicAttackEntry");
+    }
 }

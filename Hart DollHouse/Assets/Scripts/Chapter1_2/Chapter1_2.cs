@@ -116,4 +116,9 @@ public class Chapter1_2 : MonoBehaviour {
         ClampingTrigger.instance.MovementSet(true);
         GameManager.instance.NextChapter();
     }
+
+    public void PlayBackgroundMusic()
+    {
+        AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "Shadowlands");
+    }
 }

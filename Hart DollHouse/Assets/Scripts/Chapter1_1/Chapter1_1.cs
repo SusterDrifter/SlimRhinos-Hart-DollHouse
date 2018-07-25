@@ -19,6 +19,8 @@ public class Chapter1_1 : MonoBehaviour {
     private FloatParameter normAperture;
     private FloatParameter blurAperture;
 
+    private bool gameStart = false;
+
     #region Singleton
     public static Chapter1_1 instance;
 
@@ -43,13 +45,18 @@ public class Chapter1_1 : MonoBehaviour {
         blurAperture.value = 0.01f;
 
         #endregion
-        StartCoroutine(ChangeBlur(2.0f));
-        StartCoroutine(StartDiag(1.0f));
+
     }
     #endregion
 
     private void Update()
     {
+        if (!gameStart && Input.anyKeyDown) {
+            gameStart = true;
+            StartCoroutine(ChangeBlur(4.0f));
+            StartCoroutine(StartDiag(1.0f));
+        }
+
         if (endingSequenceStarted)
         {
             if (MainUIManager.instance.GetBreathingManager().curCycleFinished && !endingTriggered)
@@ -59,6 +66,8 @@ public class Chapter1_1 : MonoBehaviour {
                 StartCoroutine(EndingScene(5f));
             }
         }
+
+
     }
 
     public void EndSequence()

@@ -697,11 +697,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
-        type: 2}
-      propertyPath: soundEffects.Array.size
-      value: 24
-      objectReference: {fileID: 0}
     - target: {fileID: 4905559217365282, guid: aada27482d3bac148bd39bc94f802821, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0.9775281
@@ -732,26 +727,6 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4905559217365282, guid: aada27482d3bac148bd39bc94f802821, type: 2}
       propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
-        type: 2}
-      propertyPath: soundEffects.Array.data[23].clipName
-      value: Exit
-      objectReference: {fileID: 0}
-    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
-        type: 2}
-      propertyPath: soundEffects.Array.data[23].clip
-      value: 
-      objectReference: {fileID: 8300000, guid: ae3b81adcf26507439330a383404b209, type: 3}
-    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
-        type: 2}
-      propertyPath: soundEffects.Array.data[23].volume
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
-        type: 2}
-      propertyPath: soundEffects.Array.data[23].pitch
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3666,7 +3641,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1255071067957946, guid: 921b9d5376496c6458d6f61a829d6caa, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 921b9d5376496c6458d6f61a829d6caa, type: 2}
@@ -4963,7 +4938,7 @@ Prefab:
     - target: {fileID: 114299701974086140, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
         type: 2}
       propertyPath: m_isInputParsingRequired
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114509664677985450, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
         type: 2}
@@ -4989,6 +4964,11 @@ Prefab:
         type: 2}
       propertyPath: m_textAlignment
       value: 520
+      objectReference: {fileID: 0}
+    - target: {fileID: 114299701974086140, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
+        type: 2}
+      propertyPath: m_margin.x
+      value: 139.43123
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 947fe246c6ca3ae4ba3a00de59a84bc4, type: 2}

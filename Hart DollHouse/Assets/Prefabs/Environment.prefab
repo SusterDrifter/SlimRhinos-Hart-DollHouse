@@ -54312,7 +54312,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 1
+    volume: 0.6
     pitch: 1
     spatialBlend: 0.8
   viableSoundOff:
@@ -54322,7 +54322,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 1
+    volume: 0.6
     pitch: 1
     spatialBlend: 0.8
   nonviableSound:
@@ -54332,7 +54332,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 1
+    volume: 0.6
     pitch: 1
     spatialBlend: 0.8
   triggerName: Interact
@@ -54875,7 +54875,7 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     spatialBlend: 0.8
-  item: {fileID: 11400000, guid: 43b274297f9341942b0155a2c07d4f21, type: 2}
+  item: {fileID: 0}
 --- !u!114 &114973620369854518
 MonoBehaviour:
   m_ObjectHideFlags: 1

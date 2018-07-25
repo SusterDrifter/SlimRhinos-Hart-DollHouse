@@ -34,8 +34,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1208003269290300}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9775281, y: -0.9104066, z: -3.4786243}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.9550562, y: -1.8208132, z: -6.9572487}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -271,9 +271,27 @@ MonoBehaviour:
     volume: 0.58
     pitch: 1
     spatialBlend: 0
+  - clipName: Exit
+    type: 0
+    clip: {fileID: 8300000, guid: ae3b81adcf26507439330a383404b209, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 1
+    pitch: 1
+    spatialBlend: 0
+  - clipName: PanicAttackEntry
+    type: 0
+    clip: {fileID: 8300000, guid: 749b623b7150ea141943c27f1410b193, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.4
+    pitch: 1
+    spatialBlend: 0
   backgroundMusic:
   - clipName: PanicAttackMusic
-    type: 0
+    type: 1
     clip: {fileID: 8300000, guid: bd348fa22d3f3744cae739b737d3a090, type: 3}
     source: {fileID: 0}
     loop: 0
@@ -281,5 +299,33 @@ MonoBehaviour:
     volume: 1
     pitch: 1
     spatialBlend: 0
+  - clipName: Shadowlands
+    type: 1
+    clip: {fileID: 8300000, guid: f03bb1156d5112d40bf722c756fbc2d4, type: 3}
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.7
+    pitch: 1
+    spatialBlend: 0
+  - clipName: MenuBackgroundMusic
+    type: 1
+    clip: {fileID: 8300000, guid: cd5e3331a5f247d43b6f13233c547100, type: 3}
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.3
+    pitch: 0.8
+    spatialBlend: 0
   fadeDuration: 0.5
+  musicInPlay:
+    clipName: Default Name
+    type: 0
+    clip: {fileID: 0}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 1
+    pitch: 1
+    spatialBlend: 0.8
   audioFader: {fileID: 0}
