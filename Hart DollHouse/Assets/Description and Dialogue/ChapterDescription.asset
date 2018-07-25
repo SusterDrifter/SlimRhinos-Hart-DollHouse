@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -13,7 +13,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: 
   sentences:
-  - 
   - 'After a particular incident involving broken mirror, I had come to understanding
     that increased security was required. '
   - 
@@ -22,3 +21,4 @@ MonoBehaviour:
   - 
   - Even though I was told to dive further,.. I have a feeling that for some of them
     it might be safer not to.
+  - 
