@@ -14,7 +14,7 @@ public class Chapter1_2 : MonoBehaviour {
     [SerializeField] private Animator animator;
     private bool charlotteDrawing = false;
     [SerializeField] private TextMeshProUGUI textPrompt;
-
+    
     [HideInInspector] public bool emilPhoto = false;
     [HideInInspector] public bool willPhoto = false;
     [HideInInspector] public bool rosiePhoto = false;
@@ -50,7 +50,6 @@ public class Chapter1_2 : MonoBehaviour {
     {
         if (charlotteDrawing)
         {
-            Debug.Log("TEXT");
             textPrompt.color = new Color(textPrompt.color.r, textPrompt.color.g, textPrompt.color.b, Mathf.PingPong(Time.time, 1));
 
             if (Input.anyKeyDown)
