@@ -108,7 +108,77 @@ ModelImporter:
     4300032: Dress
     7400000: Default Take
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Blonde_Hair_001
+    second: {fileID: 2100000, guid: 6d07400f3f4b9234899650ab1853c3b3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicFace_002
+    second: {fileID: 2100000, guid: db87adc2c6cceb447aeb331da49b7ef0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicLeftHand_002
+    second: {fileID: 2100000, guid: 4b92f16fef63963469c7aad84cc5b8f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicRightArm
+    second: {fileID: 2100000, guid: ae983eb0d1cf42b42a857d939c70a3ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicRightArm_001
+    second: {fileID: 2100000, guid: 7278a745fc284c148a4ce14b76721a00, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicRightHand_002
+    second: {fileID: 2100000, guid: 9a7d883d842b89346b7fbbb3661c0e92, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicTorso_002
+    second: {fileID: 2100000, guid: 1c4b4dda103b951488eef23cab2a52ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dress
+    second: {fileID: 2100000, guid: 62f1e9b4ccc665c4ea3a42c90cac631f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftArm
+    second: {fileID: 2100000, guid: 8e62b1631a064da4ab4d8d877d5826b9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftShoe_002
+    second: {fileID: 2100000, guid: b0d041357b429314e85a70cc7739fc4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightArm
+    second: {fileID: 2100000, guid: c046e0567414b8643b045374edcb876e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightShoes_002
+    second: {fileID: 2100000, guid: ac1835aa02dc95c44b42a6c695903b91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope
+    second: {fileID: 2100000, guid: c026d216ba3298441aeeb45b7c6d9608, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scalp_Transperent_002
+    second: {fileID: 2100000, guid: 4133b0ac2eb99164ca53a61cbaa494cc, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

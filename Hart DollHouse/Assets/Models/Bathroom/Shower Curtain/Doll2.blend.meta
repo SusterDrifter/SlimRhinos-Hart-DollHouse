@@ -108,7 +108,77 @@ ModelImporter:
     4300032: Scalp
     7400000: Default Take
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicFace_001
+    second: {fileID: 2100000, guid: 939ec68925593544ba242089b7d73e8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicLeftHand_001
+    second: {fileID: 2100000, guid: abada625f9aa2074fae2c1f657c8a4f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicRightHand_001
+    second: {fileID: 2100000, guid: c124eac0ad9a35c4189600f97362ddab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicTorso_001
+    second: {fileID: 2100000, guid: b18f533b89c78434381ed4b4bd0a2f76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: InnerDress_001
+    second: {fileID: 2100000, guid: 45340c3a95de3374887a0088cc92b36c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftArm
+    second: {fileID: 2100000, guid: ef555297314058c489228cf95b490c02, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftShoe_001
+    second: {fileID: 2100000, guid: b55635e48cfbe4b418c04cb0700bbad3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ribbon_001
+    second: {fileID: 2100000, guid: 3d32b926b4f046448ac94f91c93d0bd0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightArm
+    second: {fileID: 2100000, guid: abca2e578be34d04bac9772670f3923f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightShoes_001
+    second: {fileID: 2100000, guid: 6afa0801cfd7cba499068f305bc52109, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Robe_001
+    second: {fileID: 2100000, guid: 22b1d6135ef12884cb0002725e03a642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rope
+    second: {fileID: 2100000, guid: be826a8e6c778244db5c166f56415488, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scalp_Transperent_001
+    second: {fileID: 2100000, guid: 1e0cf04d1c681ad40b4ea3b3a8936722, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Towel_surface_-_needs_hair_particles_001
+    second: {fileID: 2100000, guid: ff9f285b021c7c947a34a483d3981d80, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
