@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 2e5329af75736504591672cbd041f255
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Hair
+    100004: Hat1
+    100006: Head1
+    100008: InnerDressBaked1
+    100010: LeftArmBaked1
+    100012: LeftHand1
+    100014: LeftLeg1
+    100016: LeftShoe1
+    100018: RightArmBaked1
+    100020: RightHand1
+    100022: RightLeg1
+    100024: RightShoe1
+    100026: RobeBaked1
+    100028: Scalp1
+    100030: String_L1
+    100032: String_R1
+    100034: String_R1_1
+    100036: Torso1
+    400000: //RootNode
+    400002: Hair
+    400004: Hat1
+    400006: Head1
+    400008: InnerDressBaked1
+    400010: LeftArmBaked1
+    400012: LeftHand1
+    400014: LeftLeg1
+    400016: LeftShoe1
+    400018: RightArmBaked1
+    400020: RightHand1
+    400022: RightLeg1
+    400024: RightShoe1
+    400026: RobeBaked1
+    400028: Scalp1
+    400030: String_L1
+    400032: String_R1
+    400034: String_R1_1
+    400036: Torso1
+    2100000: Blonde_Hair
+    2100002: Rope
+    2100004: Face
+    2100006: LeftArm
+    2100008: LeftHand
+    2100010: RightHand
+    2100012: LeftShoe
+    2100014: RightArm
+    2100016: RightShoe
+    2100018: Robe
+    2100020: Torso
+    2100022: Hat
+    2100024: Ribbon
+    2100026: Scalp_Transperent
+    2100028: InnerDress
+    2300000: Hair
+    2300002: Hat1
+    2300004: Head1
+    2300006: InnerDressBaked1
+    2300008: LeftArmBaked1
+    2300010: LeftHand1
+    2300012: LeftLeg1
+    2300014: LeftShoe1
+    2300016: RightArmBaked1
+    2300018: RightHand1
+    2300020: RightLeg1
+    2300022: RightShoe1
+    2300024: RobeBaked1
+    2300026: Scalp1
+    2300028: String_L1
+    2300030: String_R1
+    2300032: String_R1_1
+    2300034: Torso1
+    3300000: Hair
+    3300002: Hat1
+    3300004: Head1
+    3300006: InnerDressBaked1
+    3300008: LeftArmBaked1
+    3300010: LeftHand1
+    3300012: LeftLeg1
+    3300014: LeftShoe1
+    3300016: RightArmBaked1
+    3300018: RightHand1
+    3300020: RightLeg1
+    3300022: RightShoe1
+    3300024: RobeBaked1
+    3300026: Scalp1
+    3300028: String_L1
+    3300030: String_R1
+    3300032: String_R1_1
+    3300034: Torso1
+    4300000: Hair
+    4300002: String_R1_1
+    4300004: String_L1
+    4300006: String_R1
+    4300008: Head1
+    4300010: LeftArmBaked1
+    4300012: LeftHand1
+    4300014: LeftLeg1
+    4300016: LeftShoe1
+    4300018: RightArmBaked1
+    4300020: RightHand1
+    4300022: RightLeg1
+    4300024: RightShoe1
+    4300026: RobeBaked1
+    4300028: Torso1
+    4300030: Hat1
+    4300032: Scalp1
+    4300034: InnerDressBaked1
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
