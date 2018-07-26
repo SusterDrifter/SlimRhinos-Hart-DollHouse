@@ -1,0 +1,277 @@
+fileFormatVersion: 2
+guid: 626920b3222cee74caf7461b4a67ac7e
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BlackCape
+    100004: Body
+    100006: Cape
+    100008: CapeHood
+    100010: Clothes
+    100012: Dress
+    100014: Hat
+    100016: Head
+    100018: LeftHand
+    100020: LeftShoe
+    100022: Legs
+    100024: RealArmLeft
+    100026: RealArmRight
+    100028: Ribbon
+    100030: RightHand
+    100032: RightShoe
+    100034: Scalp
+    100036: Torso
+    100038: Mesh
+    400000: //RootNode
+    400002: BlackCape
+    400004: Body
+    400006: Cape
+    400008: CapeHood
+    400010: Clothes
+    400012: Dress
+    400014: Hat
+    400016: Head
+    400018: LeftHand
+    400020: LeftShoe
+    400022: Legs
+    400024: RealArmLeft
+    400026: RealArmRight
+    400028: Ribbon
+    400030: RightHand
+    400032: RightShoe
+    400034: Scalp
+    400036: Torso
+    400038: Mesh
+    2100000: DressMaterial_003
+    2100002: Hat
+    2100004: Ribbon
+    2100006: CapeHood
+    2100008: Cape
+    2100010: Towel_surface_-_needs_hair_particles_001
+    2100012: CeramicFace
+    2100014: CeramicLeftHand
+    2100016: LeftShoe
+    2100018: CeramicRightHand
+    2100020: CeramicRightArm_001
+    2100022: CeramicRightArm
+    2100024: RightShoes
+    2100026: CeramicTorso
+    2100028: Scalp_Transperent
+    2100030: unnamed
+    2300000: BlackCape
+    2300002: Cape
+    2300004: CapeHood
+    2300006: Dress
+    2300008: Hat
+    2300010: Head
+    2300012: LeftHand
+    2300014: LeftShoe
+    2300016: Legs
+    2300018: RealArmLeft
+    2300020: RealArmRight
+    2300022: Ribbon
+    2300024: RightHand
+    2300026: RightShoe
+    2300028: Scalp
+    2300030: Torso
+    2300032: Mesh
+    3300000: BlackCape
+    3300002: Cape
+    3300004: CapeHood
+    3300006: Dress
+    3300008: Hat
+    3300010: Head
+    3300012: LeftHand
+    3300014: LeftShoe
+    3300016: Legs
+    3300018: RealArmLeft
+    3300020: RealArmRight
+    3300022: Ribbon
+    3300024: RightHand
+    3300026: RightShoe
+    3300028: Scalp
+    3300030: Torso
+    3300032: Mesh
+    4300000: Dress
+    4300002: Hat
+    4300004: Ribbon
+    4300006: CapeHood
+    4300008: Cape
+    4300010: BlackCape
+    4300012: Head
+    4300014: LeftHand
+    4300016: LeftShoe
+    4300018: Legs
+    4300020: RealArmLeft
+    4300022: RealArmRight
+    4300024: RightHand
+    4300026: RightShoe
+    4300028: Torso
+    4300030: Scalp
+    4300032: Mesh
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cape
+    second: {fileID: 2100000, guid: 45e0dcdded93ce84d90282501b51a241, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CapeHood
+    second: {fileID: 2100000, guid: f0f0737050a249a4383697a54410a87d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicFace
+    second: {fileID: 2100000, guid: cc8e839d1b74f81488d36e75b57cdf23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicLeftHand
+    second: {fileID: 2100000, guid: 9ae06cbd83691b14c83ba584d7b2316b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicRightArm
+    second: {fileID: 2100000, guid: 5586ad615c42d1b45807ae22497d439a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicRightArm_001
+    second: {fileID: 2100000, guid: 788783f82b8cb0d4f887501f161a7478, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicRightHand
+    second: {fileID: 2100000, guid: 29edc27e9ef5cc14890729172e805929, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CeramicTorso
+    second: {fileID: 2100000, guid: 5184f9837d05ef344add2fb739ffeb5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: DressMaterial_003
+    second: {fileID: 2100000, guid: ec633065f8fee264d82dbd5c3b28a4e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hat
+    second: {fileID: 2100000, guid: 5fe08f2eb4fe36449997b848eb75d2d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LeftShoe
+    second: {fileID: 2100000, guid: 5a4f31a9ef4ec8a4eaed202e2ddfcee4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ribbon
+    second: {fileID: 2100000, guid: aefc800a2d2d23f49b04df41ccfc8361, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RightShoes
+    second: {fileID: 2100000, guid: 4e41be10539f81c47b841f2c1a823687, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scalp_Transperent
+    second: {fileID: 2100000, guid: 6482734769f191c49b6e57c18fa4ecb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Towel_surface_-_needs_hair_particles_001
+    second: {fileID: 2100000, guid: ce85cd87cfd857b43891272594dd0636, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 855d26b50a124e14eb686105bd29866e, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
