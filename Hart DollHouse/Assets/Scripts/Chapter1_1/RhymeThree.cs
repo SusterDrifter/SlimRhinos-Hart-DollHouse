@@ -4,7 +4,6 @@
 
     private void LateUpdate()
     {
-        base.Update();
         if (gameObject.tag == "Interactable" && !initDeactivate)
         {
             this.enabled = false;

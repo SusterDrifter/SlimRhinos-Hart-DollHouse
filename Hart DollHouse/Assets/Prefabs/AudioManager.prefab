@@ -317,6 +317,24 @@ MonoBehaviour:
     volume: 0.3
     pitch: 0.8
     spatialBlend: 0
+  - clipName: Insidious
+    type: 1
+    clip: {fileID: 8300000, guid: 7d628c206ba01914ea409c1852e2b3f9, type: 3}
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 0.8
+    spatialBlend: 0
+  - clipName: Haunted
+    type: 1
+    clip: {fileID: 8300000, guid: 1a7e4c0165e4e3b4685cb582c13d0b22, type: 3}
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 0.8
+    spatialBlend: 0
   fadeDuration: 0.5
   musicInPlay:
     clipName: Default Name

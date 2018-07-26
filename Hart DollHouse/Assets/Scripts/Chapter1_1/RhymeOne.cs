@@ -6,7 +6,6 @@ public class RhymeOne : ArticleObject
 
     private void LateUpdate()
     {
-        base.Update();
         if (gameObject.tag == "Interactable" && !initDeactivate)
         {
             gameObject.SetActive(false);

@@ -22,6 +22,7 @@ public class RhymeGame : MonoBehaviour {
     {
         if (rhymeTwo && rhymeThree && rhymeFour)
         {
+            AudioManager.instance.PlayClip(Sound.SoundType.SoundEffect, "SuddenEntry");
             if (rhymeOneObj)
                 rhymeOneObj.gameObject.SetActive(true);
             if (trunkKey)

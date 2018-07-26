@@ -4,7 +4,7 @@ public class Interactable : MonoBehaviour {
 
     public float interactRadius = 5f;
 
-    bool isFocus = false;
+    public bool isFocus = false;
     bool hasInteracted = false;
     public bool isViable = true;
 
