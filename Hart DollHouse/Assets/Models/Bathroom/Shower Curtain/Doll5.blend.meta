@@ -55,6 +55,7 @@ ModelImporter:
     2100022: RightShoes_005
     2100024: Scalp_Transperent_005
     2100026: CeramicTorso_005
+    2100028: Legs
     2300000: Dress
     2300002: Head
     2300004: LeftArm
@@ -159,6 +160,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: LeftShoe_005
     second: {fileID: 2100000, guid: 513526de7ef77eb4498faa55ecab0df1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Legs
+    second: {fileID: 2100000, guid: c576da8ee5dcb9e47879491538ecf669, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
