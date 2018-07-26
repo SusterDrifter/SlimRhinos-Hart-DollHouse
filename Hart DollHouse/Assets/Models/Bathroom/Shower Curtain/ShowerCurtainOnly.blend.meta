@@ -74,7 +74,57 @@ ModelImporter:
     4300020: Rod
     7400000: Default Take
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CapeHood
+    second: {fileID: 2100000, guid: b98715cb3b7b73d42a71936d8e165fe0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: R
+    second: {fileID: 2100000, guid: e58e882090625434cad4d944b0cdada6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ring1
+    second: {fileID: 2100000, guid: b5684c360336a8d4fb363f3c6f9080e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ring2
+    second: {fileID: 2100000, guid: c627d18a2e6b6254b961a16c57c0c6d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ring3
+    second: {fileID: 2100000, guid: a1f40796e8f547248bdd90ef6c38e127, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ring4
+    second: {fileID: 2100000, guid: 588c550e237222849b3835b58fe445ec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ring5
+    second: {fileID: 2100000, guid: 1ad7d334c5de18547a32d609da08c01a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ShowerCurtain
+    second: {fileID: 2100000, guid: 7133d09a2fa27af46a251d73723a41a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wrap
+    second: {fileID: 2100000, guid: 2e1b46e46c557dd418027490b53bb2dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 0780c7c66857c5840bf2e737656ed5b9, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
