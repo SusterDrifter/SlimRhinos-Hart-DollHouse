@@ -55,6 +55,7 @@ public class Chapter1_1 : MonoBehaviour {
             gameStart = true;
             StartCoroutine(ChangeBlur(4.0f));
             StartCoroutine(StartDiag(1.0f));
+            AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "Haunted");
         }
 
         if (endingSequenceStarted)
