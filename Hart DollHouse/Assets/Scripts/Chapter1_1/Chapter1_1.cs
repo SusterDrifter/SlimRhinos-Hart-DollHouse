@@ -83,6 +83,7 @@ public class Chapter1_1 : MonoBehaviour {
         yield return new WaitForSecondsRealtime(duration);
         MainUIManager.instance.GetDialogueUIManager().GetManager().BeginDialogue(endingDiag);
         yield return new WaitForSecondsRealtime(30f);
+        Debug.Log("NEXT CHAPTER");
         GameManager.instance.FadeNextChapter();
     }
 

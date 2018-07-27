@@ -4,11 +4,11 @@ public class Interactable : MonoBehaviour {
 
     public float interactRadius = 5f;
 
-    public bool isFocus = false;
+    [HideInInspector] public bool isFocus = false;
     bool hasInteracted = false;
-    public bool isViable = true;
+    [HideInInspector] public bool isViable = true;
 
-    public bool state = true;
+    [HideInInspector] public bool state = true;
     public bool switchable = false;
 
     Transform playerPosition;

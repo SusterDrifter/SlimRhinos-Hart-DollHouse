@@ -5,6 +5,7 @@ public class RosieChap1_2 : DialogueObject {
 
     [SerializeField] private GameObject rosieOnBed;
     [SerializeField] private GameObject wardrobeKey;
+    [SerializeField] public Sound dragSound;
 
     public override void Interact()
     {
@@ -15,8 +16,26 @@ public class RosieChap1_2 : DialogueObject {
     IEnumerator DestroyObjTransition(float fadeDuration, float delayDur)
     {
         MainUIManager.instance.GetBlackScreen().BlackFadeIn(fadeDuration);
+
+        if (dragSound.clip)
+        {
+            dragSound.source = gameObject.AddComponent<AudioSource>();
+            dragSound.source.clip = dragSound.clip;
+
+            dragSound.source.volume = dragSound.volume;
+            dragSound.source.pitch = dragSound.pitch;
+            dragSound.source.spatialBlend = dragSound.spatialBlend;
+
+            dragSound.source.loop = dragSound.loop;
+            dragSound.source.playOnAwake = dragSound.playOnAwake;
+        }
+
         yield return new WaitForSecondsRealtime(fadeDuration);
-        if (rosieOnBed)
+
+        if (dragSound.clip)
+            dragSound.source.Play();
+
+        if (rosieOnBed && wardrobeKey)
         {
             rosieOnBed.gameObject.SetActive(true);
             wardrobeKey.gameObject.SetActive(true);

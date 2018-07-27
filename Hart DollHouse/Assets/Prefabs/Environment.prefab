@@ -7801,7 +7801,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1457526654536664
 GameObject:
   m_ObjectHideFlags: 1
@@ -13001,7 +13001,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1735471110575140
 GameObject:
   m_ObjectHideFlags: 1
@@ -74493,7 +74493,7 @@ MonoBehaviour:
   nonviableSound:
     clipName: Default Name
     type: 0
-    clip: {fileID: 8300000, guid: 11aa36e03901ea9469195c314557ca45, type: 3}
+    clip: {fileID: 8300000, guid: 6c81cdd5b7733b54ea897df3429c485a, type: 3}
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
