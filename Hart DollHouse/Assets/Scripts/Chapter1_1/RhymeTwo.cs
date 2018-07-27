@@ -4,11 +4,11 @@ using UnityEngine;
 public class RhymeTwo : ArticleObject
 {
     [SerializeField] private GameObject wardrobeBox;
-    private bool hasInteracted = false;
+    private bool interacted = false;
 
     public override void Interact()
     {
-        hasInteracted = true;
+        interacted = true;
         base.Interact();
         if (wardrobeBox)
             wardrobeBox.GetComponent<WardrobeBox>().useNewDiag = true;
@@ -20,12 +20,12 @@ public class RhymeTwo : ArticleObject
     new private void Update()
     {
         base.Update();
-        if (hasInteracted)
+        if (interacted)
         {
             if (!MainUIManager.instance.isUIActive)
             {
                 StartCoroutine(DestroyObjTransition(0.5f, 2f));
-                hasInteracted = false;
+                interacted = false;
             }
         }
     }

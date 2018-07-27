@@ -289,6 +289,15 @@ MonoBehaviour:
     volume: 0.4
     pitch: 1
     spatialBlend: 0
+  - clipName: SuddenEntry
+    type: 0
+    clip: {fileID: 8300000, guid: 724bd0e1d126b15438f555fbc304da93, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.8
+    pitch: 1
+    spatialBlend: 0
   backgroundMusic:
   - clipName: PanicAttackMusic
     type: 1
@@ -314,7 +323,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 1
     playOnAwake: 0
-    volume: 0.3
+    volume: 0.1
     pitch: 0.8
     spatialBlend: 0
   - clipName: Insidious

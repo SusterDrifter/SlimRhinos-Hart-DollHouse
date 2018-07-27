@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using TMPro;
-using UnityEngine.UI;
 using System.Collections;
 
 public class Chapter1_4 : MonoBehaviour {

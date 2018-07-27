@@ -88,12 +88,14 @@ public class AudioManager : MonoBehaviour {
                 if (musicInPlay.clip != null && musicInPlay.source.isPlaying)
                 {
                     // FadeOut the music, FadeIn the new one
-                    audioFader.FadeInNewSound(musicInPlay, sound, sound.source.volume, fadeDuration);
+                    audioFader.FadeOut(musicInPlay, fadeDuration);
                 }
+                
                 // Keep track of this variable
                 musicInPlay.clip = sound.clip;
                 musicInPlay.source = sound.source;
             }
+
             sound.source.Play();
         }
     }
