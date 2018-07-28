@@ -5,8 +5,7 @@ using System.Collections;
 public class Chapter1_4 : MonoBehaviour {
 
     public bool scissorsPossessed = false;
-    public bool needlePossessed = false;
-    public bool stringPossessed = false;
+    public bool needleStringPossessed = false;
 
     [SerializeField] private Dialogue startDiag;
     [SerializeField] private Dialogue endingDiag;
@@ -49,7 +48,7 @@ public class Chapter1_4 : MonoBehaviour {
 
     public void EndingTrig()
     {
-        if (scissorsPossessed && needlePossessed && stringPossessed)
+        if (scissorsPossessed && needleStringPossessed)
         {
             MainUIManager.instance.GetDialogueUIManager().GetManager().BeginDialogue(foundAllDiag);
             animator.SetTrigger("Ending");

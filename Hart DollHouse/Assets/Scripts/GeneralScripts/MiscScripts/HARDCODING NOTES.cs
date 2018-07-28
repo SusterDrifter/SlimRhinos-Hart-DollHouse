@@ -3,12 +3,12 @@
  * picked up is limited and small. This note serves as dictionary for 
  * the allocation of the slots.
  * 
- * FrontDoor Key    : 0
+ * Bathroom Key     : 0
  * BedRoom Key      : 1
  * Trunk Key        : 2
- * Nursery Puzzle   : 3
+ *                  : 3
  * Diary            : 4
  * HourHand         : 5
- * ClockFaceCover   : 6
- * SmallChestKey    : 7
+ *                  : 6
+ * Wardrobe box Key : 7
  */
