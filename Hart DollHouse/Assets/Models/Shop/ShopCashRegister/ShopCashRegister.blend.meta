@@ -1,0 +1,279 @@
+fileFormatVersion: 2
+guid: 6a8cdfd3f3bb55d479d6397112efb1e2
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: CoverPlate
+    100002: Cylinder
+    100004: Cylinder_001
+    100006: Cylinder_002
+    100008: Cylinder_003
+    100010: Cylinder_004
+    100012: Cylinder_005
+    100014: Cylinder_006
+    100016: Cylinder_007
+    100018: Cylinder_008
+    100020: Cylinder_009
+    100022: Cylinder_010
+    100024: Cylinder_011
+    100026: LeftScrew
+    100028: MainBody
+    100030: MoneyBox
+    100032: RightScrew
+    100034: //RootNode
+    400000: CoverPlate
+    400002: Cylinder
+    400004: Cylinder_001
+    400006: Cylinder_002
+    400008: Cylinder_003
+    400010: Cylinder_004
+    400012: Cylinder_005
+    400014: Cylinder_006
+    400016: Cylinder_007
+    400018: Cylinder_008
+    400020: Cylinder_009
+    400022: Cylinder_010
+    400024: Cylinder_011
+    400026: LeftScrew
+    400028: MainBody
+    400030: MoneyBox
+    400032: RightScrew
+    400034: //RootNode
+    2100000: Screw_Mat
+    2100002: Metal_Mat_001
+    2100004: Metal_Mat
+    2100006: Screw_Mat_001
+    2100008: MetalKey_Mat_011
+    2100010: MetalKey_Mat_010
+    2100012: MetalKey_Mat_008
+    2100014: MetalKey_Mat_009
+    2100016: MetalKey_Mat_007
+    2100018: MetalKey_Mat_006
+    2100020: MetalKey_Mat_005
+    2100022: MetalKey_Mat_004
+    2100024: MetalKey_Mat_003
+    2100026: MetalKey_Mat_002
+    2100028: MetalKey_Mat_001
+    2100030: MetalKey_Mat
+    2100032: WoodenBody_Mat
+    2300000: CoverPlate
+    2300002: Cylinder
+    2300004: Cylinder_001
+    2300006: Cylinder_002
+    2300008: Cylinder_003
+    2300010: Cylinder_004
+    2300012: Cylinder_005
+    2300014: Cylinder_006
+    2300016: Cylinder_007
+    2300018: Cylinder_008
+    2300020: Cylinder_009
+    2300022: Cylinder_010
+    2300024: Cylinder_011
+    2300026: LeftScrew
+    2300028: MainBody
+    2300030: MoneyBox
+    2300032: RightScrew
+    3300000: CoverPlate
+    3300002: Cylinder
+    3300004: Cylinder_001
+    3300006: Cylinder_002
+    3300008: Cylinder_003
+    3300010: Cylinder_004
+    3300012: Cylinder_005
+    3300014: Cylinder_006
+    3300016: Cylinder_007
+    3300018: Cylinder_008
+    3300020: Cylinder_009
+    3300022: Cylinder_010
+    3300024: Cylinder_011
+    3300026: LeftScrew
+    3300028: MainBody
+    3300030: MoneyBox
+    3300032: RightScrew
+    4300000: RightScrew
+    4300002: MoneyBox
+    4300004: MainBody
+    4300006: LeftScrew
+    4300008: Cylinder_011
+    4300010: Cylinder_010
+    4300012: Cylinder_008
+    4300014: Cylinder_009
+    4300016: Cylinder_007
+    4300018: Cylinder_006
+    4300020: Cylinder_005
+    4300022: Cylinder_004
+    4300024: Cylinder_003
+    4300026: Cylinder_002
+    4300028: Cylinder_001
+    4300030: Cylinder
+    4300032: CoverPlate
+    7400000: Default Take
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat
+    second: {fileID: 2100000, guid: d6516ebe4e3b77b40ba7d25f44db2a3d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat_001
+    second: {fileID: 2100000, guid: e75a33c110fdc10418c721b0acab0d4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat_002
+    second: {fileID: 2100000, guid: 72ee9fab3ebf49342abd82fabfd1099b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat_003
+    second: {fileID: 2100000, guid: 4606eb675b0b3a640990952440f11eed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat_004
+    second: {fileID: 2100000, guid: d2dcfa575fd7b9744bf0e22e6b451314, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat_005
+    second: {fileID: 2100000, guid: a6154e8d8026d594b872f4f687ed942f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat_006
+    second: {fileID: 2100000, guid: f29181b824edd98468db2a350afa5883, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat_007
+    second: {fileID: 2100000, guid: 4bac4ff091c9e9340baf95403b41aa13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat_008
+    second: {fileID: 2100000, guid: 8744ca957aa620643af030bb84c55396, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat_009
+    second: {fileID: 2100000, guid: 2d61488c0c453704e90c8cecd9895154, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat_010
+    second: {fileID: 2100000, guid: f6a0b16c6be9c8a4cab0b75d251a4c97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MetalKey_Mat_011
+    second: {fileID: 2100000, guid: aa31044732eb1644b86c6dfe31571a60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat
+    second: {fileID: 2100000, guid: b2a41811c3f6bc14bb092dad08cba172, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal_Mat_001
+    second: {fileID: 2100000, guid: 6e735ab87aca1b5469715048153a3261, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screw_Mat
+    second: {fileID: 2100000, guid: 186dd102558eccc48b8de0bdeb69ede5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screw_Mat_001
+    second: {fileID: 2100000, guid: 068fc2e9fdfbdae4ab2e487cb82653a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WoodenBody_Mat
+    second: {fileID: 2100000, guid: 5a0492cea05dd814b9bd42c54eb69f58, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
