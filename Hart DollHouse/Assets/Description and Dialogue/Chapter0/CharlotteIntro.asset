@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -13,15 +13,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: '...'
   sentences:
-  - '"... ..."'
-  - '... shrinks into herself and mumbles, "I couldn''t save my friends."'
-  - '"..."'
-  - A grin forms on ...'s face as they declare cheerfully, "That's my big friend,
-    Will." Before continuing their eyebrows furrowed and their lips sank into a confused
-    pout. "He's not from Little's."
-  - Donning the cheeky grin Sinclair had grown familiar with, ... chirpily supplying,
-    "Rosie was one of my best friends. We always played together."
-  - '"... ..." . Humming to themselves, ... rocks side to side against the leather
-    of their seat, "Emil was my friend." . Cheeks puffing up in thought they mumbled,
-    "but the bad people got to him."'
-  - '"... ..."'
+  - '... ...'
+  - I couldn't save my friends.
+  - '...'
+  - That's my big friend, Will. He's not from Little's.
+  - Rosie was one of my best friends. We always played together.
+  - Emil was my friend, but the bad people got to him.
+  - '... ...'

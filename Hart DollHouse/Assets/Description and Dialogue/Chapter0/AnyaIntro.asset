@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -13,17 +13,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: '...'
   sentences:
-  - '"... ..."'
-  - '... hesitates before carefully responding, "It was traumatising. My friends...".
-    ... swallows thickly before proclaiming, "That place was hell."'
-  - '"..." '
-  - '... smiles fondly, gently resting their hand against the photograph. "That''s
-    Will as a child. He''s very important to me, as you know," she pointed out lightly.'
-  - '... takes a moment to compose herself and regulate her breathing. Softly, as
-    though finding it difficult to even articulate her words, she utters, "Her name
-    was Rosie. She would have safe if..."... chokes back her recount as a steady stream
-    of tears began to spill.'
-  - '"... ..." Taking the photograph into their hands ... coos, their voice pitying,
-    "Emil was my friend too, like a little brother to me. Soft spoken... and gentle...
-    He deserved better."'
-  - '"... ..."'
+  - '... ...'
+  - It was traumatising. My friends... That place was hell.
+  - '...'
+  - That's Will as a child. He's very important to me, as you know.
+  - Her name was Rosie. She would have safe if...
+  - Emil was my friend too, like a little brother to me. Soft spoken... and gentle...
+    He deserved better.
+  - '... ...'
