@@ -6,6 +6,8 @@ public class Chapter2_4 : MonoBehaviour {
     [SerializeField] private Dialogue diaryDiag;
     [SerializeField] private Dialogue bathroomSceneDiag;
     [SerializeField] private Dialogue bathroomSceneTwoDiag;
+    [SerializeField] private Vector3 rotationToTrunk;
+    [SerializeField] private Item Diary;
 
     private Animator animator;
     private bool diaryTrig = false;
@@ -98,6 +100,13 @@ public class Chapter2_4 : MonoBehaviour {
     public void BathroomScene()
     {
         animator.SetTrigger("Bathroom");
+    }
+
+    public void CameraRotation()
+    {
+        Camera.main.transform.Rotate(rotationToTrunk);
+        if (Diary)
+            Inventory.instance.AddToInvent(Diary);
     }
 
 }

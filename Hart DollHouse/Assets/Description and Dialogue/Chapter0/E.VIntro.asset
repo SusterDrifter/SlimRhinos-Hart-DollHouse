@@ -3,7 +3,7 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
@@ -13,16 +13,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: '...'
   sentences:
-  - '"... ..."'
-  - '... leans back in their seat, an audible crack filling the room as they adjust
-    in their seat. What could have been a growl was their response, "I should have
-    known that hellhole was fucked up."'
-  - '"..."'
-  - Smirking as she looked upon the picture fondly, they answered honestly, "Will.
-    That's the one who stayed with me even when I refused help.
-  - '... stiffens, releasing a breath in seeming exasperation.Or irritation. "Her
-    name was Rosie. She... was too naive."'
-  - '"That''s Emil. Everyone thought something was fishy when that quiet little boy
-    too small to even be noticed just vanished." Sighing deeply, they look down at
-    the photograph before tutting. "The whole situation there was just fucked up."'
-  - '"... ..."'
+  - '... ...'
+  - '...I should have known that hellhole was fucked up.'
+  - '...'
+  - Will. That's the one who stayed with me even when I refused help.
+  - Her name was Rosie. She... was too naive.
+  - That's Emil. Everyone thought something was fishy when that quiet little boy too
+    small to even be noticed just vanished. The whole situation there was just fucked
+    up.
+  - '... ...'
