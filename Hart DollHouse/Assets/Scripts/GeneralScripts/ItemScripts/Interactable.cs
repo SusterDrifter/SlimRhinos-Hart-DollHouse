@@ -6,9 +6,9 @@ public class Interactable : MonoBehaviour {
 
     [HideInInspector] public bool isFocus = false;
     bool hasInteracted = false;
-    [HideInInspector] public bool isViable = true;
+    public bool isViable = true;
 
-    [HideInInspector] public bool state = true;
+    public bool state = true;
     public bool switchable = false;
 
     Transform playerPosition;
