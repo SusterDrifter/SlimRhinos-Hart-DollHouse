@@ -627,7 +627,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1737580724467160
 GameObject:
   m_ObjectHideFlags: 1
@@ -2275,7 +2275,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: b0a6b097198971d42b642df7893f20c9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2313,7 +2313,7 @@ MonoBehaviour:
   pageNum: 2
   subPageNum: 0
   keyword: KEYWORD
-  source: {fileID: 21300000, guid: 76b7823c097d5f6428e22427bcb34c3b, type: 3}
+  source: {fileID: 21300000, guid: b0a6b097198971d42b642df7893f20c9, type: 3}
   image: {fileID: 0}
 --- !u!114 &114581209493227732
 MonoBehaviour:
@@ -4029,8 +4029,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -205, y: -38.585968}
-  m_SizeDelta: {x: 101.01001, y: 100}
+  m_AnchoredPosition: {x: -192.4, y: -28.3}
+  m_SizeDelta: {x: 91.7, y: 107.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224892339291765208
 RectTransform:
@@ -4232,7 +4232,7 @@ CanvasGroup:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1626770347378304}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
