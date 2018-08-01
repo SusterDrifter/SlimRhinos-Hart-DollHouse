@@ -13,8 +13,8 @@ public class BreathingCircBarUIHandle : CircularBarUIController {
     [SerializeField] float increaseTimer = 0.75f;
     [SerializeField] float decreaseTimer = 0.75f;
 
-    [SerializeField] float ezTimerDuration = 10f;
-    [SerializeField] float ezIncreaseTimer = -0.2f;
+    [SerializeField] float ezTimerDuration = 12f;
+    [SerializeField] float ezIncreaseTimer = 0f;
     [SerializeField] float ezDecreaseTimer = 0.5f;
 
     private float oriTimerDuration;

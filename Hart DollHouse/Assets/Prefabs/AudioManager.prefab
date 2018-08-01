@@ -1,21 +1,11 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &100100000
-Prefab:
-  m_ObjectHideFlags: 1
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications: []
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1208003269290300}
-  m_IsPrefabAsset: 1
 --- !u!1 &1208003269290300
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4905559217365282}
@@ -30,33 +20,24 @@ GameObject:
   m_IsActive: 1
 --- !u!4 &4905559217365282
 Transform:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208003269290300}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1.9550562, y: -1.8208132, z: -6.9572487}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114081892976067716
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1208003269290300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d81bd31623a2ea544ae2293708c9e6d7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114569976047333122
 MonoBehaviour:
-  m_ObjectHideFlags: 1
+  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208003269290300}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -104,7 +85,7 @@ MonoBehaviour:
     type: 0
     clip: {fileID: 8300000, guid: 897c3196cdd16b14ea036bff7ec2da24, type: 3}
     source: {fileID: 0}
-    loop: 0
+    loop: 1
     playOnAwake: 0
     volume: 0.47
     pitch: 1
@@ -298,6 +279,15 @@ MonoBehaviour:
     volume: 0.8
     pitch: 1
     spatialBlend: 0
+  - clipName: AnyaPA
+    type: 0
+    clip: {fileID: 8300000, guid: cd696e0c9ca3e174baace2fe60286c1c, type: 3}
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+    volume: 0.8
+    pitch: 1
+    spatialBlend: 0
   backgroundMusic:
   - clipName: PanicAttackMusic
     type: 1
@@ -305,7 +295,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 1
+    volume: 0.7
     pitch: 1
     spatialBlend: 0
   - clipName: Shadowlands
@@ -356,3 +346,15 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0.8
   audioFader: {fileID: 0}
+--- !u!114 &114081892976067716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1208003269290300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d81bd31623a2ea544ae2293708c9e6d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
