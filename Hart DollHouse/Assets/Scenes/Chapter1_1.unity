@@ -90,7 +90,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -834,6 +834,18 @@ Prefab:
     - target: {fileID: 4581811894785296, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -86.816
+      objectReference: {fileID: 0}
+    - target: {fileID: 1051001225713066, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1549166124673458, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1613772924001042, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb, type: 2}
