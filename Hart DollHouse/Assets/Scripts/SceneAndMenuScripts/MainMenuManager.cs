@@ -31,10 +31,8 @@ public class MainMenuManager : MonoBehaviour {
         if (AudioManager.instance.musicInPlay.clip != null && AudioManager.instance.musicInPlay.source.isPlaying)
         {
             AudioManager.instance.audioFader.FadeInNewSound(AudioManager.instance.musicInPlay, backgroundMusic, backgroundMusic.volume, 8f);
-            Debug.Log(backgroundMusic.volume);
         } else
         {
-            Debug.Log(backgroundMusic.volume + " else clause");
             AudioManager.instance.audioFader.FadeIn(backgroundMusic);
         }
             
