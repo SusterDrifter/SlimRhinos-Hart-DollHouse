@@ -6429,6 +6429,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4635199990678314}
   - component: {fileID: 95688341929596324}
+  - component: {fileID: 1503516346}
   m_Layer: 0
   m_Name: AshesDollReuseNormalBaked
   m_TagString: Untagged
@@ -6471,6 +6472,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1503516346
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1091490266923408}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.446024, y: 7.954013, z: 2.3040423}
+  m_Center: {x: -0.7230114, y: 2.2683532, z: -0.6520198}
 --- !u!1 &1092955215163244
 GameObject:
   m_ObjectHideFlags: 0
@@ -10329,6 +10343,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4055853350993864}
   - component: {fileID: 95369059275552454}
+  - component: {fileID: 1760733877}
   m_Layer: 0
   m_Name: AshesAshesDollSitReuse
   m_TagString: Untagged
@@ -10372,6 +10387,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1760733877
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1142779106417826}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.5970597, y: 7.000519, z: 2.473246}
+  m_Center: {x: -1.7985327, y: 3.000259, z: -0.7366257}
 --- !u!1 &1143705408691264
 GameObject:
   m_ObjectHideFlags: 0
@@ -12118,7 +12146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactRadius: 5
   isFocus: 0
-  isViable: 1
+  isViable: 0
   state: 1
   switchable: 1
   oldViableDiag: {fileID: 0}
@@ -26123,6 +26151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4689446439654568}
   - component: {fileID: 95804371095042828}
+  - component: {fileID: 1700063858}
   m_Layer: 0
   m_Name: BedroomChair
   m_TagString: Untagged
@@ -26166,6 +26195,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1700063858
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374965422189212}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 3.0463536, z: 5.2275357}
+  m_Center: {x: 0.000000052392963, y: 0.6307238, z: -0.04144469}
 --- !u!1 &1375360459121906
 GameObject:
   m_ObjectHideFlags: 0
@@ -33335,6 +33377,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4388152551804222}
   - component: {fileID: 95482132599607768}
+  - component: {fileID: 1324197435}
+  - component: {fileID: 1324197436}
   m_Layer: 0
   m_Name: AshesReuseDoll2
   m_TagString: Untagged
@@ -33377,6 +33421,41 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1324197435
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448458928812382}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1554232, y: 9.427561, z: 10.314089}
+  m_Center: {x: -1.1013511, y: 1.6120108, z: -3.324027}
+--- !u!114 &1324197436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448458928812382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e60fff509eb6a4b9c7f44dd34c8731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 5
+  isFocus: 0
+  isViable: 1
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 11400000, guid: 493939ea288940e429eaf10a8e22b79d, type: 2}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
 --- !u!1 &1448653155083504
 GameObject:
   m_ObjectHideFlags: 0
@@ -37987,8 +38066,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 7.1422124, y: 7.545351, z: 0}
-  m_Center: {x: -2.061426, y: 0.76602864, z: 4.2021565}
+  m_Size: {x: 7.1422095, y: 8.023073, z: 12.883713}
+  m_Center: {x: -2.0614243, y: 0.53721017, z: -1.9185567}
 --- !u!1 &1515717946172984
 GameObject:
   m_ObjectHideFlags: 0
@@ -40573,6 +40652,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4985028968237368}
   - component: {fileID: 95126588584073348}
+  - component: {fileID: 1816082099}
+  - component: {fileID: 1816082100}
   m_Layer: 0
   m_Name: AshesDollReuseNormalBaked (1)
   m_TagString: Untagged
@@ -40615,6 +40696,41 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1816082099
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549166124673458}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.20664, y: 8.168146, z: 4.208289}
+  m_Center: {x: -0.6033115, y: 2.2692068, z: -0.9021418}
+--- !u!114 &1816082100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1549166124673458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e60fff509eb6a4b9c7f44dd34c8731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 5
+  isFocus: 0
+  isViable: 1
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 11400000, guid: 493939ea288940e429eaf10a8e22b79d, type: 2}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
 --- !u!1 &1549745319929372
 GameObject:
   m_ObjectHideFlags: 0
@@ -45743,6 +45859,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4453428006738564}
   - component: {fileID: 95545086155599048}
+  - component: {fileID: 1137946863}
+  - component: {fileID: 1137946864}
   m_Layer: 0
   m_Name: AshesAshesDollSitReuse (2)
   m_TagString: Untagged
@@ -45786,6 +45904,41 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1137946863
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613772924001042}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.1683738, y: 5.858862, z: 3.088236}
+  m_Center: {x: -0.58418655, y: 3.3619127, z: -0.29743636}
+--- !u!114 &1137946864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1613772924001042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7e60fff509eb6a4b9c7f44dd34c8731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactRadius: 5
+  isFocus: 0
+  isViable: 1
+  state: 1
+  switchable: 0
+  oldViableDiag: {fileID: 11400000, guid: 493939ea288940e429eaf10a8e22b79d, type: 2}
+  oldNonviableDiag: {fileID: 0}
+  newViableDiag: {fileID: 0}
+  newNonviableDiag: {fileID: 0}
+  useNewDiag: 0
 --- !u!1 &1615443527991774
 GameObject:
   m_ObjectHideFlags: 0
@@ -53874,6 +54027,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4645516177119562}
   - component: {fileID: 95621387529032820}
+  - component: {fileID: 1854125236}
   m_Layer: 0
   m_Name: AshesAshesDollSitReuse (1)
   m_TagString: Untagged
@@ -53917,6 +54071,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1854125236
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706940142394050}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.0356247, y: 5.7688794, z: 2.8557155}
+  m_Center: {x: -0.51780516, y: 3.5328622, z: -0.31935924}
 --- !u!1 &1707537807234512
 GameObject:
   m_ObjectHideFlags: 0
@@ -71984,6 +72151,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4581811894785296}
   - component: {fileID: 95685822613436860}
+  - component: {fileID: 1528869563}
   m_Layer: 0
   m_Name: AshesReuseDoll3 (1)
   m_TagString: Untagged
@@ -72026,6 +72194,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1528869563
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941107361269412}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.4694948, y: 9.145669, z: 2.427419}
+  m_Center: {x: -0.7347511, y: 2.3346963, z: -0.7137157}
 --- !u!1 &1941557603389930
 GameObject:
   m_ObjectHideFlags: 0

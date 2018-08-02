@@ -33,6 +33,7 @@ public class PauseUIManager : MonoBehaviour {
     {
         Time.timeScale = 0f;
         isPaused = true;
+        if (GameManager.instance.currentSceneIndex > 1)
         GameManager.instance.UnlockCursor();
 
         if (UIActive == null)
@@ -45,7 +46,8 @@ public class PauseUIManager : MonoBehaviour {
     {
         Time.timeScale = 1f;
         isPaused = false;
-        GameManager.instance.LockCursor();
+        if (GameManager.instance.currentSceneIndex > 1)
+            GameManager.instance.LockCursor();
 
         if (UIDeactivate == null)
             UIDeactivate = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "PauseDeactivate");

@@ -18,7 +18,8 @@ public class PlayerMain : MonoBehaviour {
         movement = GetComponent<PlayerMovement>();
         vitals = GetComponent<PlayerVitals>();
         input = GetComponent<PlayerInput>();
-        GameManager.instance.LockCursor();
+        if (GameManager.instance.currentSceneIndex > 1)
+            GameManager.instance.LockCursor();
     }
 
     void FixedUpdate () {
