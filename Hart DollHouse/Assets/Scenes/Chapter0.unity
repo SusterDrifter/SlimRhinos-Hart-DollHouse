@@ -3915,6 +3915,13 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
+--- !u!114 &1480288420 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114878459692730404, guid: ebfdd1394a4ef1e49abd4c1cdb89a998,
+    type: 3}
+  m_PrefabInstance: {fileID: 1867817669}
+  m_PrefabAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 42eab8a73417c5f448d1ed8991e1e0f3, type: 3}
 --- !u!1 &1857677111
 GameObject:
   m_ObjectHideFlags: 0
@@ -4445,6 +4452,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: backgroundMusic.Array.size
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4905559217365282, guid: aada27482d3bac148bd39bc94f802821, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.9775281
@@ -4493,6 +4505,66 @@ PrefabInstance:
       propertyPath: m_Name
       value: AudioManager
       objectReference: {fileID: 0}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: soundEffects.Array.data[24].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: feae78e2d5df4f349b70b1af2630e215, type: 3}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: soundEffects.Array.data[26].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 178b5cb117d9c084f9e2d6747d273ef1, type: 3}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: soundEffects.Array.data[26].volume
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: backgroundMusic.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: bd348fa22d3f3744cae739b737d3a090, type: 3}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: backgroundMusic.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a1f0c30644879204e82c5fd80a84cd17, type: 3}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: backgroundMusic.Array.data[5].clipName
+      value: Chapter0Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: backgroundMusic.Array.data[5].type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: backgroundMusic.Array.data[5].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9a809bbf9456d6f458a918d9986ac17b, type: 3}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: backgroundMusic.Array.data[5].loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: backgroundMusic.Array.data[5].volume
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: backgroundMusic.Array.data[5].pitch
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 114569976047333122, guid: aada27482d3bac148bd39bc94f802821,
+        type: 3}
+      propertyPath: soundEffects.Array.data[21].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: d7fbec4eaaac07c44a6bbfa4ebd9c52b, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aada27482d3bac148bd39bc94f802821, type: 3}
 --- !u!1001 &1461195811
