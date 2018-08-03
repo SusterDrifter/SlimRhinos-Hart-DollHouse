@@ -263,7 +263,7 @@ MonoBehaviour:
     spatialBlend: 0
   - clipName: PanicAttackEntry
     type: 0
-    clip: {fileID: 8300000, guid: 749b623b7150ea141943c27f1410b193, type: 3}
+    clip: {fileID: 8300000, guid: feae78e2d5df4f349b70b1af2630e215, type: 3}
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
@@ -291,7 +291,7 @@ MonoBehaviour:
   backgroundMusic:
   - clipName: PanicAttackMusic
     type: 1
-    clip: {fileID: 8300000, guid: bd348fa22d3f3744cae739b737d3a090, type: 3}
+    clip: {fileID: 8300000, guid: 38058565a103c8246851b971f4873681, type: 3}
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0

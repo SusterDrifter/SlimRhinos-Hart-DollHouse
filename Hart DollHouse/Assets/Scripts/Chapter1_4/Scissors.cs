@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Scissors : Interactable {
+public class Scissors : DialogueObject {
 
     public override void Interact()
     {

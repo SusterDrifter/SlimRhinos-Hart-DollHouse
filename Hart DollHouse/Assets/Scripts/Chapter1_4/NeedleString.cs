@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class NeedleString : Interactable
+public class NeedleString : DialogueObject
 {
 
     public override void Interact()
