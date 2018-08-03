@@ -4,6 +4,8 @@ using System.Collections;
 public class RosieOnBed : DialogueObject {
 
     private bool hasDeactivate = false;
+    [SerializeField] private GameObject bedToCor;
+    [SerializeField] private GameObject bedToBath;
 
     new void Update()
     {
@@ -21,6 +23,11 @@ public class RosieOnBed : DialogueObject {
     public override void Interact()
     {
         base.Interact();
+
+        if (bedToBath)
+            bedToBath.GetComponent<Animatable>().useNewDiag = true;
+        if (bedToCor)
+            bedToCor.GetComponent<Animatable>().useNewDiag = true;
         StartCoroutine(DestroyObjTransition(0.1f, 3f));
     }
 
