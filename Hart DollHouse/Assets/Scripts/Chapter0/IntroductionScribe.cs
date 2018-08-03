@@ -83,7 +83,6 @@ public class IntroductionScribe : MonoBehaviour {
         talkDecision.interactable = false;
 
         animator.SetTrigger("FadeInPlayerDisc");
-
     }
 
     public void BeginConvo()
@@ -99,6 +98,7 @@ public class IntroductionScribe : MonoBehaviour {
     void Update () {
         if (doneChapter)
         {
+            Debug.Log("EAT ME");
             return;
         } else if (breathingTutStarted)
         {
@@ -115,6 +115,7 @@ public class IntroductionScribe : MonoBehaviour {
         }
         else if ((panicAttack || talkTurn > talkSequence.Length) && !breathingGameStarted)
         {
+            AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "PanicAttackMusic");
             currText = "";
             screenText.SetText("");
             animator.SetTrigger("PanicAttack");
