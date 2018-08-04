@@ -78,13 +78,13 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0.8
   item: {fileID: 11400000, guid: 1347034438ed57f42a0d74d77eaa9091, type: 2}
---- !u!114 &29268284 stripped
+--- !u!114 &204201517 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114557728414261360, guid: 02035476b14086244a4a94ab665e0d48,
+  m_CorrespondingSourceObject: {fileID: 114535834185985664, guid: 02035476b14086244a4a94ab665e0d48,
     type: 3}
   m_PrefabInstance: {fileID: 1801918338}
   m_PrefabAsset: {fileID: 0}
-  m_Script: {fileID: 11500000, guid: 7b85455fa4dce834c8079bb059bb0c8f, type: 3}
+  m_Script: {fileID: 11500000, guid: f2ee9828fd854c44cb720459bc49cd72, type: 3}
 --- !u!114 &1558493873 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114543214227626022, guid: 02035476b14086244a4a94ab665e0d48,
@@ -123,20 +123,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &204201517 stripped
+--- !u!114 &29268284 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114535834185985664, guid: 02035476b14086244a4a94ab665e0d48,
+  m_CorrespondingSourceObject: {fileID: 114557728414261360, guid: 02035476b14086244a4a94ab665e0d48,
     type: 3}
   m_PrefabInstance: {fileID: 1801918338}
   m_PrefabAsset: {fileID: 0}
-  m_Script: {fileID: 11500000, guid: f2ee9828fd854c44cb720459bc49cd72, type: 3}
---- !u!114 &949992770 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114867935792641218, guid: 02035476b14086244a4a94ab665e0d48,
-    type: 3}
-  m_PrefabInstance: {fileID: 1801918338}
-  m_PrefabAsset: {fileID: 0}
-  m_Script: {fileID: 11500000, guid: 694111ae388c3284baab2171140f22f4, type: 3}
+  m_Script: {fileID: 11500000, guid: 7b85455fa4dce834c8079bb059bb0c8f, type: 3}
 --- !u!1 &1739892990 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1166403342723996, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb,
@@ -213,6 +206,13 @@ MonoBehaviour:
   rhymeThreeObj: {fileID: 29268284}
   rhymeFourObj: {fileID: 1558493873}
   trunkKey: {fileID: 702977885}
+--- !u!114 &949992770 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114867935792641218, guid: 02035476b14086244a4a94ab665e0d48,
+    type: 3}
+  m_PrefabInstance: {fileID: 1801918338}
+  m_PrefabAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 694111ae388c3284baab2171140f22f4, type: 3}
 --- !u!29 &1
 OcclusionCullingSettings:
   m_ObjectHideFlags: 0
@@ -762,6 +762,11 @@ PrefabInstance:
     - target: {fileID: 4183209801816408, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb, type: 3}
       propertyPath: m_LocalPosition.z
       value: -0.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 2595796376893834458, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 5.203
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb, type: 3}
