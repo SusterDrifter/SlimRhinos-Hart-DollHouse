@@ -4,8 +4,8 @@ public class BreathingSystemUIController : MonoBehaviour {
 
     public bool curCycleFinished = false;
 
-    private Sound music;
-    private Sound anyaPanting;
+    [SerializeField] private Sound music;
+    [SerializeField] private Sound anyaPanting;
 
     [SerializeField] BreathingCircBarUIHandle handle;
     [SerializeField] UIFader fader;
@@ -35,10 +35,10 @@ public class BreathingSystemUIController : MonoBehaviour {
         handle.HardcoreMode();
         UIElement.blocksRaycasts = true;
 
-        if (music == null)
+        if (music.clip == null)
             music = AudioManager.instance.GetSound(Sound.SoundType.BackgroundMusic, "PanicAttackMusic");
 
-        if (anyaPanting == null)
+        if (anyaPanting.clip == null)
             anyaPanting = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "AnyaPA");
 
         AudioManager.instance.PlayClip(music);
@@ -64,13 +64,13 @@ public class BreathingSystemUIController : MonoBehaviour {
         curCycleFinished = true;
         MainUIManager.instance.GetBlackScreen().ChangeAlpha(0);
 
-        if (music == null)
+        if (music.clip == null)
             music = AudioManager.instance.GetSound(Sound.SoundType.BackgroundMusic, "PanicAttackMusic");
 
         if (music.source.isPlaying)
             AudioManager.instance.audioFader.FadeOut(music, 5f);
 
-        if (anyaPanting == null)
+        if (anyaPanting.clip == null)
             anyaPanting = AudioManager.instance.GetSound(Sound.SoundType.SoundEffect, "AnyaPA");
 
         if (anyaPanting.source.isPlaying)

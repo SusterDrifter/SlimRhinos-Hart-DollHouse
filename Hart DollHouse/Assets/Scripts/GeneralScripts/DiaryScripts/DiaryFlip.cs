@@ -10,8 +10,8 @@ public class DiaryFlip : MonoBehaviour {
     [SerializeField] private float fadeDuration = 0.1f;
     [SerializeField] public int lastPageIndex;
 
-    public int diarySize = 4;
-    public int subDiarySize = 4;
+    public int diarySize = 10;
+    public int subDiarySize = 2;
 
     void Start() {
 

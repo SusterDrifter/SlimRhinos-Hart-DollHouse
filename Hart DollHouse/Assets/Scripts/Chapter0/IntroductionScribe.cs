@@ -98,7 +98,6 @@ public class IntroductionScribe : MonoBehaviour {
     void Update () {
         if (doneChapter)
         {
-            Debug.Log("EAT ME");
             return;
         } else if (breathingTutStarted)
         {
@@ -115,11 +114,10 @@ public class IntroductionScribe : MonoBehaviour {
         }
         else if ((panicAttack || talkTurn > talkSequence.Length) && !breathingGameStarted)
         {
-            AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "PanicAttackMusic");
+            //AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "PanicAttackMusic");
             currText = "";
             screenText.SetText("");
             animator.SetTrigger("PanicAttack");
-
         }
         else if (breathingGameStarted)
         {
@@ -130,6 +128,7 @@ public class IntroductionScribe : MonoBehaviour {
             if (breathingGame.curCycleFinished)
             {
                 breathingGame.curCycleFinished = false;
+                ChapterMusic();
                 if (breathingGameWon)
                     FlashesWallTally();
                 else
@@ -383,5 +382,15 @@ public class IntroductionScribe : MonoBehaviour {
     public void PanicAttackEntry()
     {
         AudioManager.instance.PlayClip(Sound.SoundType.SoundEffect, "PanicAttackEntry");
+    }
+
+    public void ChapterMusic()
+    {
+        AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "Insidious");
+    }
+
+    public void ChapterStartMusic()
+    {
+        AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "Chapter0Music");
     }
 }

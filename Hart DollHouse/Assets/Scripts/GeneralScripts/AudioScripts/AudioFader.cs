@@ -43,6 +43,7 @@ public class AudioFader : MonoBehaviour {
     private IEnumerator FadeNewSound(Sound oldSound, Sound newSound, float endVol, float fadeDuration)
     {
         yield return StartCoroutine(FadeSound(oldSound, oldSound.source.volume, 0, fadeDuration));
+        oldSound.source.Stop();
         StartCoroutine(FadeSound(newSound, newSound.source.volume, endVol, fadeDuration));
     }
 }

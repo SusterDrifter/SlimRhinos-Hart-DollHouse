@@ -240,7 +240,7 @@ MonoBehaviour:
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.58
+    volume: 0.3
     pitch: 1
     spatialBlend: 0
   - clipName: DiaryUpdate
@@ -281,11 +281,11 @@ MonoBehaviour:
     spatialBlend: 0
   - clipName: AnyaPA
     type: 0
-    clip: {fileID: 8300000, guid: cd696e0c9ca3e174baace2fe60286c1c, type: 3}
+    clip: {fileID: 8300000, guid: 178b5cb117d9c084f9e2d6747d273ef1, type: 3}
     source: {fileID: 0}
     loop: 0
     playOnAwake: 0
-    volume: 0.8
+    volume: 1
     pitch: 1
     spatialBlend: 0
   backgroundMusic:
@@ -309,7 +309,7 @@ MonoBehaviour:
     spatialBlend: 0
   - clipName: MenuBackgroundMusic
     type: 1
-    clip: {fileID: 8300000, guid: cd5e3331a5f247d43b6f13233c547100, type: 3}
+    clip: {fileID: 8300000, guid: a1f0c30644879204e82c5fd80a84cd17, type: 3}
     source: {fileID: 0}
     loop: 1
     playOnAwake: 0
@@ -332,6 +332,15 @@ MonoBehaviour:
     loop: 1
     playOnAwake: 0
     volume: 0.5
+    pitch: 0.8
+    spatialBlend: 0
+  - clipName: Chapter0Music
+    type: 1
+    clip: {fileID: 8300000, guid: 9a809bbf9456d6f458a918d9986ac17b, type: 3}
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.2
     pitch: 0.8
     spatialBlend: 0
   fadeDuration: 0.5

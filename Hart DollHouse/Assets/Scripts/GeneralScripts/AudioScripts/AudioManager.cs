@@ -87,16 +87,30 @@ public class AudioManager : MonoBehaviour {
                 // Check if there is a current music playing
                 if (musicInPlay.clip != null && musicInPlay.source.isPlaying)
                 {
-                    // FadeOut the music, FadeIn the new one
-                    audioFader.FadeOut(musicInPlay, fadeDuration);
+                    // Stop old music
+                    musicInPlay.source.Stop();
                 }
-                
+
                 // Keep track of this variable
+                musicInPlay.clipName = sound.clipName;
                 musicInPlay.clip = sound.clip;
                 musicInPlay.source = sound.source;
-            }
 
+                musicInPlay.volume = sound.source.volume;
+                musicInPlay.loop = sound.source.loop;
+                musicInPlay.pitch = sound.source.pitch;
+                musicInPlay.spatialBlend = sound.source.spatialBlend;
+                musicInPlay.playOnAwake = sound.playOnAwake;
+
+                musicInPlay.source.volume = sound.source.volume;
+                musicInPlay.source.loop = sound.source.loop;
+                musicInPlay.source.pitch = sound.source.pitch;
+                musicInPlay.source.spatialBlend = sound.source.spatialBlend;
+                musicInPlay.source.playOnAwake = sound.playOnAwake;
+
+            }
             sound.source.Play();
+            
         }
     }
 
