@@ -14,7 +14,7 @@ public class Chapter2_4 : MonoBehaviour {
 
     #region Singleton
     public static Chapter2_4 instance;
-    
+
     private void Awake()
     {
         if (instance != null)
@@ -25,7 +25,7 @@ public class Chapter2_4 : MonoBehaviour {
     }
     #endregion
 
-    void Update () {
+    void Update() {
 
         if (Input.GetKeyDown(KeyCode.Tab) && !diaryTrig)
         {
@@ -66,7 +66,7 @@ public class Chapter2_4 : MonoBehaviour {
 
     public void DeactivateTransition(GameObject obj, Sound sound)
     {
-        StartCoroutine(CoroutineDestroyObj(obj, sound, 0.1f, 2f)); 
+        StartCoroutine(CoroutineDestroyObj(obj, sound, 0.1f, 2f));
     }
 
     IEnumerator CoroutineDestroyObj(GameObject obj, Sound sound, float fadeDuration, float delayDur)
@@ -109,4 +109,8 @@ public class Chapter2_4 : MonoBehaviour {
             Inventory.instance.AddToInvent(Diary);
     }
 
+    public void NextChapter()
+    {
+        GameManager.instance.FadeNextChapter();
+    }
 }

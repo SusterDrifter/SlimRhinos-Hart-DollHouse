@@ -13,7 +13,6 @@ public class AudioManager : MonoBehaviour {
 
     [SerializeField] Sound[] soundEffects;
     [SerializeField] Sound[] backgroundMusic;
-    [SerializeField] float fadeDuration = 0.5f;
 
     [SerializeField] public Sound musicInPlay;
     public AudioFader audioFader;
