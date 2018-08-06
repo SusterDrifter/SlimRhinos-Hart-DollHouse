@@ -6,11 +6,11 @@ public class Chapter2_4 : MonoBehaviour {
     [SerializeField] private Dialogue diaryDiag;
     [SerializeField] private Dialogue bathroomSceneDiag;
     [SerializeField] private Dialogue bathroomSceneTwoDiag;
-    [SerializeField] private Vector3 rotationToTrunk;
     [SerializeField] private Item Diary;
 
     private Animator animator;
     private bool diaryTrig = false;
+    private bool chapterStart = false;
 
     #region Singleton
     public static Chapter2_4 instance;
@@ -26,6 +26,12 @@ public class Chapter2_4 : MonoBehaviour {
     #endregion
 
     void Update() {
+
+        if (Input.anyKeyDown && !chapterStart)
+        {
+            animator.SetTrigger("Start");
+            chapterStart = true;
+        }
 
         if (Input.GetKeyDown(KeyCode.Tab) && !diaryTrig)
         {
@@ -102,9 +108,8 @@ public class Chapter2_4 : MonoBehaviour {
         animator.SetTrigger("Bathroom");
     }
 
-    public void CameraRotation()
+    public void AddDiary()
     {
-        Camera.main.transform.Rotate(rotationToTrunk);
         if (Diary)
             Inventory.instance.AddToInvent(Diary);
     }
