@@ -343,7 +343,15 @@ MonoBehaviour:
     volume: 0.2
     pitch: 0.8
     spatialBlend: 0
-  fadeDuration: 0.5
+  - clipName: November
+    type: 1
+    clip: {fileID: 8300000, guid: 4b773d2f59a4790448d1f27e1b08437b, type: 3}
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 0.8
+    spatialBlend: 0
   musicInPlay:
     clipName: Default Name
     type: 0

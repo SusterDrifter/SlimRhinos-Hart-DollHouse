@@ -27,7 +27,7 @@ public class Chapter1_4 : MonoBehaviour {
         animator = GetComponent<Animator>();
         textPrompt = GetComponentInChildren<TextMeshProUGUI>();
 
-        StartCoroutine(DelayStartDiagBy(5f));
+        StartCoroutine(DelayStartDiagBy(3f));
     }
 
     private void Update()
@@ -71,6 +71,7 @@ public class Chapter1_4 : MonoBehaviour {
     {
         yield return new WaitForSecondsRealtime(seconds);
         MainUIManager.instance.GetDialogueUIManager().GetManager().BeginDialogue(startDiag);
+        AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "November");
     }
     
     public void StartEndDiag()
