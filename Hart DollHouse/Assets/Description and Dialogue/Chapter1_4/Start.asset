@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: '...'
   sentences:
-  - I need to find scissors and string or before I can start to work.
+  - I need to find scissors and string before I can start to work.

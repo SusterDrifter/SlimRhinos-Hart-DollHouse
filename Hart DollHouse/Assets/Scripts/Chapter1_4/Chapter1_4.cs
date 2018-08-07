@@ -64,7 +64,7 @@ public class Chapter1_4 : MonoBehaviour {
 
     public void NextLevel()
     {
-        GameManager.instance.EndChapterFadeNextChapter(1);
+        GameManager.instance.EndChapterNextChapter(1);
     }
 
     IEnumerator DelayStartDiagBy(float seconds)

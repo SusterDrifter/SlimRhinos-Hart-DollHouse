@@ -8,6 +8,9 @@ public class Chapter2_4 : MonoBehaviour {
     [SerializeField] private Dialogue bathroomSceneTwoDiag;
     [SerializeField] private Item Diary;
 
+    [SerializeField] private GameObject bedToCor;
+    [SerializeField] private GameObject bedToBath;
+
     private Animator animator;
     private bool diaryTrig = false;
     private bool chapterStart = false;
@@ -30,6 +33,7 @@ public class Chapter2_4 : MonoBehaviour {
         if (Input.anyKeyDown && !chapterStart)
         {
             animator.SetTrigger("Start");
+            AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "Darkness");
             chapterStart = true;
         }
 
@@ -70,37 +74,21 @@ public class Chapter2_4 : MonoBehaviour {
         ClampingTrigger.instance.DeactivateLocking();
     }
 
-    public void DeactivateTransition(GameObject obj, Sound sound)
+    public void DeactivateTransition(GameObject obj)
     {
-        StartCoroutine(CoroutineDestroyObj(obj, sound, 0.1f, 2f));
+        StartCoroutine(CoroutineDestroyObj(obj, 0.1f, 2f));
     }
 
-    IEnumerator CoroutineDestroyObj(GameObject obj, Sound sound, float fadeDuration, float delayDur)
+    IEnumerator CoroutineDestroyObj(GameObject obj, float fadeDuration, float delayDur)
     {
         MainUIManager.instance.GetBlackScreen().BlackFadeIn(fadeDuration);
 
-        if (sound.clip)
-        {
-            sound.source = gameObject.AddComponent<AudioSource>();
-            sound.source.clip = sound.clip;
-
-            sound.source.volume = sound.volume;
-            sound.source.pitch = sound.pitch;
-            sound.source.spatialBlend = sound.spatialBlend;
-
-            sound.source.loop = sound.loop;
-            sound.source.playOnAwake = sound.playOnAwake;
-        }
-
         yield return new WaitForSecondsRealtime(fadeDuration);
 
-        if (sound.clip)
-            sound.source.Play();
+        MainUIManager.instance.GetBlackScreen().BlackFadeOutDelayBy(delayDur);
 
         if (obj)
             obj.gameObject.SetActive(false);
-
-        MainUIManager.instance.GetBlackScreen().BlackFadeOutDelayBy(delayDur);
     }
 
     public void BathroomScene()
@@ -117,5 +105,13 @@ public class Chapter2_4 : MonoBehaviour {
     public void NextChapter()
     {
         GameManager.instance.FadeNextChapter();
+    }
+
+    public void DoorNewDiag()
+    {
+        if (bedToBath)
+            bedToBath.GetComponent<DialogueObject>().useNewDiag = true;
+        if (bedToCor)
+            bedToBath.GetComponent<BedToBath>().useNewDiag = true;
     }
 }
