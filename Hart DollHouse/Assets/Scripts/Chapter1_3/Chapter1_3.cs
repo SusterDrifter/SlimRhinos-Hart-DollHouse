@@ -26,6 +26,7 @@ public class Chapter1_3 : MonoBehaviour {
         if (!startDiagTrig && Input.anyKeyDown && startDiag)
         {
             MainUIManager.instance.GetDialogueUIManager().GetManager().BeginDialogue(startDiag);
+            AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "Nightmares");
             startDiagTrig = true;
         }
 

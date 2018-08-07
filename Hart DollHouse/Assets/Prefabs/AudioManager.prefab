@@ -352,6 +352,24 @@ MonoBehaviour:
     volume: 0.5
     pitch: 0.8
     spatialBlend: 0
+  - clipName: Nightmares
+    type: 1
+    clip: {fileID: 8300000, guid: 274da7f6ddd02784fa8977cde8f92320, type: 3}
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.2
+    pitch: 0.8
+    spatialBlend: 0
+  - clipName: Darkness
+    type: 1
+    clip: {fileID: 8300000, guid: 427ea886e64c7b24fb569058b5563896, type: 3}
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 0.8
+    spatialBlend: 0
   musicInPlay:
     clipName: Default Name
     type: 0
