@@ -249,7 +249,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   finishLookDiag: {fileID: 11400000, guid: 452f5278d4a596e45966373f37197960, type: 2}
   startDiag: {fileID: 11400000, guid: 91256439b4c2b854fbb64759399b7952, type: 2}
-  delayNextChap: 5
+  delayNextChap: 7
 --- !u!1 &1874949731
 GameObject:
   m_ObjectHideFlags: 0

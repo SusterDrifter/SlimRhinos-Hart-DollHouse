@@ -9,7 +9,7 @@ public class Chapter1_3 : MonoBehaviour {
 
     private bool diaryTrig = false;
     private bool startDiagTrig = false;
-    [SerializeField] private float delayNextChap = 5.0f;
+    [SerializeField] private float delayNextChap = 7.0f;
 
     private int tabCount = 0;
 

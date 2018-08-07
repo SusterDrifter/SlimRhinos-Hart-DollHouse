@@ -76855,8 +76855,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 9.38, y: 3.2390807, z: 9.46}
-  m_Center: {x: 0, y: 0.9156831, z: -0.0000008389413}
+  m_Size: {x: 8.149113, y: 2.7005563, z: 9.46}
+  m_Center: {x: 0.07692661, y: 1.1849451, z: -0.0000009152087}
 --- !u!4 &4466008048572055241 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: cce10e2e863e38a4b8da3880449564d1,
@@ -77079,15 +77079,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d11b5fdebaf7df445a18ee7e36c3130e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.3407254
+      value: 5.341
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d11b5fdebaf7df445a18ee7e36c3130e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.839
+      value: 5.863
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d11b5fdebaf7df445a18ee7e36c3130e, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 14.046568
+      value: 13.898
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: d11b5fdebaf7df445a18ee7e36c3130e, type: 3}
       propertyPath: m_LocalScale.x
