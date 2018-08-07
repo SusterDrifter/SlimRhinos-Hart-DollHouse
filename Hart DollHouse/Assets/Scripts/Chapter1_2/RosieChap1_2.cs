@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Audio;
 using System.Collections;
 
 public class RosieChap1_2 : DialogueObject {
@@ -27,19 +28,21 @@ public class RosieChap1_2 : DialogueObject {
             dragSound.source.spatialBlend = dragSound.spatialBlend;
 
             dragSound.source.loop = dragSound.loop;
-            dragSound.source.playOnAwake = dragSound.playOnAwake;
+            //dragSound.source.playOnAwake = dragSound.playOnAwake;
+            dragSound.source.playOnAwake = true;
         }
 
         yield return new WaitForSecondsRealtime(fadeDuration);
 
-        if (dragSound.clip)
-            dragSound.source.Play();
+        //if (dragSound.clip)
+          //  dragSound.source.Play();
 
         if (rosieOnBed && wardrobeKey)
         {
             rosieOnBed.gameObject.SetActive(true);
             wardrobeKey.gameObject.SetActive(true);
         }
+
         MainUIManager.instance.GetBlackScreen().BlackFadeOutDelayBy(delayDur);
         gameObject.SetActive(false);
     }

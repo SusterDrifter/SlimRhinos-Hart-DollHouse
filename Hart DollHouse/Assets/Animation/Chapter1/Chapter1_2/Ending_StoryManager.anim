@@ -3,8 +3,9 @@
 --- !u!74 &7400000
 AnimationClip:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Ending_StoryManager
   serializedVersion: 6
   m_Legacy: 0
@@ -20,7 +21,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 22.483334
+        time: 11.116667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -29,7 +30,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 25.966667
+        time: 14.6
         value: 1
         inSlope: 0
         outSlope: 0
@@ -48,7 +49,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 42.483334
+        time: 31.116667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -57,7 +58,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 43.933334
+        time: 32.566666
         value: 1
         inSlope: 0
         outSlope: 0
@@ -66,7 +67,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 45.383335
+        time: 34.016666
         value: 1
         inSlope: 0
         outSlope: 0
@@ -75,7 +76,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 46.75
+        time: 35.383335
         value: 0
         inSlope: 0
         outSlope: 0
@@ -118,7 +119,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 69.8
+    m_StopTime: 60.166668
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -138,7 +139,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 22.483334
+        time: 11.116667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -147,7 +148,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 25.966667
+        time: 14.6
         value: 1
         inSlope: 0
         outSlope: 0
@@ -166,7 +167,7 @@ AnimationClip:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 42.483334
+        time: 31.116667
         value: 0
         inSlope: 0
         outSlope: 0
@@ -175,7 +176,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 43.933334
+        time: 32.566666
         value: 1
         inSlope: 0
         outSlope: 0
@@ -184,7 +185,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 45.383335
+        time: 34.016666
         value: 1
         inSlope: 0
         outSlope: 0
@@ -193,7 +194,7 @@ AnimationClip:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 46.75
+        time: 35.383335
         value: 0
         inSlope: 0
         outSlope: 0
@@ -220,42 +221,42 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 27.9
+  - time: 16.433332
     functionName: EndDiag
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 37.366665
+  - time: 25.9
     functionName: ScribbleSound
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 41.133335
+  - time: 29.666666
     functionName: FlipSound
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 44.783333
+  - time: 33.316666
     functionName: PauseAnim
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 48.683334
+  - time: 37.216667
     functionName: EndTwoDiag
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 69.8
+  - time: 60.166668
     functionName: NextChapter
     data: 
     objectReferenceParameter: {fileID: 0}

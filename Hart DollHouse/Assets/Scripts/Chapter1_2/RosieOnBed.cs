@@ -28,14 +28,17 @@ public class RosieOnBed : DialogueObject {
             bedToBath.GetComponent<Animatable>().useNewDiag = true;
         if (bedToCor)
             bedToCor.GetComponent<Animatable>().useNewDiag = true;
+
+        
         StartCoroutine(DestroyObjTransition(0.1f, 3f));
     }
 
     IEnumerator DestroyObjTransition(float fadeDuration, float delayDur)
     {
         MainUIManager.instance.GetBlackScreen().BlackFadeIn(fadeDuration);
-        MainUIManager.instance.GetBlackScreen().BlackFadeOutDelayBy(delayDur);
+        Debug.Log("Fading out");
         yield return new WaitForSecondsRealtime(fadeDuration);
+        MainUIManager.instance.GetBlackScreen().BlackFadeOutDelayBy(delayDur);
         gameObject.SetActive(false);
     }
 }

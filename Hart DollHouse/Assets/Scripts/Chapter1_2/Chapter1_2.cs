@@ -83,7 +83,7 @@ public class Chapter1_2 : MonoBehaviour {
 
     public void ThreePhotosDiag()
     {
-        StartCoroutine(DelayThreeDiagBy(4.0f));
+        StartCoroutine(DelayThreeDiagBy(2.0f));
     }
 
     public void EndingSeq()
