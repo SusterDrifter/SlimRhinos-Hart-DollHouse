@@ -7,7 +7,7 @@ public class DiaryFlip : MonoBehaviour {
     [SerializeField] private DiaryPage[][] pages;
     [SerializeField] private UIFader fader;
     [SerializeField] private CanvasGroup UIElement;
-    [SerializeField] private float fadeDuration = 0.1f;
+    [SerializeField] private float fadeDuration = 0.025f;
     [SerializeField] public int lastPageIndex;
 
     public int diarySize = 12;
