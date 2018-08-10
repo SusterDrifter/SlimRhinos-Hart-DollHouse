@@ -370,6 +370,15 @@ MonoBehaviour:
     volume: 0.5
     pitch: 0.8
     spatialBlend: 0
+  - clipName: Final
+    type: 1
+    clip: {fileID: 8300000, guid: 961121ad9b1ea994988138fdca1447cb, type: 3}
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 0.8
+    spatialBlend: 0
   musicInPlay:
     clipName: Default Name
     type: 0

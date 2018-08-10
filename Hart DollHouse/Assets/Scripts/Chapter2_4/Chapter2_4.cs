@@ -94,6 +94,7 @@ public class Chapter2_4 : MonoBehaviour {
     public void BathroomScene()
     {
         animator.SetTrigger("Bathroom");
+        AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "Final");
     }
 
     public void AddDiary()
