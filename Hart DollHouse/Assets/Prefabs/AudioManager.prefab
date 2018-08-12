@@ -372,6 +372,24 @@ MonoBehaviour:
     spatialBlend: 0
   - clipName: Final
     type: 1
+    clip: {fileID: 8300000, guid: 427ea886e64c7b24fb569058b5563896, type: 3}
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 0.8
+    spatialBlend: 0
+  - clipName: Identity
+    type: 1
+    clip: {fileID: 8300000, guid: bef9858a4abdbdb4190d846ea639f922, type: 3}
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 0
+    volume: 0.5
+    pitch: 0.8
+    spatialBlend: 0
+  - clipName: BathroomReveal
+    type: 1
     clip: {fileID: 8300000, guid: 961121ad9b1ea994988138fdca1447cb, type: 3}
     source: {fileID: 0}
     loop: 1

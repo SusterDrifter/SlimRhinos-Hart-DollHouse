@@ -9,7 +9,7 @@ public class CreditsEscape : MonoBehaviour {
 
         if (!hasPlayedMusic)
         {
-            AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "Haunted");
+            AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "Identity");
             hasPlayedMusic = true;
         }
 

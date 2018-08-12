@@ -10,6 +10,10 @@ public class BedToBath : Animatable {
         base.Interact();
 
         if (base.isViable)
+        {
             Chapter2_4.instance.BathroomScene();
+            AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "BathroomReveal");
+        }
+            
     }
 }
