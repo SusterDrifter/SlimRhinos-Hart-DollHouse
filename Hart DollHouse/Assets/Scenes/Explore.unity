@@ -217,7 +217,7 @@ LightmapSettings:
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 112000002, guid: e25b2992ce493c3448f396259c293fb8,
     type: 2}
-  m_UseShadowmask: 0
+  m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -293,11 +293,6 @@ PrefabInstance:
     - target: {fileID: 1289840497517346, guid: 24681af19e2bafa459208adbf728731b, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 224565528840063028, guid: 24681af19e2bafa459208adbf728731b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24681af19e2bafa459208adbf728731b, type: 3}
@@ -2446,6 +2441,14 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Lightmapping
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825394824591790, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.331
+      objectReference: {fileID: 0}
+    - target: {fileID: 4825394824591790, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.628
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114282939258284420, guid: fd63a2a87a8eb694cbb24a5ec7ff21eb, type: 3}

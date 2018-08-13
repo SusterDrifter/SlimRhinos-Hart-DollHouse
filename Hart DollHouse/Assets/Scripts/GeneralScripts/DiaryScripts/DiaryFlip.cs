@@ -52,7 +52,7 @@ public class DiaryFlip : MonoBehaviour {
 
     public void ChangePage(int prevPage, int curPage)
     {
-        StopAllCoroutines();
+       // StopAllCoroutines();
         int testLeft = curPage;
         int testRight = curPage + 1;
         int newLeft = -1;
@@ -63,7 +63,9 @@ public class DiaryFlip : MonoBehaviour {
         if (testRight >= 0 && testRight < lastPageIndex && pages[testRight] != null)
             newRight = testRight;
 
-        StartCoroutine(TransitionPage(prevPage, prevPage + 1, newLeft, newRight));
+        //   StartCoroutine(TransitionPage(prevPage, prevPage + 1, newLeft, newRight));
+        OrganisePage(prevPage, newLeft);
+        OrganisePage(prevPage + 1, newRight);
     }
 
     private IEnumerator TransitionPage(int oldLeft, int oldRight, int newLeft, int newRight)
