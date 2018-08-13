@@ -47,26 +47,32 @@ public class GameManager : MonoBehaviour {
     public void NextChapter()
     {
         LevelLoaderManager.instance.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SavePlayerScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void FadeNextChapter()
     {
         LevelLoaderManager.instance.FadeToScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SavePlayerScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void EndChapterNextChapter(int chapterNum)
     {
         LevelLoaderManager.instance.EndChapterLoadScene(chapterNum, SceneManager.GetActiveScene().buildIndex + 1);
+        SavePlayerScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void EndChapterFadeNextChapter(int chapterNum)
     {
         LevelLoaderManager.instance.EndChapterFade(chapterNum, SceneManager.GetActiveScene().buildIndex + 1);
+        SavePlayerScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void Continue()
     {
-        SceneManager.LoadScene(currentSceneIndex);
+        if (PlayerPrefs.GetInt(PlayerSceneStr) != null && PlayerPrefs.GetInt(PlayerSceneStr) > 0)
+            LockCursor(); 
+        SceneManager.LoadScene(PlayerPrefs.GetInt(PlayerSceneStr));
     }
 
     public void IncrSceneIndex()

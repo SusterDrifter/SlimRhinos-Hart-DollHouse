@@ -1,5 +1,12 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &114878460274469601 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4509333114944151602, guid: ebfdd1394a4ef1e49abd4c1cdb89a998,
+    type: 3}
+  m_PrefabInstance: {fileID: 4543146630796675795}
+  m_PrefabAsset: {fileID: 0}
+  m_Script: {fileID: 11500000, guid: 42eab8a73417c5f448d1ed8991e1e0f3, type: 3}
 --- !u!1 &6149621
 GameObject:
   m_ObjectHideFlags: 0
@@ -2686,7 +2693,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1209900825
 MonoBehaviour:
@@ -3087,13 +3094,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &114878460274469601 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4509333114944151602, guid: ebfdd1394a4ef1e49abd4c1cdb89a998,
-    type: 3}
-  m_PrefabInstance: {fileID: 4543146630796675795}
-  m_PrefabAsset: {fileID: 0}
-  m_Script: {fileID: 11500000, guid: 42eab8a73417c5f448d1ed8991e1e0f3, type: 3}
 --- !u!1 &1415140276
 GameObject:
   m_ObjectHideFlags: 0
@@ -4376,7 +4376,7 @@ LightmapSettings:
     m_ShowResolutionOverlay: 1
   m_LightingDataAsset: {fileID: 112000002, guid: c27e0f9a47a90a443bc508fe13f1a83c,
     type: 2}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -4539,7 +4539,7 @@ PrefabInstance:
     - target: {fileID: 224673295327388598, guid: 921b9d5376496c6458d6f61a829d6caa,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 224673295327388598, guid: 921b9d5376496c6458d6f61a829d6caa,
         type: 3}
@@ -4744,7 +4744,7 @@ PrefabInstance:
     - target: {fileID: 224793382606017354, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 224793382606017354, guid: 947fe246c6ca3ae4ba3a00de59a84bc4,
         type: 3}
