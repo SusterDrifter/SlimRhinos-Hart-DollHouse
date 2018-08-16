@@ -30,7 +30,6 @@ public class GameManager : MonoBehaviour {
         else
             Destroy(gameObject);
 
-        DontDestroyOnLoad(gameObject);
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
     }
     #endregion
