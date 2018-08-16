@@ -118,6 +118,7 @@ public class IntroductionScribe : MonoBehaviour {
             currText = "";
             screenText.SetText("");
             animator.SetTrigger("PanicAttack");
+            GameManager.instance.LockCursor();
         }
         else if (breathingGameStarted)
         {
