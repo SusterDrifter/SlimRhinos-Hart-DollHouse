@@ -69,7 +69,7 @@ public class GameManager : MonoBehaviour {
 
     public void Continue()
     {
-        if (PlayerPrefs.GetInt(PlayerSceneStr) != null && PlayerPrefs.GetInt(PlayerSceneStr) > 0)
+        if (PlayerPrefs.HasKey(PlayerSceneStr) && PlayerPrefs.GetInt(PlayerSceneStr) > 0)
             LockCursor(); 
         SceneManager.LoadScene(PlayerPrefs.GetInt(PlayerSceneStr));
     }
