@@ -27,6 +27,7 @@ public class AudioManager : MonoBehaviour {
         else
            Destroy(gameObject);
 
+        DontDestroyOnLoad(gameObject);
         #region Initialisation
         foreach (Sound sound in soundEffects)
         {

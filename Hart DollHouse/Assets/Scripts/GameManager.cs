@@ -34,11 +34,6 @@ public class GameManager : MonoBehaviour {
     }
     #endregion
 
-    public void Death() {
-        // Play some UI
-        ResetChapter();
-    }   
-    
     public void ResetChapter() {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
@@ -107,6 +102,5 @@ public class GameManager : MonoBehaviour {
         PlayerPrefs.SetFloat(VolumeStr, volume);
         PlayerPrefs.SetFloat(FullscreenToggleStr, fullScreenIndex);
     }
-
-
+    
 }
