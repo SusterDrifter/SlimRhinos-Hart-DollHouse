@@ -112,11 +112,11 @@ public class LevelLoaderManager : MonoBehaviour {
 
     public void FadeToScene(int sceneIndex)
     {
-        ResetAnimatorParam();
-        animator.SetTrigger("SimpleFadeIn");
-
         this.sceneIndex = sceneIndex;
         GameManager.instance.UpdateCurIndex(sceneIndex);
+
+        ResetAnimatorParam();
+        animator.SetTrigger("SimpleFadeIn");
     }
 
     public void StartLoadSync()
@@ -175,7 +175,7 @@ public class LevelLoaderManager : MonoBehaviour {
     public void LoadMenu()
     {
         this.sceneIndex = 0;
-        SceneManager.LoadScene(0);
         GameManager.instance.UpdateCurIndex(0);
+        SceneManager.LoadScene(0);
     }
 }

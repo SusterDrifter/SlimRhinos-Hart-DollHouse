@@ -29,8 +29,7 @@ public class GameManager : MonoBehaviour {
             instance = this;
         else
             Destroy(gameObject);
-
-        DontDestroyOnLoad(gameObject);
+        
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
     }
     #endregion
@@ -110,6 +109,6 @@ public class GameManager : MonoBehaviour {
     }
     
     public void UpdateCurIndex(int index) {
-        currentSceneIndex = index;
+        //currentSceneIndex = index;
     }
 }
