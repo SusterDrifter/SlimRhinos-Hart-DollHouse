@@ -54,12 +54,15 @@ public class LevelLoaderManager : MonoBehaviour {
 
     public void LoadScene(int sceneIndex)
     {
-        this.sceneIndex = sceneIndex;
-        GameManager.instance.UpdateCurIndex(sceneIndex);
-        SetUpLoadScene();
+        if (sceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            this.sceneIndex = sceneIndex;
+            GameManager.instance.UpdateCurIndex(sceneIndex);
+            SetUpLoadScene();
 
-        ResetAnimatorParam();
-        animator.SetTrigger("FadeIn");
+            ResetAnimatorParam();
+            animator.SetTrigger("FadeIn");
+        }
     }
 
     private void SetUpLoadScene()
@@ -112,11 +115,14 @@ public class LevelLoaderManager : MonoBehaviour {
 
     public void FadeToScene(int sceneIndex)
     {
-        this.sceneIndex = sceneIndex;
-        GameManager.instance.UpdateCurIndex(sceneIndex);
+        if (sceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            this.sceneIndex = sceneIndex;
+            GameManager.instance.UpdateCurIndex(sceneIndex);
 
-        ResetAnimatorParam();
-        animator.SetTrigger("SimpleFadeIn");
+            ResetAnimatorParam();
+            animator.SetTrigger("SimpleFadeIn");
+        }
     }
 
     public void StartLoadSync()
@@ -135,25 +141,31 @@ public class LevelLoaderManager : MonoBehaviour {
 
     public void EndChapterLoadScene(int chapterNum, int sceneIndex)
     {
-        this.sceneIndex = sceneIndex;
-        GameManager.instance.UpdateCurIndex(sceneIndex);
+        if (sceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            this.sceneIndex = sceneIndex;
+            GameManager.instance.UpdateCurIndex(sceneIndex);
 
-        EndChapter(chapterNum);
-        ResetAnimatorParam();
-        SetUpLoadScene();
-        animator.SetTrigger("EndChapter");
-        triggerName = "ThenFadeIn";
+            EndChapter(chapterNum);
+            ResetAnimatorParam();
+            SetUpLoadScene();
+            animator.SetTrigger("EndChapter");
+            triggerName = "ThenFadeIn";
+        }
     }
 
     public void EndChapterFade(int chapterNum, int sceneIndex)
     {
-        this.sceneIndex = sceneIndex;
-        GameManager.instance.UpdateCurIndex(sceneIndex);
+        if (sceneIndex < SceneManager.sceneCountInBuildSettings)
+        {
+            this.sceneIndex = sceneIndex;
+            GameManager.instance.UpdateCurIndex(sceneIndex);
 
-        EndChapter(chapterNum);
-        ResetAnimatorParam();
-        animator.SetTrigger("EndChapter");
-        triggerName = "ThenSimpleFadeIn";
+            EndChapter(chapterNum);
+            ResetAnimatorParam();
+            animator.SetTrigger("EndChapter");
+            triggerName = "ThenSimpleFadeIn";
+        }
     }
 
     public void SetTrigger()
