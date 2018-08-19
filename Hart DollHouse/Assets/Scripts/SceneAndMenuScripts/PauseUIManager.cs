@@ -1,11 +1,9 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 using UnityEngine.UI;
 
 public class PauseUIManager : MonoBehaviour {
 
-    [SerializeField] private int menuIndex = 0;
     [SerializeField] private AudioMixer audioMixer;
     [SerializeField] private Slider volumeSlider;
 
