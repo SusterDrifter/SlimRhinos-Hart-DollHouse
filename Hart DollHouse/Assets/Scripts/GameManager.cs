@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour {
         else
             Destroy(gameObject);
 
+        DontDestroyOnLoad(gameObject);
         currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
     }
     #endregion
@@ -60,6 +61,11 @@ public class GameManager : MonoBehaviour {
     {
         LevelLoaderManager.instance.EndChapterFade(chapterNum, SceneManager.GetActiveScene().buildIndex + 1);
         SavePlayerScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void LoadMenu()
+    {
+        LevelLoaderManager.instance.LoadMenu();
     }
 
     public void Continue()
@@ -103,4 +109,7 @@ public class GameManager : MonoBehaviour {
         PlayerPrefs.SetFloat(FullscreenToggleStr, fullScreenIndex);
     }
     
+    public void UpdateCurIndex(int index) {
+        currentSceneIndex = index;
+    }
 }

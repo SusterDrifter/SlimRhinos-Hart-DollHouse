@@ -59,7 +59,7 @@ public class PauseUIManager : MonoBehaviour {
     public void GoMenu()
     {
         UnpauseGame();
-        SceneManager.LoadScene(menuIndex);
+        GameManager.instance.LoadMenu();
         GameManager.instance.UnlockCursor();
     }
     

@@ -55,6 +55,7 @@ public class LevelLoaderManager : MonoBehaviour {
     public void LoadScene(int sceneIndex)
     {
         this.sceneIndex = sceneIndex;
+        GameManager.instance.UpdateCurIndex(sceneIndex);
         SetUpLoadScene();
 
         ResetAnimatorParam();
@@ -113,7 +114,9 @@ public class LevelLoaderManager : MonoBehaviour {
     {
         ResetAnimatorParam();
         animator.SetTrigger("SimpleFadeIn");
+
         this.sceneIndex = sceneIndex;
+        GameManager.instance.UpdateCurIndex(sceneIndex);
     }
 
     public void StartLoadSync()
@@ -133,6 +136,8 @@ public class LevelLoaderManager : MonoBehaviour {
     public void EndChapterLoadScene(int chapterNum, int sceneIndex)
     {
         this.sceneIndex = sceneIndex;
+        GameManager.instance.UpdateCurIndex(sceneIndex);
+
         EndChapter(chapterNum);
         ResetAnimatorParam();
         SetUpLoadScene();
@@ -143,6 +148,8 @@ public class LevelLoaderManager : MonoBehaviour {
     public void EndChapterFade(int chapterNum, int sceneIndex)
     {
         this.sceneIndex = sceneIndex;
+        GameManager.instance.UpdateCurIndex(sceneIndex);
+
         EndChapter(chapterNum);
         ResetAnimatorParam();
         animator.SetTrigger("EndChapter");
@@ -163,5 +170,12 @@ public class LevelLoaderManager : MonoBehaviour {
         animator.ResetTrigger("EndChapter");
         animator.SetBool("ThenFadeIn", false);
         animator.SetBool("ThenSimpleFadeIn", false);
+    }
+
+    public void LoadMenu()
+    {
+        this.sceneIndex = 0;
+        SceneManager.LoadScene(0);
+        GameManager.instance.UpdateCurIndex(0);
     }
 }
