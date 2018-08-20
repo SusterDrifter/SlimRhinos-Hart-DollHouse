@@ -64,6 +64,7 @@ public class Chapter1_1 : MonoBehaviour {
             {
 
                 endingTriggered = true;
+                AudioManager.instance.PlayClip(Sound.SoundType.BackgroundMusic, "Insidious");
                 StartCoroutine(EndingScene(5f));
             }
         }

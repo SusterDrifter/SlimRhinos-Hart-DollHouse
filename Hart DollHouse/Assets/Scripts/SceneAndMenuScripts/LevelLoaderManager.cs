@@ -105,9 +105,14 @@ public class LevelLoaderManager : MonoBehaviour {
             {
                 StopCoroutine("LoadNewScene");
                 usingDiaryTransition = false;
+
                 screenText.SetText("");
                 textPrompt.SetText("");
                 ResetAnimatorParam();
+
+                finishLoading = false;
+                hasSetText = false;
+
                 animator.SetTrigger("FadeOut");
             }
         }
